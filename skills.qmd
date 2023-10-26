@@ -1,3 +1,34 @@
 ---
 title: "Skills"
 ---
+
+# Capacidades 
+
+* Métodos
+    * Quanti: estadística. Cosas en R
+La estadística es sin duda una de las ramas de conocimiento humano más importantes que haya habido jamás. El valor de poder identificar y cuantificar patrones con precisión matemática en infinidad de entornos diferentes es inigualable. Si bien tiene sus limitaciones, y su valor predictivo depende de la cantidad y calidad de datos, es un elemento de análisis imprescindible. 
+
+Gracias a mi formación continuada desde mi primer clase de estadística en la Universidad de Buenos Aires, hace casi 10 años, mi relación con la materia tiene cierta extensión. Más allá de mi interés teórico generalizado y aplicaciones varias, recuerdo mi etapa más aplicada mientras estuve en CEPAL, primero como pasante y luego como consultor. Gracias al apoyo y la guía de Daniel Vega pude participar en el desarrollo de un IPC e indicadores de actividad económica en colaboración con organizaciones gubernamentales Argentinas. 
+
+Últimamente trabajé en modelos para variables categóricas, binomiales y multinomiales. Los necesitaba para mi tesis.  
+
+* Quali:  Entrevistas. Me gustaría hacer focus group. 
+
+Soy relativamente nuevo en esto pero me gusta mucho. Había ya hecho algunas entrevistas aunque últimamente me interioricé mucho más. Para mi tesis analicé 26 entrevistas en Atlas.ti.
+
+Armé un análisis temático [@braunUsingThematicAnalysis2006] a partir una lista de códigos a-priori como guía, que luego actualicé a aposteri con los temas que emergieron en la conversación. Si bien requiere muchísimo trabajo, la narrativa de multiplies individuos con experiencia directa en el objeto de estudio aporta información realmente valiosa. 
+
+
+
+
+* Métodos Mixtos: Lo mejor. Permite combinar lo mejor de lo cuanti, cuali y más. 
+as
+
+
+
+* Analysis de redes: R.
+Si bien es un tema al que no he entrado con demasiada profundidad, por no ajustarse a las necesidades de datos de la tesis, sí tuve la suerte de explorarlo más que superficialmente. Creo son una de las herramienta más poderosas para medir intercambios de información social en contextos variadísimos.  
+
+Utilicé el paquete Bibliometrics, entre muchos otros, para intentar medir las colaboraciones entre organizaciones académicas y empresariales a través de publicaciones conjuntas. No fue exitoso dado que muy pocas empresas publican, pero sí sirvó para ver colaboraciones entre organizaciones académicas y practicar en el estudio de redes. 
+
+Más allá de los infinitos problemas que tuve para homogenizar y desambiguar la pertenencia organizacional de los autores, pude sí representar cosas interesantes como la evolución de las colaboraciones con organizaciones de países extranjeros a los largo del tiempo (gif), o la centralidad de organizaciones dentro de las redes nacionales, regionales o locales de colaboración (estadistica tal).  

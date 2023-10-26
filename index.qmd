@@ -1,19 +1,19 @@
 ---
-title: "Ian Hulskamp"
-image: profilePic.jpeg
-toc: false
+title: "Ian Hulskamp" # this title appear under you photo if using built-in template
+image: profilePic.jpeg 
+toc: false # Remove TOC on this page
 about: 
   template: trestles
-  image-shape: rounded
+  image-shape: round
   image-width: 20em 
   links: 
-    - text: LikedIn
+    - icon: linkedin
       href: https://www.linkedin.com/in/ian-hulskamp/
-    - text: Twitter
+    - icon: twitter
       href: https://twitter.com/ihulsk
-    - text: GitHub
+    - icon: github
       href: https://github.com/ihulsk
-    - text: Email
+    - icon: envelope
       href: mailto:ihulsk@gmail.com
 ---
 

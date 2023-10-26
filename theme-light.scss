@@ -1,0 +1,71 @@
+/*-- scss:defaults --*/
+
+// Note: In .scss files, // denote single line comments. Multi-line comments start with /* and end at the next */.
+
+// GPT's color pallete
+// Colors
+$primary: #546E7A; // Main primary color
+$secondary: #C7C7C7; // Secondary color
+$accent: #FFC758; // Accent color
+$text: #333333; // Text color
+$background: #FDFBF9; // Background color
+$navbar-bg: $primary; // Navbar background
+$navbar-fg: #EDEFF0; // Navbar foreground elements
+$link-color: $accent; // Hyperlinks
+
+// Hover Color
+$hover-color: #6E8E99; // Highlight color when hovering over links
+
+// Inline code
+$code-bg: #E5E5E5; // Inline code background color
+$code-color: $primary; // Inline code text color
+
+// Code blocks
+$code-block-bg: $background; // Code block background color
+
+// Footer
+$footer-bg: $secondary; // Footer background color
+
+/*
+
+// Colors
+$light-gray: #E7E7E7;  // Light gray for accents
+$dark-gray: #333333;   // Dark gray for text and headings
+$beige: #F3E0CF;       // Beige for backgrounds
+$light-blue: #7CA4C9; // Light blue for highlights
+$dark-blue: #334D6E;   // Dark blue for accents
+
+// Base document colors
+$navbar-bg: $beige;       // Navbar background
+$navbar-fg: $dark-gray;   // Navbar foreground elements
+$navbar-hl: $light-blue;  // Highlight color when hovering over navbar links
+$body-bg: $beige;         // Page background
+$body-color: $dark-gray;  // Page text
+$footer-bg: $beige;       // Footer
+$link-color: $dark-blue;  // Hyperlinks
+
+// Inline code
+$code-bg: $beige; // inline code background color
+$code-color: $light-blue; // inline code text color
+
+// Code blocks
+$code-block-bg: $beige; // code block background color
+
+*/
+
+// Fonts
+$my-font-size: 25px;
+$my-width: 500px;
+
+// Code Blocks
+
+// Inline Code 
+
+//Table of Contents 
+
+// Layout
+
+// Navigation
+
+// Callouts
+
