@@ -1,0 +1,42 @@
+/*-- scss:defaults --*/
+
+// Note: In .scss files, // denote single line comments. Multi-line comments start with /* and end at the next */.
+
+// Colors
+$primary: #394559; // Main primary color
+$secondary: #657786; // Secondary color
+$accent: #FFC758; // Accent color
+$text: #E8E8E8; // Text color
+$background: #2C3E50; // Background color
+$navbar-bg: #1C2833; // Navbar background
+$navbar-fg: #EDEFF0; // Navbar foreground elements
+$link-color: $accent; // Hyperlinks
+
+// Hover Color
+$hover-color: #546E7A; // Highlight color when hovering over links
+
+// Inline code
+$code-bg: #3F4F59; // Inline code background color
+$code-color: $primary; // Inline code text color
+
+// Code blocks
+$code-block-bg: $background; // Code block background color
+
+// Footer
+$footer-bg: #1C2833; // Footer background color
+
+/*
+// Colors
+$dark-green: #858E79;
+$light-green: #D1D9CE;
+$cream: #FDFBF7;
+$gray: #64605f;
+$purple: #9158A2;
+$orange: #ad7237;
+*/
+
+// Font Size
+$my-font-size: 25px;
+
+// Width
+$my-width: 500px;
