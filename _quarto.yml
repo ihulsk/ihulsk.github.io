@@ -3,18 +3,24 @@ project:
   output-dir: docs
 
 website:
-  title: "ihulsk.github.io"
+  title: "Ian Hulskamp"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - interests.qmd
+      - skills.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: sandstone
+      dark: darkly
     css: styles.css
     toc: true
+    page-layout: full
 
+editor: visual
 
 

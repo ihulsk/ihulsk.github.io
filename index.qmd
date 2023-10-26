@@ -1,7 +1,28 @@
 ---
-title: "ihulsk.github.io"
+title: "Ian Hulskamp"
+image: profilePic.jpeg
+toc: false
+about: 
+  template: trestles
+  image-shape: rounded
+  image-width: 20em 
+  links: 
+    - text: LikedIn
+      href: https://www.linkedin.com/in/ian-hulskamp/
+    - text: Twitter
+      href: https://twitter.com/ihulsk
+    - text: GitHub
+      href: https://github.com/ihulsk
+    - text: Email
+      href: mailto:ihulsk@gmail.com
 ---
 
-This is a Quarto website.
+# Hola!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Estoy terminando mi doctorado y, si bien amo la producción científica, me cuesta un poco la ciencia básica y el trabajo tan solitario. Ahora que estoy buscando nuevos rumbos preferiría trabajar en términos más concretos, conectados con el territorio. Si bien no descarto un post-doc, lo ideal para mi sería ocupar un rol práctico en alguna organización orientada a la vinculación ciencia y tecnología. Por supuesto, sin abandonar jamás el posterior proceso de abstracción. Ninguna herramienta es más poderosa que la teoría. 
+
+Además de presentarme, aprovecho este espacio para mostrarles un poco mi marco teórico a través de mis intereses y capacidades. Diversas entradas, bastante breves, intentar ilustrar cosas que he ido aprendiendo a lo largo de breve existencia: 
+
+Intereses y capacidades para poner en la página. Muy breve. Ejemplo:
+---
+## Education
