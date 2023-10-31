@@ -1,30 +1,87 @@
 ---
 title: "About"
+toc: false
+page-layout: full
 ---
 
-¡Saludos! Mi nombre es Ian. Me encantaría decirte que tengo un apodo pero no, desafortunadamente aún no me han asignado ninguno del que me haya apropiado o se haya adoptado de forma extendida.
+::: grid
+::: {.g-col-6 .justified}
+Si buscás una versión resumida y sin prosa de mi experiencia académica y profesional, podes encontrarla en mi [CV](cv/CV-IH-1023.pdf).
 
-Crecí en el noroeste de la Patagonia Argentina hasta que emigré a estudiar economía en la Universidad de Buenos Aires. Si bien inicié la carrera con inocentes pretensiones de hacer política económica, una serie de eventos me acercaron a la filosofía de la ciencia y terminé siendo dos años becario de investigación en el Centro de Investigación en Epistemología de las Ciencias Económicas (CIECE). Desde entonces no he parado de estudiar, ni pienso hacerlo en el corto plazo. Considero "aprender", lo que sea, una de las pocas pasiones que tengo.
+**Economista** de formación, encontré **mi nicho** en temas de **innovación y conocimiento**. La curiosidad y la pasión por aprender me han permitido transitar el desafiante y enriquecedor camino del doctorado, donde planificar y llevar adelante un proyecto de investigación implica desarrollar infinidad de capacidades. Acá más detalle sobre lo que he aprendido.
 
-Mientras terminaba la carrera de licenciatura fui pasante y consultor en la Oficina de CEPAL en Buenos Aires. Aprendí muchísimo. Después hice una maestría doble en economía de la innovación y el conocimiento. Para no perder la costumbre, después empecé mi doctorado en la Sociedad de la Información y el Conocimiento. Actualmente, después de 3 años y medio y con un pandemia de por medio, me encuentro en la recta final de escribir mi tesis doctoral.
+Pero ahora que mi primer *draft* completo de tesis está en corrección, **me propongo explorar nuevos rumbos**. Me gustaría estas en contacto más directo con la realidad. No quiero sólo evaluar sino también ejecutar, **quiero poder implementar mejoras y ver cómo evolucionan de manera continua y progresiva.** <!--# La inacción de la ciencia básica y su modalidad de trabajo solitaria. Por eso, mientras espero las últimas correcciones de mi primer draft, me preparo para explorar nuevos rumbos.  --> Si bien no pienso abandonar jamás la ciencia básica, porque me encanta el desarrollo teórico y los altos niveles de abstracción, sería ideal para mi encontrar un rol en el que pueda ayudar a organizaciones a mejorar su vinculación con el entorno y fortalecer su conocimiento. <!-- No quiero abandonar por completo los altos niveles abstracción, no olvido que no hay herramienta más poderosa que la teoría, pero necesito lidiar con la realidad. Evaluar para ejecutar, buscando e implementando mejoras continuas y progresivas. Si bien con este deseo no descarto por completo un post-doc, sería ideal para mi encontrar un rol práctico dentro de alguna organización comprometida a mejorar su vinculación con el entorno. -->
+:::
 
-Juntando todas las etapas de este proceso, lo que mejor aprendí es a investigar. Justamente, en este espacio virtual la idea es compartir reflexiones con respecto al proceso de investigación la relación entre las teorías científicas y las observaciones empíricas. La idea sería algo así como explorar las complejidades de cómo adquirimos y entendemos el conocimiento y la realidad.
+::: {.g-col-6 .text-center}
+![](me.jpeg){width="350"}
+:::
+:::
 
-Además de mi trabajo académico, también disfruto de la práctica de deportes y la actividad física en general. Considero que el deporte es una forma de experimentar y explorar las capacidades de nuestro cuerpo, al igual que la ciencia es una forma de experimentar y explorar las capacidades de nuestra mente. La combinación de ambos aspectos me parece fascinante y enriquecedora.
+------------------------------------------------------------------------
 
-Si deseas obtener más información sobre mi experiencia académica y profesional, puedes encontrar mi CV en [incluir un enlace a un CV en línea o en un sitio web]. Espero que este blog sea un espacio para reflexionar y discutir sobre temas filosóficos y científicos, así como para compartir ideas y aprendizajes. ¡Gracias por visitar!
+## Mi Background
 
-email / resume / Twitter
+::: grid
+::: {.g-col-6 .text-center}
+```{r, echo=FALSE, warning=FALSE}
+#| echo: false
+#| warning: false
+library(sf)
+library(leaflet)
 
----
-## Especulación Científica
+places <- data.frame(
+  city = c("Bariloche", "Buenos Aires", "Torino", "Paris", "Bordeaux", "Barcelona"),
+  lat = c(-41.1478447, -34.599828632881554, 45.07374406618253, 48.82753559234027, 44.799351290598075, 41.40708568183617),
+  long = c(-71.2990767, -58.39765425644317, 7.699436277038596, 2.3821466102524185, -0.615558665438184, 2.194543891906193)
+)
 
-> "Examinar los asuntos de brujería es como tratar de entrar en la metafísica por la puerta de atrás. A mi juicio esta actitud es preferible a pasar de largo."
+# a single icon is declared
+awesome <- makeAwesomeIcon(
+  icon = "map-pin",
+  iconColor = "white",
+  markerColor = "green",
+  library = "fa",
+  squareMarker = FALSE
+)
 
-Este blog es mi compañero en el desgastante viaje en el que se ha convertido la finalización de mi tesis doctoral. Por lo tanto, este también es un espacio de catarsis, liberación creativa y auto-reflexión. Aquí, puedo explorar temas y pensamientos que quizás no caben en la escritura académica, permitiéndome jugar con ideas y perspectivas de manera más lúdica.
 
-En este blog espero ofrecer un espacio compartido para quienes buscan explorar y contraponer ideas con respecto a temas que me apasionan. Si bien espero que este sea un espacio de intercambio, reflexión y aprendizaje con otros, lo hago, en última instancia, para mi.
+zoomBchMarkers <- leaflet(data = places) %>%
+  clearMarkers() %>% 
+  addTiles() %>%
+  addAwesomeMarkers(data = places,
+                    ~long,
+                   ~lat,
+                   icon = awesome,
+                   popup = ~as.character(city),
+                   #label = ~as.character(city),
+                   labelOptions = labelOptions(noHide = T, textOnly = F, textsize = "7px", direction = "left", riseOnHover = TRUE),
+                   options = markerOptions(riseOnHover = TRUE))
+zoomBchMarkers
+```
+:::
 
-Muchas entradas estarán marcadas por la frustración que surge al escribir una tesis (perdón por eso). Igualmente intentaré también reflejar mi entusiasmo por la investigación en cada post.
+::: {.g-col-6 .justified}
+Antes de empezar mi **doctorado en la Sociedad de la Información y el Conocimiento** en la Universitat Oberta de Catlunya (UOC), hice una **maestría doble en economía de la innovación y el conocimiento y política económica**. Gané una beca Erasmus Mundus y estuve un año en Torino, Italia, y luego un año en Francia, mayormente en París pero también en Bourdeaux mientras trabajaba en mi tesis de maestría.
 
-El hilo conductor de mis posteos será, justamente, la investigación. Al menos en un principio. Y estáran centrados en todos los procesos humanos, más de carácter especulativos, que rodean a la investigación científica.
+Antes de mudarme a Europa tuve una breve pero enriquecedora experiencia laboral mientras cursaba y cuando acabé mi **licenciatura en Economía** en la Universidad de Buenos Aires. Fui elegido como pasante en la oficina de Buenos Aires de la **CEPAL**, donde más adelante trabajé como **consultor** en varios proyectos de desarrollo de indicadores económicos (Indicador Sintético de Actividad Económica y Indice de Precios). <!-- enriquecer la descripción de CEPAL --> Además, **fui profesor Auxiliar** de macroeconomía en la Universidad Torcuato di Tella **y profesor adjunto** en un curso de verano en la universidad Nacional de Lomas de Zamora.
+
+También fui dos año becario de investigación en el Centro de Investigación en Epistemología de las Ciencias Económicas (CIECE) de la Universidad de Buenos Aires, gracias una beca nacional. Antes de emigrar por mis estudios, crecí en el noroeste de la Patagonia Argentina, en la bonita ciudad de San Carlos de Bariloche.
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Hobbies
+
+::: grid
+::: {.g-col-6 .justified}
+Además de mi trabajo académico, disfruto del deporte y la actividad física en general. Así como trabajamos la mente debemos trabajar el cuerpo. Me gusta escalar y correr. También me divierte la improvisación teatral y tengo el objetivo de hacer un libro de humor gráfico antes de morir.
+
+Más allá de estas actividades lúdicas y recreativas, te cuento también un poco sobre [mis intereses académicos y profesionales](interests.qmd).
+:::
+
+::: {.g-col-6 .text-center}
+![](hobbiePicture.jpeg){height="400"}
+:::
+:::

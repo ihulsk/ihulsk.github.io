@@ -1,0 +1,16 @@
+---
+title: "The I-Space Framework"
+description: "This post presents my view on Boisot's I-Space theoretical framework basics"
+author:
+  - name: Ian Hulskamp
+    url: https://ihulsk.github.io/
+    orcid: 0000-0002-0839-4011
+date: 10-27-2023
+categories: [Theory, Ispace] # self-defined categories
+citation: 
+  url: https://ihulsk.github.io/posts/20231027-ispaceBasics/ 
+image: ispace-blog.png
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+Un pilar fundamental sobre el que se sostiene mi cosmovisión es el esquema conceptual I-Space [@boisot]. 

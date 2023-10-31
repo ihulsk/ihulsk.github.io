@@ -1,34 +1,54 @@
 ---
 title: "Skills"
+toc: true
+toc-title: "My Skills"
+bibliography: /Users/ihulsk/Google Drive/Biblioteca/My Library.json
 ---
 
-# Capacidades 
+A lo largo de mi formación y mi carrera profesional desarrollé múltiples capacidades relacionadas al manejo de diversas herramientas y metodologías, tanto cuantitativas como cualitativas. Hago aquí una breve enumeración de algunos de los skills más relevantes que ha puesto en práctica en los últimos tiempos y considero podrían ser de utilidad para múltiples organizaciones.
 
-* Métodos
-    * Quanti: estadística. Cosas en R
-La estadística es sin duda una de las ramas de conocimiento humano más importantes que haya habido jamás. El valor de poder identificar y cuantificar patrones con precisión matemática en infinidad de entornos diferentes es inigualable. Si bien tiene sus limitaciones, y su valor predictivo depende de la cantidad y calidad de datos, es un elemento de análisis imprescindible. 
+## Métodos
 
-Gracias a mi formación continuada desde mi primer clase de estadística en la Universidad de Buenos Aires, hace casi 10 años, mi relación con la materia tiene cierta extensión. Más allá de mi interés teórico generalizado y aplicaciones varias, recuerdo mi etapa más aplicada mientras estuve en CEPAL, primero como pasante y luego como consultor. Gracias al apoyo y la guía de Daniel Vega pude participar en el desarrollo de un IPC e indicadores de actividad económica en colaboración con organizaciones gubernamentales Argentinas. 
+### Herramientas cuantitativas: estadística y R software
 
-Últimamente trabajé en modelos para variables categóricas, binomiales y multinomiales. Los necesitaba para mi tesis.  
+La estadística es sin duda una de las ramas de conocimiento humano más importantes que haya habido jamás. El valor de poder identificar y cuantificar patrones con precisión matemática en infinidad de entornos diferentes es inigualable. Si bien tiene sus limitaciones, y su valor predictivo depende de la cantidad y calidad de datos, es un elemento de análisis imprescindible.
 
-* Quali:  Entrevistas. Me gustaría hacer focus group. 
+Gracias a mi formación continuada desde mi primer clase de estadística en la Universidad de Buenos Aires, hace más de 10 años, mi relación con la materia tiene cierta extensión. Más allá de mi interés teórico generalizado y aplicaciones varias, recuerdo mi etapa más aplicada mientras estuve en CEPAL, primero como pasante y luego como consultor. Gracias al apoyo y la guía de Daniel Vega pude participar en el desarrollo de un IPC e indicadores de actividad económica en colaboración con organizaciones gubernamentales Argentinas.
 
-Soy relativamente nuevo en esto pero me gusta mucho. Había ya hecho algunas entrevistas aunque últimamente me interioricé mucho más. Para mi tesis analicé 26 entrevistas en Atlas.ti.
+Últimamente trabajé en modelos para variables categóricas, binomiales y multinomiales, para analizar datos de encuesta online (que no sólo analicé sino tamboén diseñé y distribuí utilizado Qualtrics). Proportional odds model [@mccullaghRegressionModelsOrdinal1980]
 
-Armé un análisis temático [@braunUsingThematicAnalysis2006] a partir una lista de códigos a-priori como guía, que luego actualicé a aposteri con los temas que emergieron en la conversación. Si bien requiere muchísimo trabajo, la narrativa de multiplies individuos con experiencia directa en el objeto de estudio aporta información realmente valiosa. 
+### Análisis de datos cualitativos: entrevistas y casos de estudio. 
 
+Además del manejo de datos cuantitativos, el tipo de dato predilecto en las ciencias económicas, también he utilizado métodos cualitativos. Si bien mi experiencia en este campo es más limitada, he ido descubriendo su gran potencial gracias al detalle que otorgan. Como explico más adelante, creo que la mejor alternativa metodológica para abordar una problemática es [integrar métodos cuantitativos y cualitativos](#mixtos).
 
+Ya había hecho algunas entrevistas para mi tesis de maestría pero últimamente me interioricé mucho más: mi tesis doctoral incluye 26 entrevistas analizadas en Atlas.ti. Si bien la parte de análisis es importante, representa sólo el final de un largo proceso que incluye, entre otras cosas, la preparación de las entrevistas, el contacto inicial con los entrevistados, la realización de la entrevista en sí, y la transcripción. Para entrevistas semi-estructuradas, de las fuentes que he consultado recomiendo particularmente a [@rubin2011; @kvale1994].
 
+Armé un análisis temático [@braunUsingThematicAnalysis2006] a partir una lista de códigos a-priori como guía, que luego actualicé a aposteri con los temas que emergieron en la conversación. Si bien requiere muchísimo trabajo, la narrativa de multiplies individuos con experiencia directa en el objeto de estudio aporta información realmente valiosa.
 
-* Métodos Mixtos: Lo mejor. Permite combinar lo mejor de lo cuanti, cuali y más. 
-as
+Me encantaría tener la oportunidad de hacer focus groups.
 
+### Métodos Mixtos: Lo mejor.
 
+Tuve mi primer experiencia con métodos mixtos en mi tesis doctoral. Más allá de su complejidad en el diseño e implementación, ofrece una alternativa que permite combinar lo mejor de lo cuantitativo, cualitativo y más.
 
-* Analysis de redes: R.
-Si bien es un tema al que no he entrado con demasiada profundidad, por no ajustarse a las necesidades de datos de la tesis, sí tuve la suerte de explorarlo más que superficialmente. Creo son una de las herramienta más poderosas para medir intercambios de información social en contextos variadísimos.  
+[@creswell2017; @tashakkori1998]
 
-Utilicé el paquete Bibliometrics, entre muchos otros, para intentar medir las colaboraciones entre organizaciones académicas y empresariales a través de publicaciones conjuntas. No fue exitoso dado que muy pocas empresas publican, pero sí sirvó para ver colaboraciones entre organizaciones académicas y practicar en el estudio de redes. 
+### Analysis de redes: R. {#mixtos}
 
-Más allá de los infinitos problemas que tuve para homogenizar y desambiguar la pertenencia organizacional de los autores, pude sí representar cosas interesantes como la evolución de las colaboraciones con organizaciones de países extranjeros a los largo del tiempo (gif), o la centralidad de organizaciones dentro de las redes nacionales, regionales o locales de colaboración (estadistica tal).  
+Si bien es un tema al que no he entrado con demasiada profundidad, por no ajustarse a las necesidades de datos de la tesis, sí tuve la suerte de explorarlo más que superficialmente. Creo son una de las herramienta más poderosas para medir intercambios de información social en contextos variadísimos.
+
+Utilicé el paquete Bibliometrics, entre muchos otros, para intentar medir las colaboraciones entre organizaciones académicas y empresariales a través de publicaciones conjuntas. No fue exitoso dado que muy pocas empresas publican, pero sí sirvó para ver colaboraciones entre organizaciones académicas y practicar en el estudio de redes.
+
+Más allá de los infinitos problemas que tuve para homogenizar y desambiguar la pertenencia organizacional de los autores, pude sí representar cosas interesantes como la evolución de las colaboraciones con organizaciones de países extranjeros a los largo del tiempo (gif), o la centralidad de organizaciones dentro de las redes nacionales, regionales o locales de colaboración (estadistica tal).
+
+## Herramientas 
+
+### Pandoc / Markdown 
+
+### Zotero 
+
+### Decidim
+
+### Otros programas y lenguajes que he utilizado 
+
+-   Stata, REDATAM, Microsoft Office, QGIS, Gephi, Python, Java.

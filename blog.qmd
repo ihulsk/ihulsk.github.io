@@ -1,0 +1,18 @@
+---
+title: "Mi Blog/Wiki"
+listing:
+  contents: posts # all QUarto docs in the 'posts' directory will be included on your listing page
+  type: grid # either 'default', 'table', or 'custom'; each type has its own set of yaml options to include
+  sort: "date desc" # sort can be done on more than one field
+  categories: true # allows you to sort posts by assigned categories
+---
+
+## Especulación Científica
+
+> "Examinar los asuntos de brujería es como tratar de entrar en la metafísica por la puerta de atrás. A mi juicio esta actitud es preferible a pasar de largo."
+
+En este blog o wiki comparto y, al mismo tiempo, desarrollo mi worldview, mi perspectiva, mi marco teórico, o como quieras llamarlo. Diversas entradas, bastante breves, ilustran cosas que he ido reflexionando a lo largo de mi breve existencia.
+
+Por su naturaleza reflexiva, más allá de estar pensando como un espacio para el intercambio con otros, el blog me permite también a mi articular mis propios pensamientos. Espero podamos explorar temas apasionantes de una manera que quizás no caben en la escritura académica, permitiéndonos jugar con ideas y perspectivas de manera más lúdica.
+
+------------------------------------------------------------------------

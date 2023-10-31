@@ -1,0 +1,39 @@
+---
+title: "My Cosmological Principles"
+description: "This post presents 5 key principles of my own way of thinking in order to introduce my own cosmology"
+author:
+  - name: Ian Hulskamp
+    url: https://ihulsk.github.io/
+    orcid: 0000-0002-0839-4011
+date: 10-28-2023
+categories: [Theory, Framework] # self-defined categories
+citation: 
+  url: https://ihulsk.github.io/posts/20231027-ispaceBasics/ 
+
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+
+Por su complejidad, el análisis de las colaboraciones academia-industria me ha llevado a la necesidad de codificar mi propia cosmovisión. La misma está marcada por todo lo que he vivido a lo largo mi propia experiencia personal, al igual que la de cada individuo. Pero en los últimos años, gracias a tener que enfrentarme con el desgastante viaje de escribir una tesis doctoral, he podido darle bastante forma a mi manera de pensar e interpretar los fenómenos.
+
+Muchas entradas estarán marcadas por la frustración que surge al escribir una tesis (perdón por eso). Igualmente intentaré también reflejar mi entusiasmo por la investigación en cada post.
+
+El hilo conductor de mis posteos será, justamente, la investigación. Al menos en un principio. Y estáran centrados en todos los procesos humanos, más de carácter especulativos, que rodean a la investigación científica.
+
+Mi bases cosmológicas:
+
+Algunos puntos que considero importante transmitirles para acercarlos a mi manera de pensar:
+
+Tiendo a pensar los procesos físicos en términos informacionales. Concibo la infinidad del universo como flujos constantes de información. La teoría de información de Shannon, la mecánica estádistica, y la idea de entropía son facinantes.
+
+Abrazo la complejidad y la emergencia. Considero que los procesos que acontecen son necesariamente inciertos pero influenciables.
+
+A consequencia de lo de influenciables, adhiero al deseo y capacidad de transformación que profesa el pragmatismo.
+
+Creo que la educación y el aprendizaje son el mejor camino para desarrollar capacidades de transformación en entornos sociales.
+
+La educación y el aprendizaje son procesos transcendentales para la producción social de conocimiento, el conocimiento entendido como expresión de información con particular valor transformativo.
+
+Estos 5 principios, que combinan diversos aspectos cosmológicos, ontológicos y epistemológicos, hacen que mi interpretación del mundo sea de cierta manera. Mi interpretación del mundo me obliga a pensar formas de producción de conocimiento que permitan transformar ese mundo a partir de objetivos planeteados.
+
+Dado que no hay mejor herramienta que la teoría, en este espacio virtual compartiré elementos que hacen a mi conceptualización o esquema teórico acerca de la producción social del conocimiento.

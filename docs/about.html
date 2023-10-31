@@ -61,6 +61,18 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script src="site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-binding-2.0.4.1/leaflet.js"></script>
+<link href="site_libs/leaflet-awesomemarkers-2.0.3/leaflet.awesome-markers.css" rel="stylesheet">
+<script src="site_libs/leaflet-awesomemarkers-2.0.3/leaflet.awesome-markers.min.js"></script>
+<link href="site_libs/fontawesome-4.7.0/font-awesome.min.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -84,7 +96,8 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
+    <a class="nav-link" href="./index.html" rel="" target=""><i class="bi bi-house" role="img">
+</i> 
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -92,12 +105,16 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./skills.html" rel="" target="">
+ <span class="menu-text">Skills</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./interests.html" rel="" target="">
  <span class="menu-text">Interests</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./skills.html" rel="" target="">
- <span class="menu-text">Skills</span></a>
+    <a class="nav-link" href="./blog.html" rel="" target="">
+ <span class="menu-text">Blog/Wiki</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./cv/CV-IH-1023.pdf" rel="" target="">
@@ -125,17 +142,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#especulación-científica" id="toc-especulación-científica" class="nav-link active" data-scroll-target="#especulación-científica">Especulación Científica</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -154,23 +163,47 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>¡Saludos! Mi nombre es Ian. Me encantaría decirte que tengo un apodo pero no, desafortunadamente aún no me han asignado ninguno del que me haya apropiado o se haya adoptado de forma extendida.</p>
-<p>Crecí en el noroeste de la Patagonia Argentina hasta que emigré a estudiar economía en la Universidad de Buenos Aires. Si bien inicié la carrera con inocentes pretensiones de hacer política económica, una serie de eventos me acercaron a la filosofía de la ciencia y terminé siendo dos años becario de investigación en el Centro de Investigación en Epistemología de las Ciencias Económicas (CIECE). Desde entonces no he parado de estudiar, ni pienso hacerlo en el corto plazo. Considero “aprender”, lo que sea, una de las pocas pasiones que tengo.</p>
-<p>Mientras terminaba la carrera de licenciatura fui pasante y consultor en la Oficina de CEPAL en Buenos Aires. Aprendí muchísimo. Después hice una maestría doble en economía de la innovación y el conocimiento. Para no perder la costumbre, después empecé mi doctorado en la Sociedad de la Información y el Conocimiento. Actualmente, después de 3 años y medio y con un pandemia de por medio, me encuentro en la recta final de escribir mi tesis doctoral.</p>
-<p>Juntando todas las etapas de este proceso, lo que mejor aprendí es a investigar. Justamente, en este espacio virtual la idea es compartir reflexiones con respecto al proceso de investigación la relación entre las teorías científicas y las observaciones empíricas. La idea sería algo así como explorar las complejidades de cómo adquirimos y entendemos el conocimiento y la realidad.</p>
-<p>Además de mi trabajo académico, también disfruto de la práctica de deportes y la actividad física en general. Considero que el deporte es una forma de experimentar y explorar las capacidades de nuestro cuerpo, al igual que la ciencia es una forma de experimentar y explorar las capacidades de nuestra mente. La combinación de ambos aspectos me parece fascinante y enriquecedora.</p>
-<p>Si deseas obtener más información sobre mi experiencia académica y profesional, puedes encontrar mi CV en [incluir un enlace a un CV en línea o en un sitio web]. Espero que este blog sea un espacio para reflexionar y discutir sobre temas filosóficos y científicos, así como para compartir ideas y aprendizajes. ¡Gracias por visitar!</p>
-<p>email / resume / Twitter</p>
+<div class="grid">
+<div class="g-col-6 justified">
+<p>Si buscás una versión resumida y sin prosa de mi experiencia académica y profesional, podes encontrarla en mi <a href="cv/CV-IH-1023.pdf">CV</a>.</p>
+<p><strong>Economista</strong> de formación, encontré <strong>mi nicho</strong> en temas de <strong>innovación y conocimiento</strong>. La curiosidad y la pasión por aprender me han permitido transitar el desafiante y enriquecedor camino del doctorado, donde planificar y llevar adelante un proyecto de investigación implica desarrollar infinidad de capacidades. Acá más detalle sobre lo que he aprendido.</p>
+<p>Pero ahora que mi primer <em>draft</em> completo de tesis está en corrección, <strong>me propongo explorar nuevos rumbos</strong>. Me gustaría estas en contacto más directo con la realidad. No quiero sólo evaluar sino también ejecutar, <strong>quiero poder implementar mejoras y ver cómo evolucionan de manera continua y progresiva.</strong> <!--# La inacción de la ciencia básica y su modalidad de trabajo solitaria. Por eso, mientras espero las últimas correcciones de mi primer draft, me preparo para explorar nuevos rumbos.  --> Si bien no pienso abandonar jamás la ciencia básica, porque me encanta el desarrollo teórico y los altos niveles de abstracción, sería ideal para mi encontrar un rol en el que pueda ayudar a organizaciones a mejorar su vinculación con el entorno y fortalecer su conocimiento. <!-- No quiero abandonar por completo los altos niveles abstracción, no olvido que no hay herramienta más poderosa que la teoría, pero necesito lidiar con la realidad. Evaluar para ejecutar, buscando e implementando mejoras continuas y progresivas. Si bien con este deseo no descarto por completo un post-doc, sería ideal para mi encontrar un rol práctico dentro de alguna organización comprometida a mejorar su vinculación con el entorno. --></p>
+</div>
+<div class="g-col-6 text-center">
+<p><img src="me.jpeg" class="img-fluid" width="350"></p>
+</div>
+</div>
 <hr>
-<section id="especulación-científica" class="level2">
-<h2 class="anchored" data-anchor-id="especulación-científica">Especulación Científica</h2>
-<blockquote class="blockquote">
-<p>“Examinar los asuntos de brujería es como tratar de entrar en la metafísica por la puerta de atrás. A mi juicio esta actitud es preferible a pasar de largo.”</p>
-</blockquote>
-<p>Este blog es mi compañero en el desgastante viaje en el que se ha convertido la finalización de mi tesis doctoral. Por lo tanto, este también es un espacio de catarsis, liberación creativa y auto-reflexión. Aquí, puedo explorar temas y pensamientos que quizás no caben en la escritura académica, permitiéndome jugar con ideas y perspectivas de manera más lúdica.</p>
-<p>En este blog espero ofrecer un espacio compartido para quienes buscan explorar y contraponer ideas con respecto a temas que me apasionan. Si bien espero que este sea un espacio de intercambio, reflexión y aprendizaje con otros, lo hago, en última instancia, para mi.</p>
-<p>Muchas entradas estarán marcadas por la frustración que surge al escribir una tesis (perdón por eso). Igualmente intentaré también reflejar mi entusiasmo por la investigación en cada post.</p>
-<p>El hilo conductor de mis posteos será, justamente, la investigación. Al menos en un principio. Y estáran centrados en todos los procesos humanos, más de carácter especulativos, que rodean a la investigación científica.</p>
+<section id="mi-background" class="level2">
+<h2 class="anchored" data-anchor-id="mi-background">Mi Background</h2>
+<div class="grid">
+<div class="g-col-6 text-center">
+<div class="cell">
+<div class="cell-output-display">
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-35c6ecd61888ae3e84ef" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-35c6ecd61888ae3e84ef">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"clearMarkers","args":[]},{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addAwesomeMarkers","args":[[-41.1478447,-34.5998286328816,45.0737440661825,48.8275355923403,44.7993512905981,41.4070856818362],[-71.2990767,-58.3976542564432,7.6994362770386,2.38214661025242,-0.615558665438184,2.19454389190619],{"icon":"map-pin","markerColor":"green","iconColor":"white","spin":false,"squareMarker":false,"iconRotate":0,"font":"monospace","prefix":"fa"},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":true,"riseOffset":250},["Bariloche","Buenos Aires","Torino","Paris","Bordeaux","Barcelona"],null,null,null,null,{"interactive":false,"permanent":true,"direction":"left","opacity":1,"offset":[0,0],"textsize":"7px","textOnly":false,"className":"","sticky":true,"riseOnHover":true},null]}],"limits":{"lat":[-41.1478447,48.8275355923403],"lng":[-71.2990767,7.6994362770386]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+<div class="g-col-6 justified">
+<p>Antes de empezar mi <strong>doctorado en la Sociedad de la Información y el Conocimiento</strong> en la Universitat Oberta de Catlunya (UOC), hice una <strong>maestría doble en economía de la innovación y el conocimiento y política económica</strong>. Gané una beca Erasmus Mundus y estuve un año en Torino, Italia, y luego un año en Francia, mayormente en París pero también en Bourdeaux mientras trabajaba en mi tesis de maestría.</p>
+<p>Antes de mudarme a Europa tuve una breve pero enriquecedora experiencia laboral mientras cursaba y cuando acabé mi <strong>licenciatura en Economía</strong> en la Universidad de Buenos Aires. Fui elegido como pasante en la oficina de Buenos Aires de la <strong>CEPAL</strong>, donde más adelante trabajé como <strong>consultor</strong> en varios proyectos de desarrollo de indicadores económicos (Indicador Sintético de Actividad Económica y Indice de Precios). <!-- enriquecer la descripción de CEPAL --> Además, <strong>fui profesor Auxiliar</strong> de macroeconomía en la Universidad Torcuato di Tella <strong>y profesor adjunto</strong> en un curso de verano en la universidad Nacional de Lomas de Zamora.</p>
+<p>También fui dos año becario de investigación en el Centro de Investigación en Epistemología de las Ciencias Económicas (CIECE) de la Universidad de Buenos Aires, gracias una beca nacional. Antes de emigrar por mis estudios, crecí en el noroeste de la Patagonia Argentina, en la bonita ciudad de San Carlos de Bariloche.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="hobbies" class="level2">
+<h2 class="anchored" data-anchor-id="hobbies">Hobbies</h2>
+<div class="grid">
+<div class="g-col-6 justified">
+<p>Además de mi trabajo académico, disfruto del deporte y la actividad física en general. Así como trabajamos la mente debemos trabajar el cuerpo. Me gusta escalar y correr. También me divierte la improvisación teatral y tengo el objetivo de hacer un libro de humor gráfico antes de morir.</p>
+<p>Más allá de estas actividades lúdicas y recreativas, te cuento también un poco sobre <a href="./interests.html">mis intereses académicos y profesionales</a>.</p>
+</div>
+<div class="g-col-6 text-center">
+<p><img src="hobbiePicture.jpeg" height="400"></p>
+</div>
+</div>
 
 
 </section>

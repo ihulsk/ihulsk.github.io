@@ -1,21 +1,33 @@
 ---
 title: "Interests"
+toc: true
+toc-title: "My interests"
 ---
 
-# **Intereses**
+Además de las capacidades o skills que he ido construyendo a lo largo de mi carrera, también he explorado diversas áreas de conocimiento que han llamado mi atención.
 
-* Commons: Ostrom, leí su libro y propone una alternativa de gestión, de construcción de organizaciones e instituciones muy interesante. Si bien el contexto de aplicación es ilimitado, ha aparecido también quienes los han abordado en contextos de digitalización. A investigación está limitada a características de contexto y  muy específicas que admiten 
-* el I-Space: codificación, abstracción, difusión. 
-El pilar principal de mi marco conceptual es Boisot (1995, 1998). Como economista de formación, me encanta su propuesta informacional de la economía y el cambio tecnológico. Pero lo que ofrece como marco teórico es mucho más que eso, sirve para pensar todo tipo de flujos de información y conocimiento. 
+## Complexity Theory and Information Theory
 
-Se llama I-Space justamente porque permite representar toda expresión de información en un espacio de tres dimensiones. Las dimensiones que caracterizan sirven para representar información son grados de codificación, abstracción y difusión. Al ser evaluadas por grado o nivel, cada dimension se representa en términos relativos.  
+Estoy haciendo un curso, conozco algo del tema. Propiedades emergentes y entropía. Claude Shannon
 
-Espero tener tiempo pronto para presentar un poco mejor de que va, pero lo que más debo recomendaros es que lo lean a él. 
+## Network Analysis
 
-    * SLC
-    * instituciones/culturas
-* Representar grupos sociales en términos culturales. Democracia. Commons. Arte. Religión. 
-* Filosofía: Pragmatismo, enactivismo, educación, psicología, 
-* Entropía, información.
-* Complejidad: Estoy haciendo este curso.
+Muy relacionado con la teoría de la complejidad, el análisis de redes permite considerar no sólo los agentes involucrados sino también sus relaciones.
 
+## Zettelkasten
+
+## Economics, Social Institutions and Culture
+
+-   Commons: Ostrom, leí su libro y propone una alternativa de gestión, de construcción de organizaciones e instituciones muy interesante. Si bien el contexto de aplicación es ilimitado, ha aparecido también quienes los han abordado en contextos de digitalización. A investigación está limitada a características de contexto y muy específicas que admiten
+
+-   Representar grupos sociales en términos culturales. Democracia. Commons. Arte. Religión.
+
+## Management and Organizations Theory
+
+-   el I-Space: codificación, abstracción, difusión. El pilar principal de mi marco conceptual es Boisot (1995, 1998). Como economista de formación, me encanta su propuesta informacional de la economía y el cambio tecnológico. Pero lo que ofrece como marco teórico es mucho más que eso, sirve para pensar todo tipo de flujos de información y conocimiento.
+
+Se llama I-Space justamente porque permite representar toda expresión de información en un espacio de tres dimensiones. Las dimensiones que caracterizan sirven para representar información son grados de codificación, abstracción y difusión. Al ser evaluadas por grado o nivel, cada dimension se representa en términos relativos.
+
+Espero tener tiempo pronto para presentar un poco mejor de que va, pero lo que más debo recomendaros es que lo lean a él.
+
+## Filosofía: Pragmatismo, enactivismo, educación, psicología,
