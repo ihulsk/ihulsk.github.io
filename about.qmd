@@ -14,7 +14,9 @@ Pero ahora que mi primer *draft* completo de tesis está en corrección, **me pr
 :::
 
 ::: {.g-col-6 .text-center}
-![](me.jpeg){width="350"}
+![](visualMedia/hulskamp.jpg){width="350"}
+<!-- ![](me.jpeg){width="350"} -->
+
 :::
 :::
 
@@ -64,7 +66,7 @@ zoomBchMarkers
 ::: {.g-col-6 .justified}
 Antes de empezar mi **doctorado en la Sociedad de la Información y el Conocimiento** en la Universitat Oberta de Catlunya (UOC), hice una **maestría doble en economía de la innovación y el conocimiento y política económica**. Gané una beca Erasmus Mundus y estuve un año en Torino, Italia, y luego un año en Francia, mayormente en París pero también en Bourdeaux mientras trabajaba en mi tesis de maestría.
 
-Antes de mudarme a Europa tuve una breve pero enriquecedora experiencia laboral mientras cursaba y cuando acabé mi **licenciatura en Economía** en la Universidad de Buenos Aires. Fui elegido como pasante en la oficina de Buenos Aires de la **CEPAL**, donde más adelante trabajé como **consultor** en varios proyectos de desarrollo de indicadores económicos (Indicador Sintético de Actividad Económica y Indice de Precios). <!-- enriquecer la descripción de CEPAL --> Además, **fui profesor Auxiliar** de macroeconomía en la Universidad Torcuato di Tella **y profesor adjunto** en un curso de verano en la universidad Nacional de Lomas de Zamora.
+Antes de mudarme a Europa tuve una breve pero enriquecedora experiencia laboral mientras cursaba y cuando acabé mi **licenciatura en Economía** en la Universidad de Buenos Aires. Fui elegido como pasante en la oficina de Buenos Aires de la **CEPAL**, donde más adelante trabajé como **consultor** en varios proyectos de desarrollo de indicadores económicos (Indicador Sintético de Actividad Económica y Indice de Precios). <!-- enriquecer la descripción de CEPAL --> Además, fui **profesor auxiliar** de macroeconomía en la Universidad Torcuato di Tella **y profesor adjunto** en un curso de verano en la universidad Nacional de Lomas de Zamora.
 
 También fui dos año becario de investigación en el Centro de Investigación en Epistemología de las Ciencias Económicas (CIECE) de la Universidad de Buenos Aires, gracias una beca nacional. Antes de emigrar por mis estudios, crecí en el noroeste de la Patagonia Argentina, en la bonita ciudad de San Carlos de Bariloche.
 :::
@@ -75,8 +77,8 @@ También fui dos año becario de investigación en el Centro de Investigación e
 ## Hobbies
 
 ::: grid
-::: {.g-col-6 .justified}
-Además de mi trabajo académico, disfruto del deporte y la actividad física en general. Así como trabajamos la mente debemos trabajar el cuerpo. Me gusta escalar y correr. También me divierte la improvisación teatral y tengo el objetivo de hacer un libro de humor gráfico antes de morir.
+::: {.g-col-6 .justified .align-middle}
+Además de mi trabajo académico, disfruto del deporte y la actividad física en general. Así como entreno la mente, entreno el cuerpo. Me gusta escalar y correr. También me divierte la improvisación teatral y tengo el objetivo de hacer un libro de humor gráfico antes de morir.
 
 Más allá de estas actividades lúdicas y recreativas, te cuento también un poco sobre [mis intereses académicos y profesionales](interests.qmd).
 :::

@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 /* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
@@ -154,17 +188,31 @@ div.csl-indent {
     <h2 id="toc-title">My Skills</h2>
    
   <ul>
-  <li><a href="#métodos" id="toc-métodos" class="nav-link active" data-scroll-target="#métodos">Métodos</a>
+  <li><a href="#technical-skills" id="toc-technical-skills" class="nav-link active" data-scroll-target="#technical-skills">Technical Skills</a>
+  <ul>
+  <li><a href="#análisis-de-datos-cuantitativos" id="toc-análisis-de-datos-cuantitativos" class="nav-link" data-scroll-target="#análisis-de-datos-cuantitativos">Análisis de datos cuantitativos:</a>
   <ul class="collapse">
-  <li><a href="#herramientas-cuantitativas-estadística-y-r-software" id="toc-herramientas-cuantitativas-estadística-y-r-software" class="nav-link" data-scroll-target="#herramientas-cuantitativas-estadística-y-r-software">Herramientas cuantitativas: estadística y R software</a></li>
-  <li><a href="#análisis-de-datos-cualitativos-entrevistas-y-casos-de-estudio." id="toc-análisis-de-datos-cualitativos-entrevistas-y-casos-de-estudio." class="nav-link" data-scroll-target="#análisis-de-datos-cualitativos-entrevistas-y-casos-de-estudio.">Análisis de datos cualitativos: entrevistas y casos de estudio.</a></li>
-  <li><a href="#métodos-mixtos-lo-mejor." id="toc-métodos-mixtos-lo-mejor." class="nav-link" data-scroll-target="#métodos-mixtos-lo-mejor.">Métodos Mixtos: Lo mejor.</a></li>
-  <li><a href="#mixtos" id="toc-mixtos" class="nav-link" data-scroll-target="#mixtos">Analysis de redes: R.</a></li>
+  <li><a href="#análisis-estadístico" id="toc-análisis-estadístico" class="nav-link" data-scroll-target="#análisis-estadístico">Análisis estadístico</a></li>
+  <li><a href="#mixtos" id="toc-mixtos" class="nav-link" data-scroll-target="#mixtos">Análisis de redes sociales en R y Gephi.</a></li>
   </ul></li>
-  <li><a href="#herramientas" id="toc-herramientas" class="nav-link" data-scroll-target="#herramientas">Herramientas</a>
+  <li><a href="#análisis-de-datos-cualitativos" id="toc-análisis-de-datos-cualitativos" class="nav-link" data-scroll-target="#análisis-de-datos-cualitativos">Análisis de datos cualitativos</a>
   <ul class="collapse">
+  <li><a href="#entrevistas-y-casos-de-estudio." id="toc-entrevistas-y-casos-de-estudio." class="nav-link" data-scroll-target="#entrevistas-y-casos-de-estudio.">Entrevistas y casos de estudio.</a></li>
+  </ul></li>
+  <li><a href="#métodos-mixtos-integración-de-datos-cuantitativos-y-cualitativos." id="toc-métodos-mixtos-integración-de-datos-cuantitativos-y-cualitativos." class="nav-link" data-scroll-target="#métodos-mixtos-integración-de-datos-cuantitativos-y-cualitativos.">Métodos Mixtos: integración de datos cuantitativos y cualitativos.</a></li>
+  </ul></li>
+  <li><a href="#soft-skills" id="toc-soft-skills" class="nav-link" data-scroll-target="#soft-skills"><em>Soft Skills</em></a>
+  <ul>
+  <li><a href="#problem-solving" id="toc-problem-solving" class="nav-link" data-scroll-target="#problem-solving">Problem-solving</a></li>
+  <li><a href="#target-communication" id="toc-target-communication" class="nav-link" data-scroll-target="#target-communication">Target Communication</a></li>
+  <li><a href="#team-collaboration" id="toc-team-collaboration" class="nav-link" data-scroll-target="#team-collaboration">Team Collaboration</a></li>
+  <li><a href="#resilience-and-adaptabilitiy" id="toc-resilience-and-adaptabilitiy" class="nav-link" data-scroll-target="#resilience-and-adaptabilitiy">Resilience and Adaptabilitiy</a></li>
+  </ul></li>
+  <li><a href="#otras-herramientas-y-capacidades-variadas" id="toc-otras-herramientas-y-capacidades-variadas" class="nav-link" data-scroll-target="#otras-herramientas-y-capacidades-variadas">Otras herramientas y capacidades variadas</a>
+  <ul>
   <li><a href="#pandoc-markdown" id="toc-pandoc-markdown" class="nav-link" data-scroll-target="#pandoc-markdown">Pandoc / Markdown</a></li>
   <li><a href="#zotero" id="toc-zotero" class="nav-link" data-scroll-target="#zotero">Zotero</a></li>
+  <li><a href="#prompt-engineering" id="toc-prompt-engineering" class="nav-link" data-scroll-target="#prompt-engineering">Prompt Engineering</a></li>
   <li><a href="#decidim" id="toc-decidim" class="nav-link" data-scroll-target="#decidim">Decidim</a></li>
   <li><a href="#otros-programas-y-lenguajes-que-he-utilizado" id="toc-otros-programas-y-lenguajes-que-he-utilizado" class="nav-link" data-scroll-target="#otros-programas-y-lenguajes-que-he-utilizado">Otros programas y lenguajes que he utilizado</a></li>
   </ul></li>
@@ -191,41 +239,123 @@ div.csl-indent {
 
 </header>
 
-<p>A lo largo de mi formación y mi carrera profesional desarrollé múltiples capacidades relacionadas al manejo de diversas herramientas y metodologías, tanto cuantitativas como cualitativas. Hago aquí una breve enumeración de algunos de los skills más relevantes que ha puesto en práctica en los últimos tiempos y considero podrían ser de utilidad para múltiples organizaciones.</p>
-<section id="métodos" class="level2">
-<h2 class="anchored" data-anchor-id="métodos">Métodos</h2>
-<section id="herramientas-cuantitativas-estadística-y-r-software" class="level3">
-<h3 class="anchored" data-anchor-id="herramientas-cuantitativas-estadística-y-r-software">Herramientas cuantitativas: estadística y R software</h3>
-<p>La estadística es sin duda una de las ramas de conocimiento humano más importantes que haya habido jamás. El valor de poder identificar y cuantificar patrones con precisión matemática en infinidad de entornos diferentes es inigualable. Si bien tiene sus limitaciones, y su valor predictivo depende de la cantidad y calidad de datos, es un elemento de análisis imprescindible.</p>
-<p>Gracias a mi formación continuada desde mi primer clase de estadística en la Universidad de Buenos Aires, hace más de 10 años, mi relación con la materia tiene cierta extensión. Más allá de mi interés teórico generalizado y aplicaciones varias, recuerdo mi etapa más aplicada mientras estuve en CEPAL, primero como pasante y luego como consultor. Gracias al apoyo y la guía de Daniel Vega pude participar en el desarrollo de un IPC e indicadores de actividad económica en colaboración con organizaciones gubernamentales Argentinas.</p>
-<p>Últimamente trabajé en modelos para variables categóricas, binomiales y multinomiales, para analizar datos de encuesta online (que no sólo analicé sino tamboén diseñé y distribuí utilizado Qualtrics). Proportional odds model <span class="citation" data-cites="mccullaghRegressionModelsOrdinal1980">(<a href="#ref-mccullaghRegressionModelsOrdinal1980" role="doc-biblioref">McCullagh 1980</a>)</span></p>
+<div class="justified">
+<p>A lo largo de mi formación y mi carrera profesional desarrollé múltiples capacidades relacionadas al manejo de diversas <strong>metodologías y herramientas</strong>, tanto cuantitativas como cualitativas, así como competencias blandas o <strong><em>soft skills</em></strong>. Hago aquí una breve enumeración de las habilidades más relevantes que ha puesto en práctica en los últimos tiempos y podrían ser útiles para cualquier tipo de organización.</p>
+</div>
+<section id="technical-skills" class="level2">
+<h2 class="anchored" data-anchor-id="technical-skills">Technical Skills</h2>
+<section id="análisis-de-datos-cuantitativos" class="level3">
+<h3 class="anchored" data-anchor-id="análisis-de-datos-cuantitativos">Análisis de datos cuantitativos:</h3>
+<div class="justified">
+<p>La <strong>estadística</strong> es sin duda una de las ramas de conocimiento humano más relevantes por impacto y capacidad transformadora. El valor de poder identificar y cuantificar patrones con precisión matemática en infinidad de entornos diferentes es difícilmente igualable. Si bien, como todo, tiene sus limitaciones y su valor predictivo depende de la cantidad y calidad de datos, es un elemento de análisis imprescindible.</p>
+</div>
+<section id="análisis-estadístico" class="level4">
+<h4 class="anchored" data-anchor-id="análisis-estadístico">Análisis estadístico</h4>
+<div class="justified">
+<p>Gracias a mi formación continuada desde mi primer clase de estadística en la Universidad de Buenos Aires, hace más de 10 años, mi relación con la materia tiene cierta extensión. Más allá de mi interés conceptual y aplicaciones en entornos de investigación, recuerdo mi etapa más aplicada cuando estuve en CEPAL, primero como pasante y luego como consultor. Gracias al apoyo y la guía de Daniel Vega pude participar, en colaboración con organizaciones gubernamentales Argentinas, en el desarrollo de un <strong>indice de precios al consumidor (IPC) e indicadores de actividad económica</strong>.</p>
+<p>Últimamente trabajé en <strong>modelos de variables categóricas, binomiales y multinomiales</strong>, para analizar datos de <strong>encuesta online</strong>, que no sólo analicé sino también <strong>diseñé y distribuí utilizado <a href="https://www.qualtrics.com/">Qualtrics</a></strong>, en el marco de mi tesis doctoral. El análisis final de la tesis usé una versión compleja de proportional odds model <span class="citation" data-cites="mccullaghRegressionModelsOrdinal1980">(<a href="#ref-mccullaghRegressionModelsOrdinal1980" role="doc-biblioref">McCullagh 1980</a>)</span>, que permite representar variables categóricas ordinales (tipo escala Likert) como variable dependiente. Únicamente a modo ilustrativo, el siguiente gráfico muestra como diferentes nivel de satisfacción, asociados a distintos modos de colaboración, varían según la edad de los colaboradores.</p>
+</div>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Full model plots: appending fitted response probabilities (or logits) to the data frame and plotting these in relation to the predictors.</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">#using the predict() fuction with option type = "probs" to get probabilities instead the highest probability category</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>collab_DF <span class="ot">&lt;-</span> <span class="fu">cbind</span>(collaborators <span class="sc">%&gt;%</span> </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>                     dplyr<span class="sc">::</span><span class="fu">select</span>(Q15_1_collapsed, edad, chann), </span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>                   <span class="fu">predict</span>(om_151, <span class="at">type =</span> <span class="st">"probs"</span>))</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># long format data for plotting</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>plot_dat <span class="ot">&lt;-</span> collab_DF <span class="sc">%&gt;%</span> </span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="fu">c</span>(Negativo, Neutral, Positivo), <span class="at">names_to =</span> <span class="st">"level"</span>, <span class="at">values_to =</span> <span class="st">"prob"</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>gg <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(plot_dat, <span class="fu">aes</span>(<span class="at">x =</span> edad, <span class="at">y =</span> prob, <span class="at">colour =</span> level)) <span class="sc">+</span> <span class="fu">geom_line</span>(<span class="at">size =</span> <span class="dv">1</span>) <span class="sc">+</span> <span class="fu">theme_bw</span>() <span class="sc">+</span> <span class="fu">xlim</span>(<span class="dv">25</span>, <span class="dv">80</span>) <span class="sc">+</span> <span class="fu">geom_point</span>(<span class="at">color =</span> <span class="st">"black"</span>, <span class="at">size =</span> <span class="fl">0.2</span>) <span class="sc">+</span> <span class="fu">facet_grid</span>(chann <span class="sc">~</span> .) </span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>gg</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="visualMedia/exampleModes.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
 </section>
-<section id="análisis-de-datos-cualitativos-entrevistas-y-casos-de-estudio." class="level3">
-<h3 class="anchored" data-anchor-id="análisis-de-datos-cualitativos-entrevistas-y-casos-de-estudio.">Análisis de datos cualitativos: entrevistas y casos de estudio.</h3>
-<p>Además del manejo de datos cuantitativos, el tipo de dato predilecto en las ciencias económicas, también he utilizado métodos cualitativos. Si bien mi experiencia en este campo es más limitada, he ido descubriendo su gran potencial gracias al detalle que otorgan. Como explico más adelante, creo que la mejor alternativa metodológica para abordar una problemática es <a href="#mixtos">integrar métodos cuantitativos y cualitativos</a>.</p>
-<p>Ya había hecho algunas entrevistas para mi tesis de maestría pero últimamente me interioricé mucho más: mi tesis doctoral incluye 26 entrevistas analizadas en Atlas.ti. Si bien la parte de análisis es importante, representa sólo el final de un largo proceso que incluye, entre otras cosas, la preparación de las entrevistas, el contacto inicial con los entrevistados, la realización de la entrevista en sí, y la transcripción. Para entrevistas semi-estructuradas, de las fuentes que he consultado recomiendo particularmente a <span class="citation" data-cites="rubin2011 kvale1994">(<a href="#ref-rubin2011" role="doc-biblioref">Rubin and Rubin 2011</a>; <a href="#ref-kvale1994" role="doc-biblioref">Kvale 1994</a>)</span>.</p>
-<p>Armé un análisis temático <span class="citation" data-cites="braunUsingThematicAnalysis2006">(<a href="#ref-braunUsingThematicAnalysis2006" role="doc-biblioref">Braun and Clarke 2006</a>)</span> a partir una lista de códigos a-priori como guía, que luego actualicé a aposteri con los temas que emergieron en la conversación. Si bien requiere muchísimo trabajo, la narrativa de multiplies individuos con experiencia directa en el objeto de estudio aporta información realmente valiosa.</p>
-<p>Me encantaría tener la oportunidad de hacer focus groups.</p>
+<section id="mixtos" class="level4">
+<h4 class="anchored" data-anchor-id="mixtos">Análisis de redes sociales en R y Gephi.</h4>
+<div class="justified">
+<p>Además de haber trabajando en análisis estadístico descriptivo e inferencial, también he explorado la <strong>teoría de grafos y el análisis de redes sociales</strong>. Si bien es un tema al que no he tratado con excesiva profundidad ya que no respondía a las necesidades de datos de la tesis doctoral, sí tuve la suerte de explorarlo más que superficialmente. Creo son una de las herramienta más poderosas para medir intercambios de información social en contextos variados.</p>
+<p>En mi experiencia utilicé el paquete <a href="https://www.bibliometrix.org/home/">Bibliometrix</a>, en combinación con muchos otros, para medir las colaboraciones entre organizaciones académicas y empresariales a través de publicaciones académicas conjuntas. No fue exitoso dado que muy pocas empresas publican, pero sí sirvió para ver colaboraciones entre organizaciones académicas y practicar en el estudio de redes.</p>
+<p>A continuación una representación gráfica de la <strong>evolución las colaboraciones en publicaciones académicas de diversas organizaciones académicas de la ciudad de Bariloche, Argentina</strong>. Más allá de los infinitos problemas que tuve para homogeneizar y desambiguar la pertenencia organizacional de los autores a partir de datos de Scopus, sí pude representar cosas interesantes como la evolución de las colaboraciones entre organizaciones locales y externas a los largo del tiempo, tanto en forma de red (izq.) como geográficas (der.). Si quieren ver resultados un poco más completos aquí una grabación de mi presentación en la Networks 2021: Joint Sunbelt &amp; NetScie Conference.</p>
+</div>
+<table class="table">
+<colgroup>
+<col style="width: 54%">
+<col style="width: 45%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><img src="visualMedia/bch_institutional_animation.gif" class="img-fluid" data-fig-align="center"></td>
+<td><img src="visualMedia/bchDynamicInfoMap.gif" class="img-fluid" data-fig-align="center"></td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="métodos-mixtos-lo-mejor." class="level3">
-<h3 class="anchored" data-anchor-id="métodos-mixtos-lo-mejor.">Métodos Mixtos: Lo mejor.</h3>
-<p>Tuve mi primer experiencia con métodos mixtos en mi tesis doctoral. Más allá de su complejidad en el diseño e implementación, ofrece una alternativa que permite combinar lo mejor de lo cuantitativo, cualitativo y más.</p>
-<p><span class="citation" data-cites="creswell2017 tashakkori1998">(<a href="#ref-creswell2017" role="doc-biblioref">Creswell and Clark 2017</a>; <a href="#ref-tashakkori1998" role="doc-biblioref">Tashakkori, Teddlie, and Teddlie 1998</a>)</span></p>
 </section>
-<section id="mixtos" class="level3">
-<h3 class="anchored" data-anchor-id="mixtos">Analysis de redes: R.</h3>
-<p>Si bien es un tema al que no he entrado con demasiada profundidad, por no ajustarse a las necesidades de datos de la tesis, sí tuve la suerte de explorarlo más que superficialmente. Creo son una de las herramienta más poderosas para medir intercambios de información social en contextos variadísimos.</p>
-<p>Utilicé el paquete Bibliometrics, entre muchos otros, para intentar medir las colaboraciones entre organizaciones académicas y empresariales a través de publicaciones conjuntas. No fue exitoso dado que muy pocas empresas publican, pero sí sirvó para ver colaboraciones entre organizaciones académicas y practicar en el estudio de redes.</p>
-<p>Más allá de los infinitos problemas que tuve para homogenizar y desambiguar la pertenencia organizacional de los autores, pude sí representar cosas interesantes como la evolución de las colaboraciones con organizaciones de países extranjeros a los largo del tiempo (gif), o la centralidad de organizaciones dentro de las redes nacionales, regionales o locales de colaboración (estadistica tal).</p>
+<section id="análisis-de-datos-cualitativos" class="level3">
+<h3 class="anchored" data-anchor-id="análisis-de-datos-cualitativos">Análisis de datos cualitativos</h3>
+<div class="justified">
+<p>Además del manejo de datos cuantitativos, el tipo de dato predilecto en las ciencias económicas, también he utilizado <strong>métodos cualitativos</strong>. Si bien mi experiencia en este campo es más limitada, he ido descubriendo su gran potencial en el nivel detalle e información contextual que otorgan. Como explico más adelante, creo que la mejor alternativa metodológica para abordar una problemática es <a href="#mixtos">integrar métodos cuantitativos y cualitativos</a>.</p>
+</div>
+<section id="entrevistas-y-casos-de-estudio." class="level4">
+<h4 class="anchored" data-anchor-id="entrevistas-y-casos-de-estudio.">Entrevistas y casos de estudio.</h4>
+<div class="justified">
+<p>Ya había hecho algunas entrevistas para mi tesis de maestría pero últimamente me interioricé mucho más: mi tesis doctoral incluye 26 <strong>entrevistas analizadas en Atlas.ti</strong>. Aunque la parte de análisis es importante, ésta representa sólo el final de un largo proceso que incluye, entre otras cosas, la <strong>preparación de las entrevistas, el contacto inicial con los entrevistados, la realización de la entrevista en sí, y la transcripción</strong>. Para entrevistas semi-estructuradas, de las fuentes que he consultado recomiendo particularmente a <span class="citation" data-cites="rubin2011 kvale1994">(<a href="#ref-rubin2011" role="doc-biblioref">Rubin and Rubin 2011</a>; <a href="#ref-kvale1994" role="doc-biblioref">Kvale 1994</a>)</span>.</p>
+<p>Armé un análisis temático <span class="citation" data-cites="braunUsingThematicAnalysis2006">(<a href="#ref-braunUsingThematicAnalysis2006" role="doc-biblioref">Braun and Clarke 2006</a>)</span> a partir una lista de códigos <em>a priori</em> como guía, que luego actualicé <em>a posteriori</em> con los temas que emergieron en la conversación. El análisis de entrevistas equiere muchísimo trabajo pero la narrativa de multiplies individuos con experiencia directa en el objeto de estudio aporta información realmente valiosa. A continuación una captura de pantalla del proceso de análisis temático en Atlas.ti. En el futuro me entusiasma la idea de hacer <em>focus groups</em>.</p>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="visualMedia/atlasScreenshot.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
 </section>
 </section>
-<section id="herramientas" class="level2">
-<h2 class="anchored" data-anchor-id="herramientas">Herramientas</h2>
+<section id="métodos-mixtos-integración-de-datos-cuantitativos-y-cualitativos." class="level3">
+<h3 class="anchored" data-anchor-id="métodos-mixtos-integración-de-datos-cuantitativos-y-cualitativos.">Métodos Mixtos: integración de datos cuantitativos y cualitativos.</h3>
+<div class="justified">
+<p>Tuve mi primer experiencia con métodos mixtos en mi tesis doctoral, siguiendo a <span class="citation" data-cites="creswell2017">Creswell and Clark (<a href="#ref-creswell2017" role="doc-biblioref">2017</a>)</span> y <span class="citation" data-cites="tashakkori1998">Tashakkori, Teddlie, and Teddlie (<a href="#ref-tashakkori1998" role="doc-biblioref">1998</a>)</span>. Más allá de su complejidad en el diseño e implementación, ofrece una alternativa que permite <strong>combinar lo mejor de lo cuantitativo y cualitativo</strong>, e incluso <strong>incorporar otras metodologías y marcos teóricos</strong>.</p>
+<p>En mi caso particular, adapté e implementé un “<em>explanatory sequential case study design</em>”. A partir de la selección de un caso de estudio particular, este diseño de investigación comienza por una fase cuantitativa para identificar patrones de comportamiento agregados. El análisis de estos resultados guía la subsiguiente fase de corte cualitativo, en la que se busca alcanzar una comprensión más profunda y matizada de los patrones agregados. Finalmente se integran los resultados de ambas fases, ofreciendo un producto más completo.</p>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="visualMedia/metodosMixtos.jpg" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="soft-skills" class="level2">
+<h2 class="anchored" data-anchor-id="soft-skills"><em>Soft Skills</em></h2>
+<section id="problem-solving" class="level3">
+<h3 class="anchored" data-anchor-id="problem-solving">Problem-solving</h3>
+</section>
+<section id="target-communication" class="level3">
+<h3 class="anchored" data-anchor-id="target-communication">Target Communication</h3>
+</section>
+<section id="team-collaboration" class="level3">
+<h3 class="anchored" data-anchor-id="team-collaboration">Team Collaboration</h3>
+</section>
+<section id="resilience-and-adaptabilitiy" class="level3">
+<h3 class="anchored" data-anchor-id="resilience-and-adaptabilitiy">Resilience and Adaptabilitiy</h3>
+</section>
+</section>
+<section id="otras-herramientas-y-capacidades-variadas" class="level2">
+<h2 class="anchored" data-anchor-id="otras-herramientas-y-capacidades-variadas">Otras herramientas y capacidades variadas</h2>
 <section id="pandoc-markdown" class="level3">
 <h3 class="anchored" data-anchor-id="pandoc-markdown">Pandoc / Markdown</h3>
 </section>
 <section id="zotero" class="level3">
 <h3 class="anchored" data-anchor-id="zotero">Zotero</h3>
+</section>
+<section id="prompt-engineering" class="level3">
+<h3 class="anchored" data-anchor-id="prompt-engineering">Prompt Engineering</h3>
 </section>
 <section id="decidim" class="level3">
 <h3 class="anchored" data-anchor-id="decidim">Decidim</h3>
@@ -233,7 +363,7 @@ div.csl-indent {
 <section id="otros-programas-y-lenguajes-que-he-utilizado" class="level3">
 <h3 class="anchored" data-anchor-id="otros-programas-y-lenguajes-que-he-utilizado">Otros programas y lenguajes que he utilizado</h3>
 <ul>
-<li>Stata, REDATAM, Microsoft Office, QGIS, Gephi, Python, Java.</li>
+<li>Microsoft Office, Stata, REDATAM, QGIS, Gephi, Python, Java.</li>
 </ul>
 
 

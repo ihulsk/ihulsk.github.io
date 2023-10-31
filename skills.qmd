@@ -1,54 +1,110 @@
 ---
 title: "Skills"
 toc: true
+toc-depth: 4
 toc-title: "My Skills"
 bibliography: /Users/ihulsk/Google Drive/Biblioteca/My Library.json
+code-fold: true
 ---
 
-A lo largo de mi formación y mi carrera profesional desarrollé múltiples capacidades relacionadas al manejo de diversas herramientas y metodologías, tanto cuantitativas como cualitativas. Hago aquí una breve enumeración de algunos de los skills más relevantes que ha puesto en práctica en los últimos tiempos y considero podrían ser de utilidad para múltiples organizaciones.
+::: justified
+A lo largo de mi formación y mi carrera profesional desarrollé múltiples capacidades relacionadas al manejo de diversas **metodologías y herramientas**, tanto cuantitativas como cualitativas, así como competencias blandas o ***soft skills***. Hago aquí una breve enumeración de las habilidades más relevantes que ha puesto en práctica en los últimos tiempos y podrían ser útiles para cualquier tipo de organización.
+:::
 
-## Métodos
+## Technical Skills
 
-### Herramientas cuantitativas: estadística y R software
+### Análisis de datos cuantitativos:
 
-La estadística es sin duda una de las ramas de conocimiento humano más importantes que haya habido jamás. El valor de poder identificar y cuantificar patrones con precisión matemática en infinidad de entornos diferentes es inigualable. Si bien tiene sus limitaciones, y su valor predictivo depende de la cantidad y calidad de datos, es un elemento de análisis imprescindible.
+::: justified
+La **estadística** es sin duda una de las ramas de conocimiento humano más relevantes por impacto y capacidad transformadora. El valor de poder identificar y cuantificar patrones con precisión matemática en infinidad de entornos diferentes es difícilmente igualable. Si bien, como todo, tiene sus limitaciones y su valor predictivo depende de la cantidad y calidad de datos, es un elemento de análisis imprescindible.
+:::
 
-Gracias a mi formación continuada desde mi primer clase de estadística en la Universidad de Buenos Aires, hace más de 10 años, mi relación con la materia tiene cierta extensión. Más allá de mi interés teórico generalizado y aplicaciones varias, recuerdo mi etapa más aplicada mientras estuve en CEPAL, primero como pasante y luego como consultor. Gracias al apoyo y la guía de Daniel Vega pude participar en el desarrollo de un IPC e indicadores de actividad económica en colaboración con organizaciones gubernamentales Argentinas.
+#### Análisis estadístico
 
-Últimamente trabajé en modelos para variables categóricas, binomiales y multinomiales, para analizar datos de encuesta online (que no sólo analicé sino tamboén diseñé y distribuí utilizado Qualtrics). Proportional odds model [@mccullaghRegressionModelsOrdinal1980]
+::: justified
+Gracias a mi formación continuada desde mi primer clase de estadística en la Universidad de Buenos Aires, hace más de 10 años, mi relación con la materia tiene cierta extensión. Más allá de mi interés conceptual y aplicaciones en entornos de investigación, recuerdo mi etapa más aplicada cuando estuve en CEPAL, primero como pasante y luego como consultor. Gracias al apoyo y la guía de Daniel Vega pude participar, en colaboración con organizaciones gubernamentales Argentinas, en el desarrollo de un **indice de precios al consumidor (IPC) e indicadores de actividad económica**.
 
-### Análisis de datos cualitativos: entrevistas y casos de estudio. 
+Últimamente trabajé en **modelos de variables categóricas, binomiales y multinomiales**, para analizar datos de **encuesta online**, que no sólo analicé sino también **diseñé y distribuí utilizado [Qualtrics](https://www.qualtrics.com/)**, en el marco de mi tesis doctoral. El análisis final de la tesis usé una versión compleja de proportional odds model [@mccullaghRegressionModelsOrdinal1980], que permite representar variables categóricas ordinales (tipo escala Likert) como variable dependiente. Únicamente a modo ilustrativo, el siguiente gráfico muestra como diferentes nivel de satisfacción, asociados a distintos modos de colaboración, varían según la edad de los colaboradores.
+:::
 
-Además del manejo de datos cuantitativos, el tipo de dato predilecto en las ciencias económicas, también he utilizado métodos cualitativos. Si bien mi experiencia en este campo es más limitada, he ido descubriendo su gran potencial gracias al detalle que otorgan. Como explico más adelante, creo que la mejor alternativa metodológica para abordar una problemática es [integrar métodos cuantitativos y cualitativos](#mixtos).
+```{r eval=FALSE, echo=TRUE}
+# Full model plots: appending fitted response probabilities (or logits) to the data frame and plotting these in relation to the predictors.
+#using the predict() fuction with option type = "probs" to get probabilities instead the highest probability category
+collab_DF <- cbind(collaborators %>% 
+                     dplyr::select(Q15_1_collapsed, edad, chann), 
+                   predict(om_151, type = "probs"))
 
-Ya había hecho algunas entrevistas para mi tesis de maestría pero últimamente me interioricé mucho más: mi tesis doctoral incluye 26 entrevistas analizadas en Atlas.ti. Si bien la parte de análisis es importante, representa sólo el final de un largo proceso que incluye, entre otras cosas, la preparación de las entrevistas, el contacto inicial con los entrevistados, la realización de la entrevista en sí, y la transcripción. Para entrevistas semi-estructuradas, de las fuentes que he consultado recomiendo particularmente a [@rubin2011; @kvale1994].
+# long format data for plotting
+plot_dat <- collab_DF %>% 
+  pivot_longer(c(Negativo, Neutral, Positivo), names_to = "level", values_to = "prob")
 
-Armé un análisis temático [@braunUsingThematicAnalysis2006] a partir una lista de códigos a-priori como guía, que luego actualicé a aposteri con los temas que emergieron en la conversación. Si bien requiere muchísimo trabajo, la narrativa de multiplies individuos con experiencia directa en el objeto de estudio aporta información realmente valiosa.
+gg <- ggplot(plot_dat, aes(x = edad, y = prob, colour = level)) + geom_line(size = 1) + theme_bw() + xlim(25, 80) + geom_point(color = "black", size = 0.2) + facet_grid(chann ~ .) 
 
-Me encantaría tener la oportunidad de hacer focus groups.
+gg
 
-### Métodos Mixtos: Lo mejor.
+```
 
-Tuve mi primer experiencia con métodos mixtos en mi tesis doctoral. Más allá de su complejidad en el diseño e implementación, ofrece una alternativa que permite combinar lo mejor de lo cuantitativo, cualitativo y más.
+![](visualMedia/exampleModes.png){fig-align="center"}
 
-[@creswell2017; @tashakkori1998]
+#### Análisis de redes sociales en R y Gephi. {#mixtos}
 
-### Analysis de redes: R. {#mixtos}
+::: justified
+Además de haber trabajando en análisis estadístico descriptivo e inferencial, también he explorado la **teoría de grafos y el análisis de redes sociales**. Si bien es un tema al que no he tratado con excesiva profundidad ya que no respondía a las necesidades de datos de la tesis doctoral, sí tuve la suerte de explorarlo más que superficialmente. Creo son una de las herramienta más poderosas para medir intercambios de información social en contextos variados.
 
-Si bien es un tema al que no he entrado con demasiada profundidad, por no ajustarse a las necesidades de datos de la tesis, sí tuve la suerte de explorarlo más que superficialmente. Creo son una de las herramienta más poderosas para medir intercambios de información social en contextos variadísimos.
+En mi experiencia utilicé el paquete [Bibliometrix](https://www.bibliometrix.org/home/), en combinación con muchos otros, para medir las colaboraciones entre organizaciones académicas y empresariales a través de publicaciones académicas conjuntas. No fue exitoso dado que muy pocas empresas publican, pero sí sirvió para ver colaboraciones entre organizaciones académicas y practicar en el estudio de redes.
 
-Utilicé el paquete Bibliometrics, entre muchos otros, para intentar medir las colaboraciones entre organizaciones académicas y empresariales a través de publicaciones conjuntas. No fue exitoso dado que muy pocas empresas publican, pero sí sirvó para ver colaboraciones entre organizaciones académicas y practicar en el estudio de redes.
+A continuación una representación gráfica de la **evolución las colaboraciones en publicaciones académicas de diversas organizaciones académicas de la ciudad de Bariloche, Argentina**. Más allá de los infinitos problemas que tuve para homogeneizar y desambiguar la pertenencia organizacional de los autores a partir de datos de Scopus, sí pude representar cosas interesantes como la evolución de las colaboraciones entre organizaciones locales y externas a los largo del tiempo, tanto en forma de red (izq.) como geográficas (der.). Si quieren ver resultados un poco más completos aquí una grabación de mi presentación en la Networks 2021: Joint Sunbelt & NetScie Conference.
+:::
 
-Más allá de los infinitos problemas que tuve para homogenizar y desambiguar la pertenencia organizacional de los autores, pude sí representar cosas interesantes como la evolución de las colaboraciones con organizaciones de países extranjeros a los largo del tiempo (gif), o la centralidad de organizaciones dentro de las redes nacionales, regionales o locales de colaboración (estadistica tal).
+|                                                                      |                                                            |
+|---------------------------------------|---------------------------------|
+| ![](visualMedia/bch_institutional_animation.gif){fig-align="center"} | ![](visualMedia/bchDynamicInfoMap.gif){fig-align="center"} |
 
-## Herramientas 
+### Análisis de datos cualitativos
 
-### Pandoc / Markdown 
+::: justified
+Además del manejo de datos cuantitativos, el tipo de dato predilecto en las ciencias económicas, también he utilizado **métodos cualitativos**. Si bien mi experiencia en este campo es más limitada, he ido descubriendo su gran potencial en el nivel detalle e información contextual que otorgan. Como explico más adelante, creo que la mejor alternativa metodológica para abordar una problemática es [integrar métodos cuantitativos y cualitativos](#mixtos).
+:::
 
-### Zotero 
+#### Entrevistas y casos de estudio.
+
+::: justified
+Ya había hecho algunas entrevistas para mi tesis de maestría pero últimamente me interioricé mucho más: mi tesis doctoral incluye 26 **entrevistas analizadas en Atlas.ti**. Aunque la parte de análisis es importante, ésta representa sólo el final de un largo proceso que incluye, entre otras cosas, la **preparación de las entrevistas, el contacto inicial con los entrevistados, la realización de la entrevista en sí, y la transcripción**. Para entrevistas semi-estructuradas, de las fuentes que he consultado recomiendo particularmente a [@rubin2011; @kvale1994].
+
+Armé un análisis temático [@braunUsingThematicAnalysis2006] a partir una lista de códigos *a priori* como guía, que luego actualicé *a posteriori* con los temas que emergieron en la conversación. El análisis de entrevistas equiere muchísimo trabajo pero la narrativa de multiplies individuos con experiencia directa en el objeto de estudio aporta información realmente valiosa. A continuación una captura de pantalla del proceso de análisis temático en Atlas.ti. En el futuro me entusiasma la idea de hacer *focus groups*.
+:::
+![](visualMedia/atlasScreenshot.png){fig-align="center"}
+
+### Métodos Mixtos: integración de datos cuantitativos y cualitativos.
+
+::: justified
+Tuve mi primer experiencia con métodos mixtos en mi tesis doctoral, siguiendo a @creswell2017 y @tashakkori1998. Más allá de su complejidad en el diseño e implementación, ofrece una alternativa que permite **combinar lo mejor de lo cuantitativo y cualitativo**, e incluso **incorporar otras metodologías y marcos teóricos**.
+
+En mi caso particular, adapté e implementé un "*explanatory sequential case study design*". A partir de la selección de un caso de estudio particular, este diseño de investigación comienza por una fase cuantitativa para identificar patrones de comportamiento agregados. El análisis de estos resultados guía la subsiguiente fase de corte cualitativo, en la que se busca alcanzar una comprensión más profunda y matizada de los patrones agregados. Finalmente se integran los resultados de ambas fases, ofreciendo un producto más completo.
+:::
+
+![](visualMedia/metodosMixtos.jpg){fig-align="center"}
+
+## *Soft Skills*
+
+### Problem-solving
+
+### Target Communication
+
+### Team Collaboration
+
+### Resilience and Adaptabilitiy
+
+## Otras herramientas y capacidades variadas
+
+### Pandoc / Markdown
+
+### Zotero
+
+### Prompt Engineering
 
 ### Decidim
 
-### Otros programas y lenguajes que he utilizado 
+### Otros programas y lenguajes que he utilizado
 
--   Stata, REDATAM, Microsoft Office, QGIS, Gephi, Python, Java.
+-   Microsoft Office, Stata, REDATAM, QGIS, Gephi, Python, Java.
