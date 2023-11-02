@@ -1,34 +1,201 @@
 ---
 title: "Skills"
+toc: true
+toc-depth: 4
+toc-title: "My Skills"
+bibliography: /Users/ihulsk/Google Drive/Biblioteca/My Library.json
+code-fold: true
 ---
 
-# Capacidades 
+::: justified
+A lo largo de mi formación y mi carrera profesional desarrollé múltiples capacidades relacionadas al manejo de diversas **metodologías y herramientas**, tanto cuantitativas como cualitativas, así como competencias blandas o ***soft skills***. Hago aquí una breve enumeración de las habilidades más relevantes que ha puesto en práctica en los últimos tiempos y podrían ser útiles para cualquier tipo de organización.
+:::
 
-* Métodos
-    * Quanti: estadística. Cosas en R
-La estadística es sin duda una de las ramas de conocimiento humano más importantes que haya habido jamás. El valor de poder identificar y cuantificar patrones con precisión matemática en infinidad de entornos diferentes es inigualable. Si bien tiene sus limitaciones, y su valor predictivo depende de la cantidad y calidad de datos, es un elemento de análisis imprescindible. 
+## Technical Skills
 
-Gracias a mi formación continuada desde mi primer clase de estadística en la Universidad de Buenos Aires, hace casi 10 años, mi relación con la materia tiene cierta extensión. Más allá de mi interés teórico generalizado y aplicaciones varias, recuerdo mi etapa más aplicada mientras estuve en CEPAL, primero como pasante y luego como consultor. Gracias al apoyo y la guía de Daniel Vega pude participar en el desarrollo de un IPC e indicadores de actividad económica en colaboración con organizaciones gubernamentales Argentinas. 
+### Análisis de datos cuantitativos:
 
-Últimamente trabajé en modelos para variables categóricas, binomiales y multinomiales. Los necesitaba para mi tesis.  
+::: justified
+La **estadística** es sin duda una de las ramas de conocimiento humano más relevantes por impacto y capacidad transformadora. El valor de poder identificar y cuantificar patrones con precisión matemática en infinidad de entornos diferentes es difícilmente igualable. Si bien, como todo, tiene sus limitaciones y su valor predictivo depende de la cantidad y calidad de datos, es un elemento de análisis imprescindible.
+:::
 
-* Quali:  Entrevistas. Me gustaría hacer focus group. 
+#### 📌 Análisis estadístico
 
-Soy relativamente nuevo en esto pero me gusta mucho. Había ya hecho algunas entrevistas aunque últimamente me interioricé mucho más. Para mi tesis analicé 26 entrevistas en Atlas.ti.
+::: justified
+Gracias a mi formación continuada desde mi primer clase de estadística en la Universidad de Buenos Aires, hace más de 10 años, mi relación con la materia tiene cierta extensión. Más allá de mi interés conceptual y aplicaciones en entornos de investigación, recuerdo mi etapa más aplicada cuando estuve en CEPAL, primero como pasante y luego como consultor. Gracias al apoyo y la guía de Daniel Vega pude participar, en colaboración con organizaciones gubernamentales Argentinas, en el desarrollo de un **indice de precios al consumidor (IPC) e indicadores de actividad económica**.
 
-Armé un análisis temático [@braunUsingThematicAnalysis2006] a partir una lista de códigos a-priori como guía, que luego actualicé a aposteri con los temas que emergieron en la conversación. Si bien requiere muchísimo trabajo, la narrativa de multiplies individuos con experiencia directa en el objeto de estudio aporta información realmente valiosa. 
+Últimamente trabajé en **modelos de variables categóricas, binomiales y multinomiales**, para analizar datos de **encuesta online**, que no sólo analicé sino también **diseñé y distribuí utilizado [Qualtrics](https://www.qualtrics.com/)**, en el marco de mi tesis doctoral. El análisis final de la tesis usé una versión compleja de proportional odds model [@mccullaghRegressionModelsOrdinal1980], que permite representar variables categóricas ordinales (tipo escala Likert) como variable dependiente. Únicamente a modo ilustrativo, el siguiente gráfico muestra como diferentes nivel de satisfacción, asociados a distintos modos de colaboración, varían según la edad de los colaboradores.
+:::
+
+```{r eval=FALSE, echo=TRUE}
+# Full model plots: appending fitted response probabilities (or logits) to the data frame and plotting these in relation to the predictors.
+#using the predict() fuction with option type = "probs" to get probabilities instead the highest probability category
+collab_DF <- cbind(collaborators %>% 
+                     dplyr::select(Q15_1_collapsed, edad, chann), 
+                   predict(om_151, type = "probs"))
+
+# long format data for plotting
+plot_dat <- collab_DF %>% 
+  pivot_longer(c(Negativo, Neutral, Positivo), names_to = "level", values_to = "prob")
+
+gg <- ggplot(plot_dat, aes(x = edad, y = prob, colour = level)) + geom_line(size = 1) + theme_bw() + xlim(25, 80) + geom_point(color = "black", size = 0.2) + facet_grid(chann ~ .) 
+
+gg
+
+```
+
+![](visualMedia/exampleModes.png){fig-align="center"}
+
+#### 📌 Análisis de redes sociales en R y Gephi. {#mixtos}
+
+::: justified
+Además de haber trabajando en análisis estadístico descriptivo e inferencial, también he explorado la **teoría de grafos y el análisis de redes sociales**. Si bien es un tema al que no he tratado con excesiva profundidad ya que no respondía a las necesidades de datos de la tesis doctoral, sí tuve la suerte de explorarlo más que superficialmente. Creo son una de las herramienta más poderosas para medir intercambios de información social en contextos variados.
+
+En mi experiencia utilicé el paquete [Bibliometrix](https://www.bibliometrix.org/home/), en combinación con muchos otros, para medir las colaboraciones entre organizaciones académicas y empresariales a través de publicaciones académicas conjuntas. No fue exitoso dado que muy pocas empresas publican, pero sí sirvió para ver colaboraciones entre organizaciones académicas y practicar en el estudio de redes.
+
+A continuación una representación gráfica de la **evolución las colaboraciones en publicaciones académicas de diversas organizaciones académicas de la ciudad de Bariloche, Argentina**. Más allá de los infinitos problemas que tuve para homogeneizar y desambiguar la pertenencia organizacional de los autores a partir de datos de Scopus, sí pude representar cosas interesantes como la evolución de las colaboraciones entre organizaciones locales y externas a los largo del tiempo, tanto en forma de red (izq.) como geográficas (der.). Si quieren ver resultados un poco más completos [aquí](visualMedia/hulskampPresentation.mp4) una grabación de mi presentación en la Networks 2021: Joint Sunbelt & NetScie Conference.
+:::
+
+```{r eval=FALSE, echo=TRUE, comment= F, warning = F}
+library(tidygeocoder)
+library(maps)
+library(mapdata)
+library(geosphere)
+library(geodist)
+library("animation") 
+
+#### ILLUSTRATION CODE EXCERPTS FOR GIFS CREATION #### 
+
+## GRAPH A (left) ----
+
+# source: https://kateto.net/network-visualization
+library("igraph")
+local_g <- list()
+local_comp <- list()
+saveGIF({
+for (i in loop.vector) {
+  vert <- V(g_list[[i]])[which(V(g_list[[i]])$bariloche == 1 | V(g_list[[i]])$bariloche == 2)]
+  #get edges connected to selected nodes: https://igraph.org/r/doc/incident_edges.html
+  edg <- incident_edges(g_list[[i]], vert, "all")
+  local <- ego(g_list[[i]], order = 1, nodes = vert, mode = "all")
+  local_g[[i]] <- igraph::subgraph.edges(g_list[[i]], eids = unlist(edg)) 
+  local_comp[[i]] <- decompose(local_g[[i]])
+  V(local_comp[[i]][[1]])$deg <- degree(local_comp[[i]][[1]])
+  E(local_comp[[i]][[1]])$width <- 12*E(local_comp[[i]][[1]])$weight/max(E(local_comp[[i]][[1]])$weight)
+  l = layout_with_fr(local_comp[[i]][[1]])
+  plot(local_comp[[i]][[1]], 
+       vertex.size = 1+V(local_comp[[i]][[1]])$deg/max(V(local_comp[[i]][[1]])$deg)*10, vertex.label = "", 
+       edge.width = E(local_comp[[i]][[1]])$width,
+       layout = l, 
+       main = paste0("Bariloche's academic organization","\n", "ego network (largest component)" ,"\n",names(Mslice)[i])
+       )
+}
+},interval = .8, movie.name = "bch_institutional_animation.gif")
 
 
+#### GRAPH B (right) ----
 
+g <- g_list[[i]]
 
-* Métodos Mixtos: Lo mejor. Permite combinar lo mejor de lo cuanti, cuali y más. 
-as
+# Join features
+g <- contract(g,
+         factor(V(g)$name),
+         vertex.attr.comb = list(name = "first", group = "mean", docs = "max", "random"))
+# attributes were merged: docs max as most of interactions are shared
+g <- simplify(g, remove.loops=T, remove.multiple = T, edge.attr.comb =  list(weight = "max"))
 
+# generate data frames of organizations and collaborations
+un_geo_data = igraph::as_data_frame(g, what = 'both')  # affiliation network from bibliometrix as data frame
 
+orgs <- un_geo_data$vertices %>% 
+  mutate(lat = as.numeric(lat),
+         long = as.numeric(long))
 
-* Analysis de redes: R.
-Si bien es un tema al que no he entrado con demasiada profundidad, por no ajustarse a las necesidades de datos de la tesis, sí tuve la suerte de explorarlo más que superficialmente. Creo son una de las herramienta más poderosas para medir intercambios de información social en contextos variadísimos.  
+# Keep collaborations only with egos from BCH
+un_geo_data$edges$width <- NULL
+collabs <- as_tibble(un_geo_data$edges) %>% 
+  filter(from %in% vert$name | to %in% vert$name) 
 
-Utilicé el paquete Bibliometrics, entre muchos otros, para intentar medir las colaboraciones entre organizaciones académicas y empresariales a través de publicaciones conjuntas. No fue exitoso dado que muy pocas empresas publican, pero sí sirvó para ver colaboraciones entre organizaciones académicas y practicar en el estudio de redes. 
+# World Map (low quality, should be improved)
+map("world", col = "grey20", fill = T, bg = "black", lwd = 0.1)
+title(paste(unique(orgs$year)), col.main = "lightgrey")
+#plot(gadm, col = myColours, border = 'grey')
 
-Más allá de los infinitos problemas que tuve para homogenizar y desambiguar la pertenencia organizacional de los autores, pude sí representar cosas interesantes como la evolución de las colaboraciones con organizaciones de países extranjeros a los largo del tiempo (gif), o la centralidad de organizaciones dentro de las redes nacionales, regionales o locales de colaboración (estadistica tal).  
+points(x = orgs$long, y=orgs$lat, cex = .04+orgs$docs/max(orgs$docs), col = "yellow")
+
+for(j in 1:nrow(collabs)) {
+    node1 <- orgs[orgs$name == collabs[j,]$from,]
+    node2 <- orgs[orgs$name == collabs[j,]$to,]
+    if (!is.na(node1$lat) & !is.na(node2$lat) & node1$lat != node2$lat)
+      {
+    arc <- gcIntermediate(c(node1[1,]$long, node1[1,]$lat), 
+                           c(node2[1,]$long, node2[1,]$lat), 
+                           n=30, addStartEnd=TRUE, breakAtDateLine = T, sp=T)
+    edge.ind <- 1# round(60*collabs[j,]$weight / max(collabs$weight))
+    
+    lines(arc, col=edge.col[edge.ind], lwd=edge.ind/5)
+
+    }
+}
+}
+},interval = .5, movie.name = "bchDynamicInfoMap.gif")
+
+ detach('package:animation')
+
+```
+
+|                                                                      |                                                            |
+|---------------------------------------|---------------------------------|
+| ![](visualMedia/bch_institutional_animation.gif){fig-align="center"} | ![](visualMedia/bchDynamicInfoMap.gif){fig-align="center"} |
+
+### Análisis de datos cualitativos
+
+::: justified
+Además del manejo de datos cuantitativos, el tipo de dato predilecto en las ciencias económicas, también he utilizado **métodos cualitativos**. Si bien mi experiencia en este campo es más limitada, he ido descubriendo su gran potencial en el nivel detalle e información contextual que otorgan. Como explico más adelante, creo que la mejor alternativa metodológica para abordar una problemática es [integrar métodos cuantitativos y cualitativos](#mixtos).
+:::
+
+#### 📌 Entrevistas y casos de estudio.
+
+::: justified
+Ya había hecho algunas entrevistas para mi tesis de maestría pero últimamente me interioricé mucho más: mi tesis doctoral incluye 26 **entrevistas analizadas en Atlas.ti**. Aunque la parte de análisis es importante, ésta representa sólo el final de un largo proceso que incluye, entre otras cosas, la **preparación de las entrevistas, el contacto inicial con los entrevistados, la realización de la entrevista en sí, y la transcripción**. Para entrevistas semi-estructuradas, de las fuentes que he consultado recomiendo particularmente a [@rubin2011; @kvale1994].
+
+Armé un análisis temático [@braunUsingThematicAnalysis2006] a partir una lista de códigos *a priori* como guía, que luego actualicé *a posteriori* con los temas que emergieron en la conversación. El análisis de entrevistas equiere muchísimo trabajo pero la narrativa de multiplies individuos con experiencia directa en el objeto de estudio aporta información realmente valiosa. A continuación una captura de pantalla del proceso de análisis temático en Atlas.ti. En el futuro me entusiasma la idea de hacer *focus groups*.
+:::
+
+![](visualMedia/atlasScreenshot.png){fig-align="center"}
+
+### Métodos Mixtos: integración de datos cuantitativos y cualitativos.
+
+::: justified
+Tuve mi primer experiencia con métodos mixtos en mi tesis doctoral, siguiendo a @creswell2017 y @tashakkori1998. Más allá de su complejidad en el diseño e implementación, ofrece una alternativa que permite **combinar lo mejor de lo cuantitativo y cualitativo**, e incluso **incorporar otras metodologías y marcos teóricos**.
+
+En mi caso particular, adapté e implementé un "*explanatory sequential case study design*". A partir de la selección de un caso de estudio particular, este diseño de investigación comienza por una fase cuantitativa para identificar patrones de comportamiento agregados. El análisis de estos resultados guía la subsiguiente fase de corte cualitativo, en la que se busca alcanzar una comprensión más profunda y matizada de los patrones agregados. Finalmente se integran los resultados de ambas fases, ofreciendo un producto más completo.
+:::
+
+![](visualMedia/metodosMixtos.jpg){fig-align="center"}
+
+## ***Soft Skills***
+
+::: justified
+En complemento a esta lista de habilidades técnicas, también he desarrollado otras competencias sociales fundamentales para alcanzar objetivos de manera individual y colectiva. Estas habilidades "blandas" o *soft skills* están asociadas, por ejemplo, a la comunicación y rasgos de personalidad que facilitan las relaciones interpersonales y un manejo inteligente con el entorno. A continuación una breve lista enumera las principales aptitudes en las que trabajo continuamente y considero valiosas para mi ecosistema profesional:
+
+-   **Resolución de problemas complejos**: Tengo un interés particular por abordar problemáticas complejas y pensar soluciones concretas que eviten caer en propuestas simplistas y reduccionistas. Gracias a una actitud pro-activa y abierta para pensar ideas innovadoras busco diseñar soluciones sofisticadas, "*out-of-the-box*", que no solo consideren las partes de un procesos sino también sus conexiones e interdependencias. En el diseño e implementación de mi tesis doctoral enfrenté todo tipo de problemáticas (metodológicas, de agenda, de limitación de recursos) que pude abordar y enmarcar para dar una respuesta integrada desde una perspectiva compleja.
+
+-   **Comunicación flexible**: La comunicación efectiva es un pilar básico en mi enfoque profesional ya que un mensaje debe ser comprendido por las partes involucradas para alcanzar el impacto deseado. Por tanto, para la transmisión de un mensaje es imprescindible adaptarlo a las necesidades y capacidades del receptor, lo que implica una estrategia de comunicación tanto en la elección de un lenguaje y un formato adecuados. Gracias al rol de intermediario que adopté entre academia e industria, así como mi experiencia previa tanto en la academia como en la consultoría, aprendí a ajustar el lenguaje técnico a términos sencillos y a utilizar de diversos medios (escritos, visuales u orales) según el contexto demande.
+
+-   **Trabajo colaborativo e independiente**: Elaborar y llevar adelante un proyecto de investigación de principio a fin me enseñó a trabajar de manera autónoma. Pero, al mismo tiempo, formar parte de un grupo de investigación y participar en múltiples conferencias, me han enseñado el valor de compartir y colaborar activamente para alcanzar objetivos colectivos. Más aún, en mi experiencia previa como consultor la participación activa y el trabajo colaborativo de todas las partes involucradas fueron determinantes tanto para potenciar las competencias individuales como para alcanzar mejores resultados a nivel colectivo.
+
+-   **Resiliencia y adaptabilidad**: La contínua evolución de los hechos y la tecnología me entusiasma. Considero que los retos representan oportunidades de crecimiento, para los que es necesario aceptar el cambio e incorporar rápidamente nuevas herramientas, métodos y modalidades de trabajo. Ya sea de forma autodidacta o gracias a la formación ofrecida por las organizaciones de las que he formado parte, siempre tomo la iniciativa para dominar nuevas herramientas y aprovechar al máximo su adaptación a las necesidades y el contexto.
+:::
+
+## Otras capacidades y herramientas:
+
+-   [**Pandoc**](https://pandoc.org) / [**Markdown**](https://www.markdownguide.org)
+
+-   Gestores de referencias: [**Zotero**](https://www.zotero.org)
+
+-   [**Prompt Engineering**](/visualMedia/promptEngineering.pdf)
+
+-   [**Decidim**](/visualMedia/CertificatDecidim.pdf)
+
+-   Otros programas y lenguajes que he utilizado: Microsoft Office, Zettlr, Stata, REDATAM, QGIS, Gephi, Freeplane, Python, Java.

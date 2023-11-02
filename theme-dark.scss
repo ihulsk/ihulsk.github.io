@@ -2,6 +2,9 @@
 
 // Note: In .scss files, // denote single line comments. Multi-line comments start with /* and end at the next */.
 
+// Import fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;0,800;0,900;1,300&display=swap');
+
 // Colors
 $primary: #394559; // Main primary color
 $secondary: #657786; // Secondary color
@@ -36,7 +39,7 @@ $orange: #ad7237;
 */
 
 // Font Size
-$my-font-size: 25px;
+$my-font-size: 30px;
 
 // Width
 $my-width: 500px;

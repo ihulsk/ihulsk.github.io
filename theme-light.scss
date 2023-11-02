@@ -2,6 +2,10 @@
 
 // Note: In .scss files, // denote single line comments. Multi-line comments start with /* and end at the next */.
 
+// Import fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;0,800;0,900;1,300&display=swap');
+
+
 // GPT's color pallete
 // Colors
 $primary: #546E7A; // Main primary color
@@ -54,7 +58,7 @@ $code-block-bg: $beige; // code block background color
 */
 
 // Fonts
-$my-font-size: 25px;
+$my-font-size: 30px;
 $my-width: 500px;
 
 // Code Blocks
@@ -69,3 +73,20 @@ $my-width: 500px;
 
 // Callouts
 
+/* --- scss: RULES --- */
+
+h1, h2 {
+  letter-spacing: 1px;
+}
+
+.title {
+  font-wieght: bolder;
+}
+
+.justified {
+  text-align: justify;
+}
+
+.image-center {
+  align-items: center;
+}

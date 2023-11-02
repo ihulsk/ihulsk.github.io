@@ -17,12 +17,13 @@ about:
       href: mailto:ihulsk@gmail.com
 ---
 
-# Hola!
+# ¡Hola! 
 
-Estoy terminando mi doctorado y, si bien amo la producción científica, me cuesta un poco la ciencia básica y el trabajo tan solitario. Ahora que estoy buscando nuevos rumbos preferiría trabajar en términos más concretos, conectados con el territorio. Si bien no descarto un post-doc, lo ideal para mi sería ocupar un rol práctico en alguna organización orientada a la vinculación ciencia y tecnología. Por supuesto, sin abandonar jamás el posterior proceso de abstracción. Ninguna herramienta es más poderosa que la teoría. 
+::: {.justified}
+**Soy Ian** y estoy terminando mi doctorado en la Sociedad de la Información y el Conocimiento en la Universitat Oberta de Catalunya ([UOC](https://www.uoc.edu/portal/es/index.html)). Si bien amo la producción científica, **estoy buscando nuevos rumbos** que me acerquen más al mundo de la práctica. 
 
-Además de presentarme, aprovecho este espacio para mostrarles un poco mi marco teórico a través de mis intereses y capacidades. Diversas entradas, bastante breves, intentar ilustrar cosas que he ido aprendiendo a lo largo de breve existencia: 
+Esa es la razón de ser de esta página: **acercarme a trabajar en entornos más concretos, conectados con el territorio**. Para ello me presento [**a mi**](https://ihulsk.github.io/about.html) y también os comparto algo sobre [**mis capacidades**](https://ihulsk.github.io/skills.html), [**mis intereses**](https://ihulsk.github.io/interests.html) y [**mi manera de pensar**](https://ihulsk.github.io/blog.html).  
 
-Intereses y capacidades para poner en la página. Muy breve. Ejemplo:
----
-## Education
+En los últimos años de mi vida profesional he focalizado mi atención en las colaboraciones entre organizaciones académicas y organizacionales. Aprendí cómo diversos **mecanismos de interacción social pueden favorecer la producción y distribución de conocimiento**. Más allá de sus especificidades, estos mecanismos puede identificarse y diseñarse para mejorar la producción de conocimiento, el aprendizaje y la innovación en cualquier tipo de organización.
+
+:::
