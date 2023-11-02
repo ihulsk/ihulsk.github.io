@@ -1,33 +1,58 @@
 ---
-title: "Interests"
+title: "Intereses académicos y profesionales"
 toc: true
-toc-title: "My interests"
+toc-title: "Mis intereses"
+bibliography: references.bib
 ---
 
-Además de mis habilidades profesionales, mi carrera me ha llevado a explorar diversas áreas de conocimiento que han dejado una huella en mi visión del mundo. A continuación, describo algunas áreas que han cautivado particularmente mi interés:
+::: justified
+Además de mis habilidades profesionales, mi carrera me ha llevado a explorar diversas áreas de conocimiento que han dejado una huella en mi visión del mundo. A continuación, describo algunas áreas que han cautivado particularmente mi atención:
+:::
 
 ## Teoría de la Complejidad y Teoría de la Información
 
--   La teoría de la complejidad y la teoría de la información son campos apasionantes que han capturado mi atención. La teoría de la complejidad explora cómo los sistemas complejos pueden dar lugar a propiedades emergentes sorprendentes, y la teoría de la información, como desarrollada por Claude Shannon, arroja luz sobre cómo la información se transmite y se procesa. Mi participación en un curso en este campo me ha brindado una comprensión más profunda de conceptos como la entropía y la codificación de datos.
+::: justified
+🧩 Explorando la complejidad de los fenómenos. 📚 [Formaciones](https://www.youtube.com/@redcompleja4990) y entusiasmo por propiedades emergentes, entropía [@ben-naim2008], la obra revolucionaria de Claude Shannon [-@shannon1949] y estudios posteriores en diversas áreas de conocimiento [e.g., @boisot2004; @gleick2011; @snowden2002; @polyanskiy2022].
+:::
 
 ## Teoría de grafos y análisis de redes
 
-Muy relacionado con la teoría de la complejidad, el análisis de redes permite considerar no sólo los agentes involucrados sino también sus relaciones.
-
-## Zettelkasten
+::: justified
+🌐 Desentrañando las relaciones más allá de los actores. 🔗 Representar la compejidad como sistemas interconectados e interdependientes, considerando tanto los nodos como los vínculos que los unen [@börner2007; @granovetter1973; @granovetter1983; @newman2018].
+:::
 
 ## Economía, instituciones y cultura
 
--   Commons: Ostrom, leí su libro y propone una alternativa de gestión, de construcción de organizaciones e instituciones muy interesante. Si bien el contexto de aplicación es ilimitado, ha aparecido también quienes los han abordado en contextos de digitalización. A investigación está limitada a características de contexto y muy específicas que admiten
+::: justified
+💼 Explorando las bases socio-culturales del comportamiento económico. 📖 Investigación interdisciplinaria sobre cómo la cultura y las instituciones influyen en la gestión de los recursos, la información y el conocimiento. En este caso la lista de referencias es demasiado extensa pero, por fuera de la economía pura y dura, vale la pena mencionar los trabajos en sistemas de innovación [@cooke2001; @etzkowitz2000; @lundvall1988; @nelson1993], innovación abierta [@chesbrough2003; @vonhippel2005], commons [@allen2016; @hess2007; @kostakis2015; @ostrom1990], economía de la información [@boisot1998].
+:::
 
--   Representar grupos sociales en términos culturales. Democracia. Commons. Arte. Religión.
+## Teoría de las Organizaciones y Gestión del Conocimiento
 
-## Gestión y teoría de las organizaciones
+::: justified
+🏘️ Estudiando estrategias para la producción colectiva de conocimiento 📦 Es otro campo en el que la abundancia de bibliografía es notable. Más allá de incontables referencias clásicas [e.g., @alavi2001; @cetina1999; @march1991; @nonaka1995; @polanyi1958; @teece1997], destaco el marco teórico desarrollado por Boisot [-@boisot1995] para entender flujos de información y conocimiento en entornos sociales: el *Information Space* o *I-Space*. Codificación, abstracción y difusión son tres dimensiones clave que sirven para analizar la continua producción de conocimiento [@boisot2011].
+:::
 
--   el I-Space: codificación, abstracción, difusión. El pilar principal de mi marco conceptual es Boisot (1995, 1998). Como economista de formación, me encanta su propuesta informacional de la economía y el cambio tecnológico. Pero lo que ofrece como marco teórico es mucho más que eso, sirve para pensar todo tipo de flujos de información y conocimiento.
+## Plataformas y digitalización
 
-Se llama I-Space justamente porque permite representar toda expresión de información en un espacio de tres dimensiones. Las dimensiones que caracterizan sirven para representar información son grados de codificación, abstracción y difusión. Al ser evaluadas por grado o nivel, cada dimension se representa en términos relativos.
+::: justified
+🗂️ Navegando la Era Digital. 📊 Explorando el fenómeno de las plataformas y su impacto generalizado en la economía contemporánea. Me atraen particularmente las perspectivas teóricas como Gawer [-@gawer2020]. Es fundamental entender cómo estas plataformas están remodelando las interacciones económicas y sociales. Escribimos [algo sobre el tema](https://comein.uoc.edu/divulgacio/oikonomics/_recursos/documents/14/canals-hulskamp_Oikonomics14_esp.pdf).
+:::
 
-Espero tener tiempo pronto para presentar un poco mejor de que va, pero lo que más debo recomendaros es que lo lean a él.
+## Filosofía: Pragmatismo, enactivismo, educación, psicología
 
-## Filosofía: Pragmatismo, enactivismo, educación, psicología,
+::: justified
+🧠 Filosofía en acción. 📜 Exploración de enfoques pragmatistas [@dewey1923], enactivistas [@varela2017] y su aplicación en campos como la educación y la psicología [e.g., @bereiter2014; @kress2009; @scardamalia2010].
+:::
+
+## Zettelkasten
+
+::: justified
+🗂️ Organización creativa. 🤯 La [técnica del Zettelkasten](https://docs.zettlr.com/en/advanced/zkn-method/) como motor de generación de ideas y organización de pensamientos [@ahrens2022].
+:::
+
+## Idiomas
+
+::: justified
+🗣️ Conectando a través del lenguaje. 🌎 Mi pasión por comprender diferencias culturales y patrones de comunicación me ha llevado indefectiblemente a aprender idiomas. Además de mi fluidez en español, inglés, italiano y catalán (aún lo estudio activamente), puedo comunicarme en francés. Me encantaría poder seguir aprendiendo otras lenguas.
+:::

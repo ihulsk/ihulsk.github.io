@@ -1,8 +1,8 @@
 ---
-title: "Skills"
+title: "Mis habilidades"
 toc: true
 toc-depth: 4
-toc-title: "My Skills"
+toc-title: "Mis Skills"
 bibliography: /Users/ihulsk/Google Drive/Biblioteca/My Library.json
 code-fold: true
 ---
@@ -11,7 +11,7 @@ code-fold: true
 A lo largo de mi formación y mi carrera profesional desarrollé múltiples capacidades relacionadas al manejo de diversas **metodologías y herramientas**, tanto cuantitativas como cualitativas, así como competencias blandas o ***soft skills***. Hago aquí una breve enumeración de las habilidades más relevantes que ha puesto en práctica en los últimos tiempos y podrían ser útiles para cualquier tipo de organización.
 :::
 
-## Technical Skills
+## Habilidades técnicas
 
 ### Análisis de datos cuantitativos:
 
@@ -174,7 +174,7 @@ En mi caso particular, adapté e implementé un "*explanatory sequential case st
 
 ![](visualMedia/metodosMixtos.jpg){fig-align="center"}
 
-## ***Soft Skills***
+## Habilidades blandas o "Soft Skills"
 
 ::: justified
 En complemento a esta lista de habilidades técnicas, también he desarrollado otras competencias sociales fundamentales para alcanzar objetivos de manera individual y colectiva. Estas habilidades "blandas" o *soft skills* están asociadas, por ejemplo, a la comunicación y rasgos de personalidad que facilitan las relaciones interpersonales y un manejo inteligente con el entorno. A continuación una breve lista enumera las principales aptitudes en las que trabajo continuamente y considero valiosas para mi ecosistema profesional:
@@ -198,4 +198,4 @@ En complemento a esta lista de habilidades técnicas, también he desarrollado o
 
 -   [**Decidim**](/visualMedia/CertificatDecidim.pdf)
 
--   Otros programas y lenguajes que he utilizado: Microsoft Office, Zettlr, Stata, REDATAM, QGIS, Gephi, Freeplane, Python, Java.
+-   Otros programas y lenguajes que he utilizado: Microsoft Office, Zettlr, Stata, REDATAM, QGIS, Gephi, Freeplane, $LaTeX$, Python, Java.

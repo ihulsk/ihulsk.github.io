@@ -43,3 +43,21 @@ $my-font-size: 30px;
 
 // Width
 $my-width: 500px;
+
+/* --- scss: RULES --- */
+
+h1, h2 {
+  letter-spacing: 1px;
+}
+
+.title {
+  font-wieght: bolder;
+}
+
+.justified {
+  text-align: justify;
+}
+
+.image-center {
+  align-items: center;
+}
