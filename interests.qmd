@@ -4,25 +4,25 @@ toc: true
 toc-title: "My interests"
 ---
 
-Además de las capacidades o skills que he ido construyendo a lo largo de mi carrera, también he explorado diversas áreas de conocimiento que han llamado mi atención.
+Además de mis habilidades profesionales, mi carrera me ha llevado a explorar diversas áreas de conocimiento que han dejado una huella en mi visión del mundo. A continuación, describo algunas áreas que han cautivado particularmente mi interés:
 
-## Complexity Theory and Information Theory
+## Teoría de la Complejidad y Teoría de la Información
 
-Estoy haciendo un curso, conozco algo del tema. Propiedades emergentes y entropía. Claude Shannon
+-   La teoría de la complejidad y la teoría de la información son campos apasionantes que han capturado mi atención. La teoría de la complejidad explora cómo los sistemas complejos pueden dar lugar a propiedades emergentes sorprendentes, y la teoría de la información, como desarrollada por Claude Shannon, arroja luz sobre cómo la información se transmite y se procesa. Mi participación en un curso en este campo me ha brindado una comprensión más profunda de conceptos como la entropía y la codificación de datos.
 
-## Network Analysis
+## Teoría de grafos y análisis de redes
 
 Muy relacionado con la teoría de la complejidad, el análisis de redes permite considerar no sólo los agentes involucrados sino también sus relaciones.
 
 ## Zettelkasten
 
-## Economics, Social Institutions and Culture
+## Economía, instituciones y cultura
 
 -   Commons: Ostrom, leí su libro y propone una alternativa de gestión, de construcción de organizaciones e instituciones muy interesante. Si bien el contexto de aplicación es ilimitado, ha aparecido también quienes los han abordado en contextos de digitalización. A investigación está limitada a características de contexto y muy específicas que admiten
 
 -   Representar grupos sociales en términos culturales. Democracia. Commons. Arte. Religión.
 
-## Management and Organizations Theory
+## Gestión y teoría de las organizaciones
 
 -   el I-Space: codificación, abstracción, difusión. El pilar principal de mi marco conceptual es Boisot (1995, 1998). Como economista de formación, me encanta su propuesta informacional de la economía y el cambio tecnológico. Pero lo que ofrece como marco teórico es mucho más que eso, sirve para pensar todo tipo de flujos de información y conocimiento.
 
