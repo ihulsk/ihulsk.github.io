@@ -14,9 +14,7 @@ Pero ahora que mi primer *draft* completo de tesis está en corrección, **me pr
 :::
 
 ::: {.g-col-6 .text-center}
-![](visualMedia/hulskamp.jpg){width="350"}
-<!-- ![](me.jpeg){width="350"} -->
-
+![](visualMedia/hulskamp.jpg){width="350"} <!-- ![](me.jpeg){width="350"} -->
 :::
 :::
 
