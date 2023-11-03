@@ -8,7 +8,7 @@ code-fold: true
 ---
 
 ::: justified
-A lo largo de mi formación y mi carrera profesional desarrollé múltiples capacidades relacionadas al manejo de diversas **metodologías y herramientas**, tanto cuantitativas como cualitativas, así como competencias blandas o ***soft skills***. Hago aquí una breve enumeración de las habilidades más relevantes que ha puesto en práctica en los últimos tiempos y podrían ser útiles para cualquier tipo de organización.
+A lo largo de mi formación y mi carrera profesional desarrollé múltiples capacidades relacionadas al manejo de diversas **metodologías y herramientas**, tanto cuantitativas como cualitativas, así como competencias blandas o ***soft skills***. Hago aquí una breve enumeración de las habilidades más relevantes que ha puesto en práctica en los últimos tiempos y podrían ser de utilidad para organizaciones de distintos ámbitos.
 :::
 
 ## Habilidades técnicas
@@ -16,15 +16,17 @@ A lo largo de mi formación y mi carrera profesional desarrollé múltiples capa
 ### Análisis de datos cuantitativos:
 
 ::: justified
-La **estadística** es sin duda una de las ramas de conocimiento humano más relevantes por impacto y capacidad transformadora. El valor de poder identificar y cuantificar patrones con precisión matemática en infinidad de entornos diferentes es difícilmente igualable. Si bien, como todo, tiene sus limitaciones y su valor predictivo depende de la cantidad y calidad de datos, es un elemento de análisis imprescindible.
+La capacidad de identificar y cuantificar patrones con precisión matemática en diversos contextos es esencial por su gran relevancia y poder transformador.
 :::
 
-#### 📌 Análisis estadístico
+<details>
+
+<summary>📌 Análisis estadístico</summary>
 
 ::: justified
-Gracias a mi formación continuada desde mi primer clase de estadística en la Universidad de Buenos Aires, hace más de 10 años, mi relación con la materia tiene cierta extensión. Más allá de mi interés conceptual y aplicaciones en entornos de investigación, recuerdo mi etapa más aplicada cuando estuve en CEPAL, primero como pasante y luego como consultor. Gracias al apoyo y la guía de Daniel Vega pude participar, en colaboración con organizaciones gubernamentales Argentinas, en el desarrollo de un **indice de precios al consumidor (IPC) e indicadores de actividad económica**.
+Mi relación con la estadística se remonta a más de 10 años, desde mi primera clase en la Universidad de Buenos Aires. Más allá de mi interés conceptual y análisis en entornos de investigación, he aplicado mis conocimientos durante mi tiempo en la CEPAL, donde contribuí al desarrollo de un **índice de precios al consumidor (IPC)** **y otros indicadores económicos** en colaboración con organizaciones gubernamentales argentinas.
 
-Últimamente trabajé en **modelos de variables categóricas, binomiales y multinomiales**, para analizar datos de **encuesta online**, que no sólo analicé sino también **diseñé y distribuí utilizado [Qualtrics](https://www.qualtrics.com/)**, en el marco de mi tesis doctoral. El análisis final de la tesis usé una versión compleja de proportional odds model [@mccullaghRegressionModelsOrdinal1980], que permite representar variables categóricas ordinales (tipo escala Likert) como variable dependiente. Únicamente a modo ilustrativo, el siguiente gráfico muestra como diferentes nivel de satisfacción, asociados a distintos modos de colaboración, varían según la edad de los colaboradores.
+Más recientemente, en el marco de mi tesis doctoral, trabajé en **modelos de variables categóricas, binomiales y multinomiales**, para analizar datos de **encuesta online**, que no sólo analicé sino también **diseñé y distribuí utilizado [Qualtrics](https://www.qualtrics.com/)**. El análisis final de la tesis usé una versión compleja de proportional odds model [@mccullaghRegressionModelsOrdinal1980], que permite representar variables categóricas ordinales (tipo escala Likert) como variable dependiente. Únicamente a modo ilustrativo, el siguiente gráfico muestra como diferentes nivel de satisfacción, asociados a distintos modos de colaboración, varían según la edad de los colaboradores.
 :::
 
 ```{r eval=FALSE, echo=TRUE}
@@ -46,14 +48,16 @@ gg
 
 ![](visualMedia/exampleModes.png){fig-align="center"}
 
-#### 📌 Análisis de redes sociales en R y Gephi. {#mixtos}
+</details>
+
+<details>
+
+<summary>📌 Análisis de redes sociales en R y Gephi.</summary>
 
 ::: justified
-Además de haber trabajando en análisis estadístico descriptivo e inferencial, también he explorado la **teoría de grafos y el análisis de redes sociales**. Si bien es un tema al que no he tratado con excesiva profundidad ya que no respondía a las necesidades de datos de la tesis doctoral, sí tuve la suerte de explorarlo más que superficialmente. Creo son una de las herramienta más poderosas para medir intercambios de información social en contextos variados.
+Aunque mi enfoque principal ha sido el análisis estadístico, descriptivo e inferencial, también he explorado la teoría de grafos y el análisis de redes sociales. Si bien no lo he investigado en profundidad debido a las necesidades de mi tesis, he utilizado el paquete [Bibliometrix](https://www.bibliometrix.org/home/) y otros para medir las colaboraciones entre organizaciones académicas y empresariales a través de publicaciones conjuntas.
 
-En mi experiencia utilicé el paquete [Bibliometrix](https://www.bibliometrix.org/home/), en combinación con muchos otros, para medir las colaboraciones entre organizaciones académicas y empresariales a través de publicaciones académicas conjuntas. No fue exitoso dado que muy pocas empresas publican, pero sí sirvió para ver colaboraciones entre organizaciones académicas y practicar en el estudio de redes.
-
-A continuación una representación gráfica de la **evolución las colaboraciones en publicaciones académicas de diversas organizaciones académicas de la ciudad de Bariloche, Argentina**. Más allá de los infinitos problemas que tuve para homogeneizar y desambiguar la pertenencia organizacional de los autores a partir de datos de Scopus, sí pude representar cosas interesantes como la evolución de las colaboraciones entre organizaciones locales y externas a los largo del tiempo, tanto en forma de red (izq.) como geográficas (der.). Si quieren ver resultados un poco más completos [aquí](visualMedia/hulskampPresentation.mp4) una grabación de mi presentación en la Networks 2021: Joint Sunbelt & NetScie Conference.
+No fue exitoso dado que muy pocas empresas publican, pero sí sirvió para ver colaboraciones entre organizaciones académicas y practicar en el estudio de redes. Esto me permitió examinar las colaboraciones en el ámbito académico y practicar el análisis de redes. Así, por ejemplo, he podido representar la evolución de las colaboraciones en publicaciones académicas de diversas organizaciones de la ciudad de Bariloche, Argentina. A continuación dos representaciones gráficas de la colaboraciones en Bariloche, tanto en forma de red (izq.) como geográficas (der.). Si quieren ver resultados un poco más completos [aquí](visualMedia/hulskampPresentation.mp4) una grabación de mi presentación en la Networks 2021: Joint Sunbelt & NetScie Conference.
 :::
 
 ```{r eval=FALSE, echo=TRUE, comment= F, warning = F}
@@ -148,54 +152,88 @@ for(j in 1:nrow(collabs)) {
 |---------------------------------------|---------------------------------|
 | ![](visualMedia/bch_institutional_animation.gif){fig-align="center"} | ![](visualMedia/bchDynamicInfoMap.gif){fig-align="center"} |
 
+</details>
+
 ### Análisis de datos cualitativos
 
 ::: justified
-Además del manejo de datos cuantitativos, el tipo de dato predilecto en las ciencias económicas, también he utilizado **métodos cualitativos**. Si bien mi experiencia en este campo es más limitada, he ido descubriendo su gran potencial en el nivel detalle e información contextual que otorgan. Como explico más adelante, creo que la mejor alternativa metodológica para abordar una problemática es [integrar métodos cuantitativos y cualitativos](#mixtos).
+Además del enfoque cuantitativo, también he trabajado con métodos cualitativos. Si bien mi experiencia en este campo es más limitada, he ido descubriendo su gran potencial en el nivel detalle e información contextual que otorgan.
 :::
 
-#### 📌 Entrevistas y casos de estudio.
+<details>
+
+<summary>📌 Entrevistas y casos de estudio.</summary>
 
 ::: justified
-Ya había hecho algunas entrevistas para mi tesis de maestría pero últimamente me interioricé mucho más: mi tesis doctoral incluye 26 **entrevistas analizadas en Atlas.ti**. Aunque la parte de análisis es importante, ésta representa sólo el final de un largo proceso que incluye, entre otras cosas, la **preparación de las entrevistas, el contacto inicial con los entrevistados, la realización de la entrevista en sí, y la transcripción**. Para entrevistas semi-estructuradas, de las fuentes que he consultado recomiendo particularmente a [@rubin2011; @kvale1994].
-
-Armé un análisis temático [@braunUsingThematicAnalysis2006] a partir una lista de códigos *a priori* como guía, que luego actualicé *a posteriori* con los temas que emergieron en la conversación. El análisis de entrevistas equiere muchísimo trabajo pero la narrativa de multiplies individuos con experiencia directa en el objeto de estudio aporta información realmente valiosa. A continuación una captura de pantalla del proceso de análisis temático en Atlas.ti. En el futuro me entusiasma la idea de hacer *focus groups*.
+Había realizado entrevistas para mi tesis de maestría y, más recientemente, para mi tesis doctoral, analicé 26 **entrevistas utilizando Atlas.ti**. La preparación de entrevistas, el contacto con los entrevistados, la realización de las entrevistas y la transcripción son partes esenciales de este proceso [@rubin2011; @kvale1994]. Para el análisis utilicé un análisis temático [@braunUsingThematicAnalysis2006] basado en una lista de códigos *a priori*, que luego actualicé con temas emergentes. El análisis de entrevistas puede ser un trabajo arduo pero proporciona información valiosa de múltiples individuos con experiencia directa en el tema de estudio. A continuación una captura de pantalla del proceso de análisis temático en Atlas.ti. En el futuro me entusiasma la idea de hacer *focus groups*.
 :::
 
 ![](visualMedia/atlasScreenshot.png){fig-align="center"}
 
-### Métodos Mixtos: integración de datos cuantitativos y cualitativos.
+</details>
+
+### Análisis de métodos mixtos
 
 ::: justified
-Tuve mi primer experiencia con métodos mixtos en mi tesis doctoral, siguiendo a @creswell2017 y @tashakkori1998. Más allá de su complejidad en el diseño e implementación, ofrece una alternativa que permite **combinar lo mejor de lo cuantitativo y cualitativo**, e incluso **incorporar otras metodologías y marcos teóricos**.
+Tuve mi primer experiencia con métodos mixtos durante mi tesis doctoral, siguiendo a @creswell2017 y @tashakkori1998. Más allá de su complejidad en el diseño e implementación, ofrece una alternativa que permite **combinar lo mejor de lo cuantitativo y cualitativo**, e incluso **incorporar otras metodologías y marcos teóricos**.
+:::
 
-En mi caso particular, adapté e implementé un "*explanatory sequential case study design*". A partir de la selección de un caso de estudio particular, este diseño de investigación comienza por una fase cuantitativa para identificar patrones de comportamiento agregados. El análisis de estos resultados guía la subsiguiente fase de corte cualitativo, en la que se busca alcanzar una comprensión más profunda y matizada de los patrones agregados. Finalmente se integran los resultados de ambas fases, ofreciendo un producto más completo.
+<details>
+
+<summary>📌 Integración de datos cuantitativos y cualitativos.</summary>
+
+::: justified
+En mi caso, adapté e implementé un "*explanatory sequential case study design*". A partir de la selección de un caso de estudio particular, este diseño comienza por una fase cuantitativa para identificar patrones de comportamiento agregados. El análisis de estos resultados guía la subsiguiente fase de corte cualitativo, en la que se busca alcanzar una comprensión más profunda y matizada de los patrones agregados. Finalmente se integran los resultados de ambas fases, ofreciendo un producto más completo.
 :::
 
 ![](visualMedia/metodosMixtos.jpg){fig-align="center"}
 
+</details>
+
 ## Habilidades blandas o "Soft Skills"
 
 ::: justified
-En complemento a esta lista de habilidades técnicas, también he desarrollado otras competencias sociales fundamentales para alcanzar objetivos de manera individual y colectiva. Estas habilidades "blandas" o *soft skills* están asociadas, por ejemplo, a la comunicación y rasgos de personalidad que facilitan las relaciones interpersonales y un manejo inteligente con el entorno. A continuación una breve lista enumera las principales aptitudes en las que trabajo continuamente y considero valiosas para mi ecosistema profesional:
+En complemento a esta lista de habilidades técnicas, también he desarrollado otras competencias sociales que son fundamentales para alcanzar objetivos, ya sea de manera individual o colectiva. Estas habilidades "blandas" o *soft skills* están asociadas, por ejemplo, a la comunicación y rasgos de personalidad que facilitan las relaciones interpersonales y un manejo inteligente con el entorno. A continuación una breve lista enumera las principales aptitudes en las que trabajo continuamente y considero valiosas para mi ecosistema profesional:
 
--   **Resolución de problemas complejos**: Tengo un interés particular por abordar problemáticas complejas y pensar soluciones concretas que eviten caer en propuestas simplistas y reduccionistas. Gracias a una actitud pro-activa y abierta para pensar ideas innovadoras busco diseñar soluciones sofisticadas, "*out-of-the-box*", que no solo consideren las partes de un procesos sino también sus conexiones e interdependencias. En el diseño e implementación de mi tesis doctoral enfrenté todo tipo de problemáticas (metodológicas, de agenda, de limitación de recursos) que pude abordar y enmarcar para dar una respuesta integrada desde una perspectiva compleja.
+<details>
 
--   **Comunicación flexible**: La comunicación efectiva es un pilar básico en mi enfoque profesional ya que un mensaje debe ser comprendido por las partes involucradas para alcanzar el impacto deseado. Por tanto, para la transmisión de un mensaje es imprescindible adaptarlo a las necesidades y capacidades del receptor, lo que implica una estrategia de comunicación tanto en la elección de un lenguaje y un formato adecuados. Gracias al rol de intermediario que adopté entre academia e industria, así como mi experiencia previa tanto en la academia como en la consultoría, aprendí a ajustar el lenguaje técnico a términos sencillos y a utilizar de diversos medios (escritos, visuales u orales) según el contexto demande.
+<summary>📌 **Resolución de problemas complejos**:</summary>
 
--   **Trabajo colaborativo e independiente**: Elaborar y llevar adelante un proyecto de investigación de principio a fin me enseñó a trabajar de manera autónoma. Pero, al mismo tiempo, formar parte de un grupo de investigación y participar en múltiples conferencias, me han enseñado el valor de compartir y colaborar activamente para alcanzar objetivos colectivos. Más aún, en mi experiencia previa como consultor la participación activa y el trabajo colaborativo de todas las partes involucradas fueron determinantes tanto para potenciar las competencias individuales como para alcanzar mejores resultados a nivel colectivo.
+Me apasiona abordar problemáticas complejas y pensar soluciones concretas que eviten caer en propuestas simplistas y reduccionistas. Gracias a una actitud pro-activa y abierta para pensar ideas innovadoras busco diseñar soluciones sofisticadas, "*out-of-the-box*", que no solo consideren las partes de un procesos sino también sus conexiones e interdependencias. En el diseño e implementación de mi tesis doctoral enfrenté todo tipo de problemáticas (metodológicas, de agenda, de limitación de recursos) que pude abordar y enmarcar para dar una respuesta integrada desde una perspectiva compleja.
 
--   **Resiliencia y adaptabilidad**: La contínua evolución de los hechos y la tecnología me entusiasma. Considero que los retos representan oportunidades de crecimiento, para los que es necesario aceptar el cambio e incorporar rápidamente nuevas herramientas, métodos y modalidades de trabajo. Ya sea de forma autodidacta o gracias a la formación ofrecida por las organizaciones de las que he formado parte, siempre tomo la iniciativa para dominar nuevas herramientas y aprovechar al máximo su adaptación a las necesidades y el contexto.
+</details>
+
+<details>
+
+<summary>📌 **Comunicación flexible**:</summary>
+
+La comunicación efectiva es esencial en mi enfoque profesional. Ajusto el lenguaje técnico a términos comprensibles y adapto el formato del mensaje según el contexto y el receptor. Esto ha sido fundamental en mi rol de intermediario entre la academia y la industria.
+
+</details>
+
+<details>
+
+<summary>📌 **Trabajo colaborativo e independiente**:</summary>
+
+Elaborar y llevar adelante un proyecto de investigación de principio a fin me enseñó a trabajar de manera autónoma. Pero, al mismo tiempo, formar parte de un grupo de investigación y participar en múltiples conferencias, me han enseñado el valor de compartir y colaborar activamente para alcanzar objetivos colectivos. La colaboración es clave para potenciar competencias individuales y lograr mejores resultados colectivos.
+
+</details>
+
+<details>
+
+<summary>📌 **Resiliencia y adaptabilidad**:</summary>
+
+La continua evolución de los hechos y la tecnología me entusiasma. Considero que los retos representan oportunidades de crecimiento, para los que es necesario aceptar el cambio e incorporar rápidamente nuevas herramientas, métodos y modalidades de trabajo. Ya sea de forma autodidacta o gracias a la formación ofrecida por las organizaciones de las que he formado parte, siempre tomo la iniciativa para dominar nuevas herramientas y aprovechar al máximo su adaptación a las necesidades y el contexto.
+
+</details>
 :::
 
 ## Otras capacidades y herramientas:
 
--   [**Pandoc**](https://pandoc.org) / [**Markdown**](https://www.markdownguide.org)
+-   📌 [**Pandoc**](https://pandoc.org) / [**Markdown**](https://www.markdownguide.org)
 
--   Gestores de referencias: [**Zotero**](https://www.zotero.org)
+-   📌 [**Prompt Engineering**](/visualMedia/promptEngineering.pdf)
 
--   [**Prompt Engineering**](/visualMedia/promptEngineering.pdf)
+-   📌 [**Decidim**](/visualMedia/CertificatDecidim.pdf)
 
--   [**Decidim**](/visualMedia/CertificatDecidim.pdf)
-
--   Otros programas y lenguajes que he utilizado: Microsoft Office, Zettlr, Stata, REDATAM, QGIS, Gephi, Freeplane, $LaTeX$, Python, Java.
+-   📌 Otros programas y lenguajes que he utilizado: Microsoft Office, Zettlr, Stata, REDATAM, QGIS, Gephi, Freeplane, Zotero, $LaTeX$, Python, Java.

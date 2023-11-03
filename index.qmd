@@ -17,13 +17,12 @@ about:
       href: mailto:ihulsk@gmail.com
 ---
 
-# ¡Hola! 
+# ¡Hola!
 
-::: {.justified}
-**Soy Ian** y estoy terminando mi doctorado en la Sociedad de la Información y el Conocimiento en la Universitat Oberta de Catalunya ([UOC](https://www.uoc.edu/portal/es/index.html)). Si bien amo la producción científica, **estoy buscando nuevos rumbos** que me acerquen más al mundo de la práctica. 
+::: justified
+**Soy Ian** y estoy a punto de completar mi doctorado en la Sociedad de la Información y el Conocimiento en la Universitat Oberta de Catalunya ([UOC](https://www.uoc.edu/portal/es/index.html)). Si bien amo la producción científica, **estoy buscando nuevos rumbos** que me acerquen más al mundo de la acción y la práctica.
 
-Esa es la razón de ser de esta página: **acercarme a trabajar en entornos más concretos, conectados con el territorio**. Para ello me presento [**a mi**](https://ihulsk.github.io/about.html) y también os comparto algo sobre [**mis capacidades**](https://ihulsk.github.io/skills.html), [**mis intereses**](https://ihulsk.github.io/interests.html) y [**mi manera de pensar**](https://ihulsk.github.io/blog.html).  
+La razón de ser de esta página es **establecer puentes hacia entornos más concretos, conectados con el territorio**. En este espacio, no solo [**me presento**](https://ihulsk.github.io/about.html), sino también comparto algo sobre [**mis capacidades**](https://ihulsk.github.io/skills.html), [**mis intereses**](https://ihulsk.github.io/interests.html) y [**mi manera de pensar**](https://ihulsk.github.io/blog.html).
 
-En los últimos años de mi vida profesional he focalizado mi atención en las colaboraciones entre organizaciones académicas y organizacionales. Aprendí cómo diversos **mecanismos de interacción social pueden favorecer la producción y distribución de conocimiento**. Más allá de sus especificidades, estos mecanismos puede identificarse y diseñarse para mejorar la producción de conocimiento, el aprendizaje y la innovación en cualquier tipo de organización.
-
+En los últimos años de mi carrera profesional, mi enfoque se ha centrado en las colaboraciones entre organizaciones académicas y organizacionales. Aprendí cómo diversos **mecanismos de interacción social pueden favorecer la producción y distribución de conocimiento**. Es fascinantes que, más allá de sus especificidades, estos mecanismos puede identificarse y ser diseñados para mejorar la producción de conocimiento, el aprendizaje y la innovación en todo tipo de organizaciones.
 :::

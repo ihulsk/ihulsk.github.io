@@ -19,10 +19,10 @@ website:
         text: Blog/Wiki
       - href: "cv/CV-IH-1023.pdf"
         text: CV
-      - icon: twitter
-        href: https://twitter.com/ihulsk
-      - icon: github
-        href: https://github.com/ihulsk
+      # - icon: twitter
+      #   href: https://twitter.com/ihulsk
+      # - icon: github
+      #   href: https://github.com/ihulsk
       
         
   
@@ -35,6 +35,8 @@ website:
         href: https://twitter.com/ihulsk
       - icon: github
         href: https://github.com/ihulsk
+      - icon: linkedin
+        href: https://www.linkedin.com/in/ian-hulskamp/
       - icon: envelope
         href: mailto:ihulsk@gmail.com
 

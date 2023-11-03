@@ -90,3 +90,10 @@ h1, h2 {
 .image-center {
   align-items: center;
 }
+
+.frame {
+  border: 2px solid #555;
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
