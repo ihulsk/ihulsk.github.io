@@ -13,7 +13,7 @@ A lo largo de mi formación y mi carrera profesional desarrollé múltiples capa
 
 ## Habilidades técnicas
 
-### Análisis de datos cuantitativos:
+### Análisis de datos cuantitativos
 
 ::: justified
 La capacidad de identificar y cuantificar patrones con precisión matemática en diversos contextos es esencial por su gran relevancia y poder transformador.
@@ -21,7 +21,7 @@ La capacidad de identificar y cuantificar patrones con precisión matemática en
 
 <details>
 
-<summary>📌 Análisis estadístico</summary>
+<summary>📌 Análisis estadístico.</summary>
 
 ::: justified
 Mi relación con la estadística se remonta a más de 10 años, desde mi primera clase en la Universidad de Buenos Aires. Más allá de mi interés conceptual y análisis en entornos de investigación, he aplicado mis conocimientos durante mi tiempo en la CEPAL, donde contribuí al desarrollo de un **índice de precios al consumidor (IPC)** **y otros indicadores económicos** en colaboración con organizaciones gubernamentales argentinas.

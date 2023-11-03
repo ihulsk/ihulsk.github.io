@@ -5,7 +5,7 @@ page-layout: full
 ---
 
 ::: grid
-::: {.g-col-6 .g-col-md-6 .justified}
+::: {.g-col-12 .g-col-md-6 .justified}
 Si estás buscando una versión concisa y directa de mi experiencia académica y profesional, te invito a consultar mi [CV](cv/CV-IH-1023.pdf).
 
 **Economista** de formación, encontré **mi nicho** en temas de **innovación y conocimiento**. La curiosidad y la pasión por aprender me han permitido transitar el desafiante y enriquecedor camino del doctorado. Durante este recorrido, desarrollé una [amplia gama de habilidades](skills.qmd) necesarias para planificar y llevar a cabo un proyecto de investigación.
@@ -13,7 +13,7 @@ Si estás buscando una versión concisa y directa de mi experiencia académica y
 Con mi tesis completa en proceso de revisión, **estoy ansioso por explorar nuevos rumbos**. Me gustaría estar en contacto más directo con la realidad. No quiero sólo evaluar, sino también ejecutar, **implementar mejoras y ver cómo evolucionan de manera continua y progresiva.** <!--# La inacción de la ciencia básica y su modalidad de trabajo solitaria. Por eso, mientras espero las últimas correcciones de mi primer draft, me preparo para explorar nuevos rumbos.  -->Si bien mi amor por la investigación teórica y los conceptos abstractos es innegable, me gustaría encontrar un rol que me permita asistir a las organizaciones en la mejora de su vinculación con el entorno y el fortalecimiento de su base de conocimiento.<!-- No quiero abandonar por completo los altos niveles abstracción, no olvido que no hay herramienta más poderosa que la teoría, pero necesito lidiar con la realidad. Evaluar para ejecutar, buscando e implementando mejoras continuas y progresivas. Si bien con este deseo no descarto por completo un post-doc, sería ideal para mi encontrar un rol práctico dentro de alguna organización comprometida a mejorar su vinculación con el entorno. -->
 :::
 
-::: {.g-col-6 .g-col-md-6 .text-center}
+::: {.g-col-12 .g-col-md-6 .text-center}
 ![](visualMedia/hulskamp.jpg){width="350" style="border: 2px solid #555; border-radius: 20px; padding: 5px; box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);"} <!-- ![](me.jpeg){width="350"} -->
 :::
 :::
@@ -23,7 +23,7 @@ Con mi tesis completa en proceso de revisión, **estoy ansioso por explorar nuev
 ## Mi Formación y Trayectoria
 
 ::: grid
-::: {.g-col-6 .g-col-md-6 .text-center}
+::: {.g-col-12 .g-col-md-6 .text-center}
 ```{r, echo=FALSE, warning=FALSE}
 #| echo: false
 #| warning: false
@@ -61,7 +61,7 @@ zoomBchMarkers
 ```
 :::
 
-::: {.g-col-6 .g-col-md-6 .justified}
+::: {.g-col-12 .g-col-md-6 .justified}
 Antes de empezar mi **doctorado en la Sociedad de la Información y el Conocimiento** en la Universitat Oberta de Catlunya (UOC), completé una **maestría doble en "Economía de la Innovación y el Conocimiento" y "Política Económica"**. Para mi maestría, obtuve una prestigiosa beca Erasmus Mundus que me llevó un año a la Università degli Studi di Torino, Italia, y posteriormente un año a la Universitè Paris Citè, Francia, donde también pasé por la Université de Bordeaux mientras trabajaba en mi tesis de maestría.
 
 Previo a mi experiencia europea, adquirí valiosa experiencia laboral durante y después de mi **licenciatura en Economía** en la Universidad de Buenos Aires. Fui elegido como pasante en la oficina de Buenos Aires de la **CEPAL**, la Comisión Económica para América Latina y el Caribe de las Naciones Unidas, donde más adelante trabajé como **consultor** en varios proyectos de desarrollo de indicadores económicos, incluyendo un Indicador Sintético de Actividad Económica y un Indice de Precios. <!-- enriquecer la descripción de CEPAL --> Además, fui **profesor auxiliar** de macroeconomía en la Universidad Torcuato di Tella **y profesor adjunto** en un curso de verano en la universidad Nacional de Lomas de Zamora.
@@ -75,13 +75,13 @@ Durante dos años, también tuve el privilegio de ser **becario de investigació
 ## Aficiones
 
 ::: grid
-::: {.g-col-6 .g-col-md-6 .justified .align-middle}
+::: {.g-col-12 .g-col-md-6 .justified .align-middle}
 Además de mi trabajo académico, me apasionan el deporte y la actividad física en general. Así como entreno la mente, también ejercito mi cuerpo. Me gusta escalar y correr. También me disfruto de la improvisación teatral y tengo como objetivo crear un libro de humor gráfico en algún momento de la vida.
 
 Más allá de estas actividades lúdicas y recreativas, te cuento también un poco sobre [mis intereses académicos y profesionales](interests.qmd).
 :::
 
-::: {.g-col-6 .g-col-md-6 .text-center}
+::: {.g-col-12 .g-col-md-6 .small-screen-content .text-center}
 ![](hobbiePicture.jpeg){height="400" style="border: 2px solid #555; border-radius: 20px; padding: 5px; box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);"}
 :::
 :::
