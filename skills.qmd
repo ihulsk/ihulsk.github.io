@@ -1,32 +1,73 @@
 ---
-title: "Mis habilidades"
 toc: true
 toc-depth: 4
-toc-title: "Mis Skills"
+toc-title: "Skills"
 bibliography: /Users/ihulsk/Google Drive/Biblioteca/My Library.json
 code-fold: true
 ---
+::: {.content-visible when-profile="es"}
+# Mis habilidades
+:::
+::: {.content-visible when-profile="en"}
+# My Skills
+:::
 
+
+::: {.content-visible when-profile="es"}
 ::: justified
 A lo largo de mi formación y mi carrera profesional desarrollé múltiples capacidades relacionadas al manejo de diversas **metodologías y herramientas**, tanto cuantitativas como cualitativas, así como competencias blandas o ***soft skills***. Hago aquí una breve enumeración de las habilidades más relevantes que ha puesto en práctica en los últimos tiempos y podrían ser de utilidad para organizaciones de distintos ámbitos.
 :::
+:::
 
+::: {.content-visible when-profile="en"}
+::: justified
+Throughout my education and professional journey, I've developed a range of skills related to the use of various **methods and tools**, encompassing both quantitative and qualitative approaches, as well as **soft skills**. Here, I provide a brief listing of the most pertinent skills that I've recently applied and which could be valuable for organizations in diverse fields.
+:::
+:::
+
+::: {.content-visible when-profile="es"}
 ## Habilidades técnicas
 
 ### Análisis de datos cuantitativos
+:::
+::: {.content-visible when-profile="en"}
+## Technical Skills
 
+### Quantitative data analysis
+:::
+::: {.content-visible when-profile="es" .justified}
 ::: justified
 La capacidad de identificar y cuantificar patrones con precisión matemática en diversos contextos es esencial por su gran relevancia y poder transformador.
 :::
+:::
+::: {.content-visible when-profile="en" .justified}
+::: justified
+The ability to accurately identify and quantify patterns in various contexts through mathematical precision is crucial due to its significant relevance and transformative potential.
+:::
+:::
 
 <details>
-
+::: {.content-visible when-profile="es" .justified}
 <summary>📌 Análisis estadístico.</summary>
+:::
+::: {.content-visible when-profile="en" .justified}
+<summary>📌 Statistical analysis.</summary>
+:::
 
+
+::: {.content-visible when-profile="es" .justified}
 ::: justified
 Mi relación con la estadística se remonta a más de 10 años, desde mi primera clase en la Universidad de Buenos Aires. Más allá de mi interés conceptual y análisis en entornos de investigación, he aplicado mis conocimientos durante mi tiempo en la CEPAL, donde contribuí al desarrollo de un **índice de precios al consumidor (IPC)** **y otros indicadores económicos** en colaboración con organizaciones gubernamentales argentinas.
 
 Más recientemente, en el marco de mi tesis doctoral, trabajé en **modelos de variables categóricas, binomiales y multinomiales**, para analizar datos de **encuesta online**, que no sólo analicé sino también **diseñé y distribuí utilizado [Qualtrics](https://www.qualtrics.com/)**. El análisis final de la tesis usé una versión compleja de proportional odds model [@mccullaghRegressionModelsOrdinal1980], que permite representar variables categóricas ordinales (tipo escala Likert) como variable dependiente. Únicamente a modo ilustrativo, el siguiente gráfico muestra como diferentes nivel de satisfacción, asociados a distintos modos de colaboración, varían según la edad de los colaboradores.
+::: 
+:::
+::: {.content-visible when-profile="en" .justified}
+::: justified
+My relationship with statistics dates back more than 10 years, starting from my first class at the University of Buenos Aires. Beyond my conceptual interest and analysis in research environments, I applied my knowledge during my time at CEPAL, where I contributed to the development of a **Consumer Price Index (CPI)** and other economic indicators in collaboration with Argentine government organizations.
+
+More recently, as part of my doctoral thesis, I worked on **models for categorical, binomial, and multinomial variables** to analyze data from **online surveys**, which I not only analyzed but also **designed and distributed using [Qualtrics](https://www.qualtrics.com/)**. The final analysis in the thesis utilized a complex version of the proportional odds model [@mccullaghRegressionModelsOrdinal1980], which allows representing ordinal categorical variables (such as Likert scale) as dependent variables. Just for illustrative purposes, the following graph shows how different satisfaction levels associated with various modes of collaboration vary according to the age of collaborators.
+:::
 :::
 
 ```{r eval=FALSE, echo=TRUE}
@@ -51,13 +92,29 @@ gg
 </details>
 
 <details>
-
+::: {.content-visible when-profile="es" .justified}
 <summary>📌 Análisis de redes sociales en R y Gephi.</summary>
+:::
+::: {.content-visible when-profile="en" .justified}
+<summary>📌 Social network analysis in R and Gephi.</summary>
+:::
 
+
+::: {.content-visible when-profile="es" .justified}
 ::: justified
 Aunque mi enfoque principal ha sido el análisis estadístico, descriptivo e inferencial, también he explorado la teoría de grafos y el análisis de redes sociales. Si bien no lo he investigado en profundidad debido a las necesidades de mi tesis, he utilizado el paquete [Bibliometrix](https://www.bibliometrix.org/home/) y otros para medir las colaboraciones entre organizaciones académicas y empresariales a través de publicaciones conjuntas.
 
 No fue exitoso dado que muy pocas empresas publican, pero sí sirvió para ver colaboraciones entre organizaciones académicas y practicar en el estudio de redes. Esto me permitió examinar las colaboraciones en el ámbito académico y practicar el análisis de redes. Así, por ejemplo, he podido representar la evolución de las colaboraciones en publicaciones académicas de diversas organizaciones de la ciudad de Bariloche, Argentina. A continuación dos representaciones gráficas de la colaboraciones en Bariloche, tanto en forma de red (izq.) como geográficas (der.). Si quieren ver resultados un poco más completos [aquí](visualMedia/hulskampPresentation.mp4) una grabación de mi presentación en la Networks 2021: Joint Sunbelt & NetScie Conference.
+:::
+:::
+
+
+::: {.content-visible when-profile="en" .justified}
+::: justified
+While my primary focus has been on statistical, descriptive, and inferential analysis, I've also delved into graph theory and social network analysis. Although I didn't extensively research it due to the requirements of my thesis, I've utilized packages like [Bibliometrix](https://www.bibliometrix.org/home/) and others to measure collaborations between academic and business organizations through joint publications.
+
+The endeavor wasn't highly successful because very few businesses publish, but it did serve as a means to examine collaborations between academic organizations and practice network analysis. This allowed me to explore collaborations in the academic sphere and practice network analysis. For instance, I've been able to depict the evolution of collaborations in academic publications among various organizations in the city of Bariloche, Argentina. Below, you can find two graphical representations of collaborations in Bariloche, one in network form (left) and the other geographically (right). If you'd like to see more comprehensive results, you can watch my presentation at the Networks 2021: Joint Sunbelt & NetSci Conference [here](visualMedia/hulskampPresentation.mp4).
+:::
 :::
 
 ```{r eval=FALSE, echo=TRUE, comment= F, warning = F}
@@ -154,44 +211,101 @@ for(j in 1:nrow(collabs)) {
 
 </details>
 
+::: {.content-visible when-profile="es"}
 ### Análisis de datos cualitativos
+:::
+::: {.content-visible when-profile="en"}
+### Qualitative data analysis
+:::
 
+::: {.content-visible when-profile="es" .justified}
 ::: justified
 Además del enfoque cuantitativo, también he trabajado con métodos cualitativos. Si bien mi experiencia en este campo es más limitada, he ido descubriendo su gran potencial en el nivel detalle e información contextual que otorgan.
+:::
+:::
+
+::: {.content-visible when-profile="en" .justified}
+::: justified
+In addition to the quantitative approach, I have also worked with qualitative methods. While my experience in this field is more limited, I have discovered their great potential in providing detailed insights and contextual information.
+:::
 :::
 
 <details>
 
+::: {.content-visible when-profile="es"}
 <summary>📌 Entrevistas y casos de estudio.</summary>
+:::
+::: {.content-visible when-profile="en"}
+<summary>📌 Interviews and case studies.</summary>
+:::
 
+
+::: {.content-visible when-profile="es" .justified}
 ::: justified
 Había realizado entrevistas para mi tesis de maestría y, más recientemente, para mi tesis doctoral, analicé 26 **entrevistas utilizando Atlas.ti**. La preparación de entrevistas, el contacto con los entrevistados, la realización de las entrevistas y la transcripción son partes esenciales de este proceso [@rubin2011; @kvale1994]. Para el análisis utilicé un análisis temático [@braunUsingThematicAnalysis2006] basado en una lista de códigos *a priori*, que luego actualicé con temas emergentes. El análisis de entrevistas puede ser un trabajo arduo pero proporciona información valiosa de múltiples individuos con experiencia directa en el tema de estudio. A continuación una captura de pantalla del proceso de análisis temático en Atlas.ti. En el futuro me entusiasma la idea de hacer *focus groups*.
+:::
+:::
+
+::: {.content-visible when-profile="en" .justified}
+::: justified
+I had conducted interviews for my master's thesis, and more recently, for my doctoral thesis, I analyzed 26 **interviews using Atlas.ti**. The preparation of interviews, contacting interviewees, conducting the interviews, and transcription are essential parts of this process [@rubin2011; @kvale1994]. For the analysis, I employed thematic analysis [@braunUsingThematicAnalysis2006], based on a list of *a priori* codes, which I later updated with emerging themes. Analyzing interviews can be a demanding task, but it provides valuable insights from multiple individuals with direct experience in the subject of study. Below is a screenshot of the thematic analysis process in Atlas.ti. In the future, I am excited about the prospect of conducting *focus groups*.
+:::
 :::
 
 ![](visualMedia/atlasScreenshot.png){fig-align="center"}
 
 </details>
 
-### Análisis de métodos mixtos
 
+::: {.content-visible when-profile="es"}
+### Análisis de métodos mixtos
+:::
+::: {.content-visible when-profile="en"}
+### Mixed-methods analysis
+:::
+
+::: {.content-visible when-profile="es" .justified}
 ::: justified
 Tuve mi primer experiencia con métodos mixtos durante mi tesis doctoral, siguiendo a @creswell2017 y @tashakkori1998. Más allá de su complejidad en el diseño e implementación, ofrece una alternativa que permite **combinar lo mejor de lo cuantitativo y cualitativo**, e incluso **incorporar otras metodologías y marcos teóricos**.
 :::
-
+:::
+::: {.content-visible when-profile="en" .justified}
+::: justified
+I had my first experience with mixed methods during my doctoral thesis, following the guidance of @creswell2017 and @tashakkori1998. Despite their complexity in design and implementation, mixed methods offer an alternative that allows us to **combine the strengths of both quantitative and qualitative approaches**, and even **incorporate other methodologies and theoretical frameworks**.
+:::
+:::
 <details>
 
+::: {.content-visible when-profile="es"}
 <summary>📌 Integración de datos cuantitativos y cualitativos.</summary>
+:::
+::: {.content-visible when-profile="en"}
+<summary>📌 Quantitative and qualitative data integration.</summary>
+:::
 
+::: {.content-visible when-profile="es" .justified}
 ::: justified
 En mi caso, adapté e implementé un "*explanatory sequential case study design*". A partir de la selección de un caso de estudio particular, este diseño comienza por una fase cuantitativa para identificar patrones de comportamiento agregados. El análisis de estos resultados guía la subsiguiente fase de corte cualitativo, en la que se busca alcanzar una comprensión más profunda y matizada de los patrones agregados. Finalmente se integran los resultados de ambas fases, ofreciendo un producto más completo.
 :::
+:::
 
+::: {.content-visible when-profile="en" .justified}
+::: justified
+In my case, I adapted and implemented an "*explanatory sequential case study design*". Starting with the selection of a specific case study, this design initiates with a quantitative phase to identify aggregated behavioral patterns. The analysis of these results then guides the subsequent qualitative phase, aimed at achieving a deeper and more nuanced understanding of the aggregated patterns. Finally, the results from both phases are integrated, providing a more comprehensive outcome.
+:::
+:::
 ![](visualMedia/metodosMixtos.jpg){fig-align="center"}
 
 </details>
 
+::: {.content-visible when-profile="es"}
 ## Habilidades blandas o "Soft Skills"
+:::
+::: {.content-visible when-profile="en"}
+## Soft Skills
+:::
 
+::: {.content-visible when-profile="es" .justified}
 ::: justified
 En complemento a esta lista de habilidades técnicas, también he desarrollado otras competencias sociales que son fundamentales para alcanzar objetivos, ya sea de manera individual o colectiva. Estas habilidades "blandas" o *soft skills* están asociadas, por ejemplo, a la comunicación y rasgos de personalidad que facilitan las relaciones interpersonales y un manejo inteligente con el entorno. A continuación una breve lista enumera las principales aptitudes en las que trabajo continuamente y considero valiosas para mi ecosistema profesional:
 
@@ -227,7 +341,47 @@ La continua evolución de los hechos y la tecnología me entusiasma. Considero q
 
 </details>
 :::
+:::
 
+::: {.content-visible when-profile="en" .justified}
+::: justified
+In addition to this list of technical skills, I have also developed other social competencies that are essential for achieving objectives, whether individually or collectively. These "soft skills" are associated with communication and personality traits that facilitate interpersonal relationships and intelligent navigation of one's environment. Here is a brief list enumerating the main aptitudes I continuously work on and consider valuable for my professional ecosystem:
+
+<details>
+
+<summary>📌 **Complex Problem Solving**:</summary>
+
+I'm passionate about tackling complex issues and devising concrete solutions that avoid falling into simplistic and reductionist proposals. With a proactive and open-minded attitude, I seek to design sophisticated, "out-of-the-box" solutions that not only consider the parts of a process but also their connections and interdependencies. In the design and implementation of my doctoral thesis, I faced all sorts of challenges (methodological, scheduling, resource limitations) that I could address and frame to provide an integrated response from a complex perspective.
+
+</details>
+
+<details>
+
+<summary>📌 **Target Communication**:</summary>
+
+Effective communication is crucial in my professional approach. I adjust technical language to understandable terms and adapt the message format according to the context and the recipient. This has been essential in my role as an intermediary between academia and industry.
+
+</details>
+
+<details>
+
+<summary>📌 **Collaborative and Independent Work Balance**:</summary>
+
+Conceiving and carrying out a research project from start to finish has taught me to work autonomously. However, at the same time, being part of a research group and participating in multiple conferences have shown me the value of sharing and actively collaborating to achieve collective goals. Collaboration is key to enhancing individual skills and achieving better collective results.
+
+</details>
+
+<details>
+
+<summary>📌 **Resilience and Adaptability**:</summary>
+
+I'm excited by the continuous evolution of events and technology. I believe that challenges represent growth opportunities, for which it is necessary to embrace change and quickly incorporate new tools, methods, and work modalities. Whether through self-learning or thanks to the training offered by the organizations I've been a part of, I always take the initiative to master new tools and make the most of their adaptation to the needs and context.
+
+</details>
+:::
+:::
+
+::: {.content-visible when-profile="es"}
 ## Otras capacidades y herramientas:
 
 -   📌 [**Pandoc**](https://pandoc.org) / [**Markdown**](https://www.markdownguide.org)
@@ -237,3 +391,16 @@ La continua evolución de los hechos y la tecnología me entusiasma. Considero q
 -   📌 [**Decidim**](/visualMedia/CertificatDecidim.pdf)
 
 -   📌 Otros programas y lenguajes que he utilizado: Microsoft Office, Zettlr, Stata, REDATAM, QGIS, Gephi, Freeplane, Zotero, $LaTeX$, Python, Java.
+
+:::
+::: {.content-visible when-profile="en"}
+## Other Skills and Tools:
+
+-   📌 [**Pandoc**](https://pandoc.org) / [**Markdown**](https://www.markdownguide.org)
+
+-   📌 [**Prompt Engineering**](/visualMedia/promptEngineering.pdf)
+
+-   📌 [**Decidim**](/visualMedia/CertificatDecidim.pdf)
+
+-   📌 Other software and languages I've used: Microsoft Office, Zettlr, Stata, REDATAM, QGIS, Gephi, Freeplane, Zotero, $LaTeX$, Python, Java.
+:::

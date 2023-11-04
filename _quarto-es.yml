@@ -1,0 +1,59 @@
+project:
+  title: "Ian Hulskamp"
+  output-dir: ./docs/es
+  
+website:
+  title: "Ian Hulskamp" # website top-left corner title 
+  favicon: favicon.png
+  navbar:
+    right:
+      - href: index.qmd
+        text: Inicio
+        icon: house
+      - about.qmd
+      - href: skills.qmd
+        text: Habilidades
+      - href: interests.qmd
+        text: Intereses
+      - href: blog.qmd
+        text: Blog/Wiki
+      - href: "cv/CV-IH-1023.pdf"
+        text: CV
+      # - icon: twitter
+      #   href: https://twitter.com/ihulsk
+      # - icon: github
+      #   href: https://github.com/ihulsk
+    left:
+      - href: ../es
+        text: Español
+      - href: ../
+        text: English
+      
+  page-footer: 
+    background: light # or dark
+    left: 
+      - "Copyright 2023, Ian Hulskamp"
+    right:
+      - icon: twitter
+        href: https://twitter.com/ihulsk
+      - icon: github
+        href: https://github.com/ihulsk
+      - icon: linkedin
+        href: https://www.linkedin.com/in/ian-hulskamp/
+      - icon: envelope
+        href: mailto:ihulsk@gmail.com
+
+format:
+  html:
+    theme:
+      light: [sandstone, theme-light.scss]
+      dark: [darkly, theme-dark.scss]
+    mainfont: Montserrat
+    css: styles.css
+    toc: true
+    page-layout: full
+
+editor: visual
+
+lang: es
+

@@ -1,16 +1,34 @@
 ---
-title: "About"
 toc: false
 page-layout: full
 ---
+::: {.content-visible when-profile="en"}
+# About
+:::
+::: {.content-visible when-profile="es"}
+# Sobre mí
+:::
 
 ::: grid
-::: {.g-col-12 .g-col-md-6 .justified}
+
+::: {.content-visible when-profile="es"}
+::: {.g-col-12 .g-col-md-6 .justified }
 Si estás buscando una versión concisa y directa de mi experiencia académica y profesional, te invito a consultar mi [CV](cv/CV-IH-1023.pdf).
 
 **Economista** de formación, encontré **mi nicho** en temas de **innovación y conocimiento**. La curiosidad y la pasión por aprender me han permitido transitar el desafiante y enriquecedor camino del doctorado. Durante este recorrido, desarrollé una [amplia gama de habilidades](skills.qmd) necesarias para planificar y llevar a cabo un proyecto de investigación.
 
 Con mi tesis completa en proceso de revisión, **estoy ansioso por explorar nuevos rumbos**. Me gustaría estar en contacto más directo con la realidad. No quiero sólo evaluar, sino también ejecutar, **implementar mejoras y ver cómo evolucionan de manera continua y progresiva.** <!--# La inacción de la ciencia básica y su modalidad de trabajo solitaria. Por eso, mientras espero las últimas correcciones de mi primer draft, me preparo para explorar nuevos rumbos.  -->Si bien mi amor por la investigación teórica y los conceptos abstractos es innegable, me gustaría encontrar un rol que me permita asistir a las organizaciones en la mejora de su vinculación con el entorno y el fortalecimiento de su base de conocimiento.<!-- No quiero abandonar por completo los altos niveles abstracción, no olvido que no hay herramienta más poderosa que la teoría, pero necesito lidiar con la realidad. Evaluar para ejecutar, buscando e implementando mejoras continuas y progresivas. Si bien con este deseo no descarto por completo un post-doc, sería ideal para mi encontrar un rol práctico dentro de alguna organización comprometida a mejorar su vinculación con el entorno. -->
+:::
+:::
+
+:::{.content-visible when-profile="en"}
+:::{.g-col-12 .g-col-md-6 .justified }
+If you're looking for a concise and straightforward version of my academic and professional experience, I invite you to check out my [CV](cv/CV-IH-1023.pdf).
+
+As an **Economist** by training, I found **my niche** in the realm of **innovation and knowledge**. Curiosity and a passion for learning have allowed me to navigate the challenging and enriching path of my doctoral journey. Along this path, I've developed a [wide range of skills](skills.qmd) necessary for planning and executing a research project.
+
+With my thesis now in the process of review, I am eager to explore new directions. I would like to have more direct contact with reality. I don't want to merely evaluate but also to execute, to **implement improvements and witness their continuous and progressive evolution**. While my love for theoretical research and abstract concepts is undeniable, I aspire to find a role that enables me to assist organizations in improving their connection with the environment and strengthening their knowledge base.
+:::
 :::
 
 ::: {.g-col-12 .g-col-md-6 .text-center}
@@ -20,7 +38,12 @@ Con mi tesis completa en proceso de revisión, **estoy ansioso por explorar nuev
 
 ------------------------------------------------------------------------
 
+::: {.content-visible when-profile="es"}
 ## Mi Formación y Trayectoria
+:::
+::: {.content-visible when-profile="en"}
+## My Background
+:::
 
 ::: grid
 ::: {.g-col-12 .g-col-md-6 .text-center}
@@ -61,24 +84,48 @@ zoomBchMarkers
 ```
 :::
 
+::: {.content-visible when-profile="es"}
 ::: {.g-col-12 .g-col-md-6 .justified}
 Antes de empezar mi **doctorado en la Sociedad de la Información y el Conocimiento** en la Universitat Oberta de Catlunya (UOC), completé una **maestría doble en "Economía de la Innovación y el Conocimiento" y "Política Económica"**. Para mi maestría, obtuve una prestigiosa beca Erasmus Mundus que me llevó un año a la Università degli Studi di Torino, Italia, y posteriormente un año a la Universitè Paris Citè, Francia, donde también pasé por la Université de Bordeaux mientras trabajaba en mi tesis de maestría.
 
-Previo a mi experiencia europea, adquirí valiosa experiencia laboral durante y después de mi **licenciatura en Economía** en la Universidad de Buenos Aires. Fui elegido como pasante en la oficina de Buenos Aires de la **CEPAL**, la Comisión Económica para América Latina y el Caribe de las Naciones Unidas, donde más adelante trabajé como **consultor** en varios proyectos de desarrollo de indicadores económicos, incluyendo un Indicador Sintético de Actividad Económica y un Indice de Precios. <!-- enriquecer la descripción de CEPAL --> Además, fui **profesor auxiliar** de macroeconomía en la Universidad Torcuato di Tella **y profesor adjunto** en un curso de verano en la universidad Nacional de Lomas de Zamora.
+Previo a mi experiencia europea, adquirí valiosa experiencia laboral durante y después de mi **licenciatura en Economía** en la Universidad de Buenos Aires. Fui elegido como pasante en la oficina de Buenos Aires de la **CEPAL**, la Comisión Económica para América Latina y el Caribe de las Naciones Unidas, donde más adelante trabajé como **consultor** en varios proyectos de desarrollo de indicadores económicos, incluyendo un Indicador Sintético de Actividad Económica y un Indice de Precios. Además, fui **profesor auxiliar** de macroeconomía en la Universidad Torcuato di Tella **y profesor adjunto** en un curso de verano en la universidad Nacional de Lomas de Zamora.
 
 Durante dos años, también tuve el privilegio de ser **becario de investigación** en el Centro de Investigación en Epistemología de las Ciencias Económicas (CIECE) de la Universidad de Buenos Aires, gracias una beca nacional. Antes de emigrar por mis estudios, crecí en el noroeste de la Patagonia Argentina, en la bonita ciudad de San Carlos de Bariloche.
 :::
 :::
+::: {.content-visible when-profile="en"}
+::: {.g-col-12 .g-col-md-6 .justified }
+Before embarking on my **doctorate in the Society of Information and Knowledge** at the Universitat Oberta de Catalunya (UOC), I completed a **dual master's degree in "Economics of Knowledge and Innovation" and "Economic Policy"**. For my master's, I was awarded a prestigious Erasmus Mundus scholarship, which took me to the Università degli Studi di Torino in Italy for a year, followed by a year at Université Paris Cité in France. During this period, I also spent time at the Université de Bordeaux while working on my master's thesis.
 
+Before my European experience, I gained valuable work experience during and after completing my **Bachelor's degree in Economics** at the University of Buenos Aires. I was selected as an intern at the Buenos Aires office of **CEPAL**, the United Nations Economic Commission for Latin America and the Caribbean, where I later worked as a **consultant** on various economic indicator development projects, including a Synthetic Economic Activity Indicator and a Price Index. Additionally, I served as an **assistant professor** in macroeconomics at the University Torcuato di Tella and as an **adjunct professor** in a summer course at the National University of Lomas de Zamora.
+
+For two years, I had the privilege of being a **research fellow** at the Center for Research in Epistemology of Economic Sciences (CIECE) at the University of Buenos Aires, thanks to a national scholarship. Prior to migrating for my studies, I grew up in the beautiful city of San Carlos de Bariloche in the northwestern region of Patagonia, Argentina.
+:::
+:::
+:::
 ------------------------------------------------------------------------
-
+::: {.content-visible when-profile="es"}
 ## Aficiones
+:::
+::: {.content-visible when-profile="en"}
+## Hobbies
+:::
 
 ::: grid
-::: {.g-col-12 .g-col-md-6 .justified .align-middle}
+::: {.content-visible when-profile="es"}
+::: {.g-col-12 .g-col-md-6 .justified .align-middle }
 Además de mi trabajo académico, me apasionan el deporte y la actividad física en general. Así como entreno la mente, también ejercito mi cuerpo. Me gusta escalar y correr. También me disfruto de la improvisación teatral y tengo como objetivo crear un libro de humor gráfico en algún momento de la vida.
 
 Más allá de estas actividades lúdicas y recreativas, te cuento también un poco sobre [mis intereses académicos y profesionales](interests.qmd).
+:::
+:::
+
+::: {.content-visible when-profile="en"}
+::: {.g-col-12 .g-col-md-6 .justified .align-middle}
+In addition to my academic work, I am passionate about sports and physical activity in general. Just as I train my mind, I also exercise my body. I enjoy climbing and running. I also find pleasure in Theatrical Impro, and I aspire to create a graphic humor book at some point in my life.
+
+Beyond these recreational and leisure activities, I can also share a bit about [my academic and professional interests](interests.qmd).
+:::
 :::
 
 ::: {.g-col-12 .g-col-md-6 .small-screen-content .text-center}
