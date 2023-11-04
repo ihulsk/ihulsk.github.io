@@ -1,11 +1,17 @@
 ---
-title: "Intereses académicos y profesionales"
 toc: true
-toc-title: "Mis intereses"
+toc-title: "Interests/intereses"
 toc-depth: 4
 bibliography: references.bib
 ---
+::: {.content-visible when-profile="es"}
+# Intereses académicos y profesionales
+:::
+::: {.content-visible when-profile="en"}
+# Academic and Professional Interests
+:::
 
+::: {.content-visible when-profile="es"}
 ::: justified
 Además de mis habilidades profesionales, mi carrera me ha llevado a explorar diversas áreas de conocimiento que han dejado una huella en mi visión del mundo. A continuación, describo algunas áreas que han cautivado particularmente mi atención:
 :::
@@ -56,4 +62,46 @@ Además de mis habilidades profesionales, mi carrera me ha llevado a explorar di
 
 ::: justified
 🗣️ Conectando a través del lenguaje. 🌎 Mi pasión por comprender diferencias culturales y patrones de comunicación me ha llevado indefectiblemente a aprender idiomas. Además de mi fluidez en español, inglés, italiano y catalán (aún lo estudio activamente), puedo comunicarme en francés. Me encantaría poder seguir aprendiendo otras lenguas.
+:::
+:::
+
+<!-- English -->
+
+::: {.content-visible when-profile="en"}
+::: justified
+In addition to my professional skills, my career has led me to explore various areas of knowledge that have left a mark on my worldview. Here, I describe some areas that have particularly captured my attention:
+:::
+#### Complexity Theory and Information Theory
+::: justified
+🧩 Exploring the complexity of phenomena. 📚 [Resources](https://www.youtube.com/@redcompleja4990) and enthusiasm for emergent properties, entropy [@ben-naim2008], the groundbreaking work of Claude Shannon [-@shannon1949], and subsequent studies in various knowledge areas [e.g., @boisot2004; @gleick2011; @snowden2002; @polyanskiy2022].
+:::
+#### Graph Theory and Network Analysis
+::: justified
+🌐 Unraveling relationships beyond the actors. 🔗 Representing complexity as interconnected and interdependent systems, considering both nodes and the links that connect them [@börner2007; @granovetter1973; @granovetter1983; @newman2018].
+:::
+#### Economics, Institutions, and Culture
+::: justified
+💼 Exploring the socio-cultural foundations of economic behavior. 📖 Interdisciplinary research on how culture and institutions influence the management of resources, information, and knowledge. The list of references here is extensive, but beyond pure economics, it's worth mentioning works in innovation systems [@cooke2001; @etzkowitz2000; @lundvall1988; @nelson1993], open innovation [@chesbrough2003; @vonhippel2005], commons [@allen2016; @hess2007; @kostakis2015; @ostrom1990], and information economics [@boisot1998].
+:::
+#### Organizational Theory and Knowledge Management
+::: justified
+🏘️ Studying strategies for the collective production of knowledge 📦 Another field with a wealth of literature. Besides countless classic references [e.g., @alavi2001; @cetina1999; @march1991; @nonaka1995; @polanyi1958; @teece1997], I highlight the theoretical framework developed by Boisot [-@boisot1995] for understanding information and knowledge flows in social settings: the *Information Space* or *I-Space*. Coding, abstraction, and diffusion are three key dimensions used to analyze the ongoing production of knowledge [@boisot2011].
+:::
+#### Platforms and Digitalization
+::: justified
+🗂️ Navigating the Digital Age. 📊 Exploring the phenomenon of platforms and their widespread impact on contemporary economy. I'm particularly drawn to theoretical perspectives like Gawer [-@gawer2020]. Understanding how these platforms are reshaping economic and social interactions is fundamental. We've written [something on the topic](https://comein.uoc.edu/divulgacio/oikonomics/_recursos/documents/14/canals-hulskamp_Oikonomics14_esp.pdf).
+:::
+#### Philosophy: Pragmatism, Enactivism, Education, Psychology
+::: justified
+🧠 Philosophy in action. 📜 Exploring pragmatist approaches [@dewey1923], enactivists [@varela2017], and their application in fields like education and psychology [e.g., @bereiter2014; @kress2009; @scardamalia2010].
+:::
+#### Zettelkasten
+::: justified
+🗂️ Creative organization. 🤯 The [Zettelkasten technique](https://docs.zettlr.com/en/advanced/zkn-method/) as a source of idea generation and thought organization [@ahrens2022].
+:::
+#### Languages
+::: justified
+🗣️ Connecting through language. 🌎 My passion for understanding cultural differences and communication patterns has inevitably led me to learn languages. In addition to my fluency in Spanish, English, Italian, and active study of Catalan, I can communicate in French. I would love to continue learning other languages.
+:::
+:::
 :::
