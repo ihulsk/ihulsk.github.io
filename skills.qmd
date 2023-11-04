@@ -8,6 +8,7 @@ code-fold: true
 ::: {.content-visible when-profile="es"}
 # Mis habilidades
 :::
+
 ::: {.content-visible when-profile="en"}
 # My Skills
 :::
@@ -35,11 +36,13 @@ Throughout my education and professional journey, I've developed a range of skil
 
 ### Quantitative data analysis
 :::
+
 ::: {.content-visible when-profile="es" .justified}
 ::: justified
 La capacidad de identificar y cuantificar patrones con precisión matemática en diversos contextos es esencial por su gran relevancia y poder transformador.
 :::
 :::
+
 ::: {.content-visible when-profile="en" .justified}
 ::: justified
 The ability to accurately identify and quantify patterns in various contexts through mathematical precision is crucial due to its significant relevance and transformative potential.
@@ -62,6 +65,7 @@ Mi relación con la estadística se remonta a más de 10 años, desde mi primera
 Más recientemente, en el marco de mi tesis doctoral, trabajé en **modelos de variables categóricas, binomiales y multinomiales**, para analizar datos de **encuesta online**, que no sólo analicé sino también **diseñé y distribuí utilizado [Qualtrics](https://www.qualtrics.com/)**. El análisis final de la tesis usé una versión compleja de proportional odds model [@mccullaghRegressionModelsOrdinal1980], que permite representar variables categóricas ordinales (tipo escala Likert) como variable dependiente. Únicamente a modo ilustrativo, el siguiente gráfico muestra como diferentes nivel de satisfacción, asociados a distintos modos de colaboración, varían según la edad de los colaboradores.
 ::: 
 :::
+
 ::: {.content-visible when-profile="en" .justified}
 ::: justified
 My relationship with statistics dates back more than 10 years, starting from my first class at the University of Buenos Aires. Beyond my conceptual interest and analysis in research environments, I applied my knowledge during my time at CEPAL, where I contributed to the development of a **Consumer Price Index (CPI)** and other economic indicators in collaboration with Argentine government organizations.
@@ -393,6 +397,7 @@ I'm excited by the continuous evolution of events and technology. I believe that
 -   📌 Otros programas y lenguajes que he utilizado: Microsoft Office, Zettlr, Stata, REDATAM, QGIS, Gephi, Freeplane, Zotero, $LaTeX$, Python, Java.
 
 :::
+
 ::: {.content-visible when-profile="en"}
 ## Other Skills and Tools:
 
