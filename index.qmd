@@ -24,7 +24,7 @@ about:
 
 La razón de ser de esta página es **establecer puentes hacia entornos más concretos, conectados con el territorio**. En este espacio, no solo [**me presento**](about.qmd), sino también comparto algo sobre [**mis capacidades**](skills.qmd), [**mis intereses**](interests.qmd) y [**mi manera de pensar**](blog.qmd).
 
-En los últimos años de mi carrera profesional, mi enfoque se ha centrado en las colaboraciones entre organizaciones académicas y organizacionales. Aprendí cómo diversos **mecanismos de interacción social pueden favorecer la producción y distribución de conocimiento**. Es fascinantes que, más allá de sus especificidades, estos mecanismos puede identificarse y ser diseñados para mejorar la producción de conocimiento, el aprendizaje y la innovación en todo tipo de organizaciones.
+En los últimos años de mi carrera profesional, mi enfoque se ha centrado en las colaboraciones entre organizaciones académicas y organizacionales. Aprendí cómo diversos **mecanismos de interacción social pueden favorecer la producción y distribución de conocimiento**. Es fascinante que, más allá de sus especificidades, estos mecanismos puede identificarse y ser diseñados para mejorar la producción de conocimiento, el aprendizaje y la innovación en todo tipo de organizaciones.
 :::
 :::
 

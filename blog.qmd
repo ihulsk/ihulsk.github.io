@@ -1,18 +1,23 @@
 ---
-title: "Mi Blog/Wiki"
+title: "Especulación Científica"
 listing:
   contents: posts # all QUarto docs in the 'posts' directory will be included on your listing page
   type: grid # either 'default', 'table', or 'custom'; each type has its own set of yaml options to include
   sort: "date desc" # sort can be done on more than one field
   categories: true # allows you to sort posts by assigned categories
+bibliography: references.bib
 ---
 
-## Especulación Científica
-
 > "Examinar los asuntos de brujería es como tratar de entrar en la metafísica por la puerta de atrás. A mi juicio esta actitud es preferible a pasar de largo."
+>
+> | *Alejandro Dolina [-@dolina1996, p. 146]*
 
-Este blog o wiki es un espacio donde comparto y desarrollo mi perspectiva, mi marco teórico, o como prefieras llamarlo. A través de breves entradas, comparto reflexiones que he acumulado a lo largo de mi existencia.
+::: justified
+Este blog o wiki es un espacio donde expreso y explicito mi perspectiva, mi marco teórico, mi cosmología, o como uno quiera llamarlo. A través de breves entradas, comparto reflexiones sobre cómo yo percibo aquello que me acontece.
 
-Más allá de ser un espacio de intercambio con otros, este blog me permite articular mis propios pensamientos, gracias a su naturaleza reflexiva. Espero que juntos podamos explorar temas apasionantes de una manera que a menudo no cabe en la escritura académica, permitiéndonos jugar con ideas y perspectivas de una manera más lúdica.
+Más allá de estar pensado como un espacio de intercambio con otros, también me permite articular mis propios pensamientos. La idea es explorar temas de manera lúdica y progresiva, sin las prisas y las formalidades de las instituciones académicas. Espero que si te despierta algún interés, idea, o sugerencia, me lo compartas.
+
+Las entradas están ordenadas por fecha más reciente pero aquí te dejo algo de contexto por si hiciera falta.
+:::
 
 ------------------------------------------------------------------------
