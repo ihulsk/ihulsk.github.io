@@ -17,7 +17,7 @@ Todos buscamos respuestas, algunos en las expresión artística, otros en la exp
 
 Más allá de ser un espacio para reflexionar y articular mis propios pensamientos, estás pensado también para intercambiar con otros. Así que si te despierta algún interés, idea, o sugerencia, compartímela. 
 
-La idea es explorar temas de manera lúdica y progresiva, sin prisas. Las entradas están ordenadas por fecha más reciente pero aquí te dejo algunas bases: [el I-Space](posts/20231027-ispaceBasics/index.qmd); [Datos, información y conocimiento](/posts/20231111-dataInformationKnowledge/index.qmd); y [mis principios cosmológicos](/posts/20231028-cosmologicalPrinciples/index.qmd).
+La idea es explorar temas de manera lúdica y progresiva, sin prisas. Las entradas están ordenadas por fecha más reciente pero aquí te dejo algunas bases: [**el I-Space**](posts/20231027-ispaceBasics/index.qmd); [**Datos, información y conocimiento**](/posts/20231111-dataInformationKnowledge/index.qmd); y [**mis principios cosmológicos**](/posts/20231028-cosmologicalPrinciples/index.qmd).
 :::
 
 ------------------------------------------------------------------------

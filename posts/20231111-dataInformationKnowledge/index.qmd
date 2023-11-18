@@ -1,6 +1,6 @@
 ---
-title: "Data, Information, and Knowledge"
-description: "This post differentiates between data, information, and knowledge"
+title: "Datos, Información y Conocimiento"
+description: "Esta entrada diferencia conceptualmente entre datos, información y conocimiento"
 author:
   - name: Ian Hulskamp
     url: https://ihulsk.github.io/
@@ -11,6 +11,7 @@ citation:
   url: https://ihulsk.github.io/posts/posts/20231111-dataInformationKnowledge/index.qmd/ 
 image: dataInfoK.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+#bibliography: 20231027-ispaceBasics/references.bib
 ---
 
 Datos, información y conocimiento son tres conceptos diferentes, interrelacionados y muchas veces mal interpretados. No soy un experto en el tema, ni mucho menos, pero mi interpretación de los hechos se basa sobre algunas cuestiones elementales.
