@@ -16,7 +16,7 @@ code-fold: true
 
 ::: {.content-visible when-profile="es"}
 ::: justified
-A lo largo de mi formación y mi carrera profesional desarrollé múltiples capacidades relacionadas al manejo de diversas **metodologías y herramientas**, tanto cuantitativas como cualitativas, así como competencias blandas o ***soft skills***. Hago aquí una breve enumeración de las habilidades más relevantes que ha puesto en práctica en los últimos tiempos y podrían ser de utilidad para organizaciones de distintos ámbitos.
+A lo largo de mi formación y mi carrera profesional desarrollé múltiples capacidades relacionadas al manejo de diversas **metodologías y herramientas**, tanto cuantitativas como cualitativas, así como competencias blandas o ***soft skills***. Hago aquí una breve enumeración de las habilidades más relevantes que he puesto en práctica en los últimos tiempos y podrían ser de utilidad para organizaciones de distintos ámbitos.
 :::
 :::
 
@@ -224,13 +224,13 @@ for(j in 1:nrow(collabs)) {
 
 ::: {.content-visible when-profile="es" .justified}
 ::: justified
-Además del enfoque cuantitativo, también he trabajado con métodos cualitativos. Si bien mi experiencia en este campo es más limitada, he ido descubriendo su gran potencial en el nivel detalle e información contextual que otorgan.
+A pesar de mi mayor experiencia en el enfoque cuantitativo, también he incursionado en métodos cualitativos. Aunque mi destreza en este ámbito es más restringida, he ido reconociendo su enorme potencial en la profundidad y la riqueza de información contextual que proporciona.
 :::
 :::
 
 ::: {.content-visible when-profile="en" .justified}
 ::: justified
-In addition to the quantitative approach, I have also worked with qualitative methods. While my experience in this field is more limited, I have discovered their great potential in providing detailed insights and contextual information.
+Besides employing the quantitative approach, I've also engaged extensively with qualitative methods. Although my exposure to this area is not as extensive, I've found their significant capability in offering intricate insights and contextual information.
 :::
 :::
 

@@ -114,7 +114,7 @@ For two years, I had the privilege of being a **research fellow** at the Center 
 ::: grid
 ::: {.content-visible when-profile="es"}
 ::: {.g-col-12 .g-col-md-6 .justified .align-middle }
-Además de mi trabajo académico, me apasionan el deporte y la actividad física en general. Así como entreno la mente, también ejercito mi cuerpo. Me gusta escalar y correr. También me disfruto de la improvisación teatral y tengo como objetivo crear un libro de humor gráfico en algún momento de la vida.
+Además de mi trabajo académico, me apasionan el deporte y la actividad física en general. Así como entreno la mente, también ejercito mi cuerpo. Me gusta escalar y correr. También disfruto de la improvisación teatral y tengo como objetivo crear un libro de humor gráfico en algún momento de la vida.
 
 Más allá de estas actividades lúdicas y recreativas, te cuento también un poco sobre [mis intereses académicos y profesionales](interests.qmd).
 :::
