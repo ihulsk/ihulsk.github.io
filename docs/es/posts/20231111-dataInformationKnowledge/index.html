@@ -22,7 +22,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -131,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
+    <div class="quarto-title column-page-left">
       <h1 class="title">Datos, Información y Conocimiento</h1>
                   <div>
         <div class="description">
@@ -160,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Fecha de publicación</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">11 de noviembre de 2023</p>
+        <p class="date">2 de diciembre de 2023</p>
       </div>
     </div>
     
@@ -171,35 +190,79 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#qué-es-el-conocimiento" id="toc-qué-es-el-conocimiento" class="nav-link active" data-scroll-target="#qué-es-el-conocimiento">¿Qué es el conocimiento?</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
-<p>Datos, información y conocimiento son tres conceptos diferentes, interrelacionados y muchas veces mal interpretados. No soy un experto en el tema, ni mucho menos, pero mi interpretación de los hechos se basa sobre algunas cuestiones elementales.</p>
+<div class="justified">
+<p>Datos, información y conocimiento son tres conceptos diferentes que muchas veces se utilizan indistintamente. Pero si indagamos en sus interdependencias podemos establecer definiciones más claras. Partamos de la idea de <strong>conocimiento</strong>.</p>
+</div>
+<section id="qué-es-el-conocimiento" class="level2">
+<h2 class="anchored" data-anchor-id="qué-es-el-conocimiento">¿Qué es el conocimiento?</h2>
+<div class="justified">
+<p>Conceptualizar el conocimiento es, sin lugar a dudas, una tarea compleja. No voy a entrar en definiciones de diccionario u orígenes históricos, pero cualquiera puede comprobar que el análisis del conocimiento viene de larga data. Para mi, es particularmente útil concebir el conocimiento en una relación jerárquica con los datos y la información <span class="citation" data-cites="alavi2001">(<a href="#ref-alavi2001" role="doc-biblioref">Alavi y Leidner 2001</a>)</span>.</p>
+<p>La relación jerárquica es la siguiente: el conocimiento es la capacidad que tiene un <strong>agente</strong> de procesar datos como información valiosa <span class="citation" data-cites="alavi2001 boisot1998 boisot2004">(<a href="#ref-alavi2001" role="doc-biblioref">Alavi y Leidner 2001</a>; <a href="#ref-boisot1998" role="doc-biblioref">Boisot 1998</a>; <a href="#ref-boisot2004" role="doc-biblioref">Boisot y Canals 2004</a>)</span> . La siguiente figura representa esta relación de dos maneras análogas y complementarias. El esquema A muestra al agente y al ambiente como entidades separadas, lo que permite incluir el accionar del agente sobre el ambiente. Por otra parte, el esquema B ilustra mejor al agente inmerso y siendo parte del ambiente, aunque no permite observar impacto en el mismo. Prosigamos a analizar cada componente.</p>
+</div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="data-info-know.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Representación del I-Space (adaptado de Boisot 1998)</figcaption>
+<p><img src="DataInformationKnowledge.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Representación de un agente y su ambiente en términos de datos, información y conocimiento. Adaptado de Boisot <span class="citation" data-cites="boisot1998">(<a href="#ref-boisot1998" role="doc-biblioref">1998</a>)</span> y Boisot y Canals <span class="citation" data-cites="boisot2004">(<a href="#ref-boisot2004" role="doc-biblioref">2004</a>)</span>.</figcaption>
 </figure>
+</div>
+<div class="justified">
+<p>Los <strong>datos</strong> son el todo. Tanto el agente como el ambiente, son, y están sujetos a, datos. Boisot y Canals <span class="citation" data-cites="boisot2004">(<a href="#ref-boisot2004" role="doc-biblioref">2004</a>)</span> los definen como estados discernibles de la realidad. Desde el punto de vista de un agente individual, quien tiene la capacidad de organizar datos de manera informativa, los datos representan el input. Es decir, todo aquello que acontece o existe para el agente.</p>
+<p>La <strong>información</strong> es lo que se obtiene a partir de organizar datos y asociarlos de cierta forma para que tengan “sentido” o cumplan un propósito. Más allá de su impacto en la interpretación singular de un agente, la información adquiere particular relevancia en su transmisión. Por eso, cuando hablamos de información suele involucrase la comunicación<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. Sin adentraremos en esos temas, podemos considerar la información como un forma de organizar datos que, habiendo un agente capaz de interpretarla, permite transmitir e decodificar un mensaje.</p>
+<p>Esta relación entre datos e información nos posibilita finalmente a definir el <strong>conocimiento</strong> como la capacidad que tiene un agente de interpretar, poseer, transformar, utilizar, o compartir información. En su forma más abstracta, un agente es básicamente cualquier sistema que produzca información y adapte sus expectativas/comportamiento en base a ello. En definiciones más restrictivas podríamos contemplar como agentes únicamente como sistemas “vivos”, plantas, animales, humanos, o “sociales”, gregarios.</p>
+<p>Lo interesante del conocimiento, al ser una capacidad, es su evolución en el tiempo. En el proceso de aprendizaje, ya sea por repetición o por novedad, un agente modifica su capacidad o actualiza su conocimiento. Compartir y co-producir conocimiento en la interacción con otros implica además la necesidad de codificarlo y explicarlo para que se entienda. De esta forma el conocimiento también puede tomar forma de activo o “asset” <span class="citation" data-cites="boisot1998">(<a href="#ref-boisot1998" role="doc-biblioref">Boisot 1998</a>)</span> y, al igual que la información, exceder los límites de agentes individuales.</p>
 </div>
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Cómo citar</h2><div><div class="quarto-appendix-secondary-label">BibTeX</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{hulskamp2023,
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">Referencias</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-alavi2001" class="csl-entry" role="listitem">
+Alavi, Maryam, y Dorothy E. Leidner. 2001. <span>«Review: Knowledge Management and Knowledge Management Systems: Conceptual Foundations and Research Issues»</span>. <em>MIS Quarterly</em> 25 (1): 107-36. <a href="https://doi.org/10.2307/3250961">https://doi.org/10.2307/3250961</a>.
+</div>
+<div id="ref-boisot1998" class="csl-entry" role="listitem">
+Boisot, Max. 1998. <em>Knowledge assets: Securing competitive advantage in the information economy</em>. OUP Oxford.
+</div>
+<div id="ref-boisot2004" class="csl-entry" role="listitem">
+Boisot, Max, y Agustí Canals. 2004. <span>«Data, Information and Knowledge: Have We Got It Right?»</span> <em>Journal of Evolutionary Economics</em> 14 (1): 43-67. <a href="https://doi.org/10.1007/s00191-003-0181-9">https://doi.org/10.1007/s00191-003-0181-9</a>.
+</div>
+<div id="ref-shannon1949" class="csl-entry" role="listitem">
+Shannon, Claude E., y Warren Weaver. 1949. <span>«A mathematical model of communication»</span>. <em>Urbana, IL: University of Illinois Press</em> 11.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas</h2>
+
+<ol>
+<li id="fn1"><div class="justified">
+<p>Aquí el disruptivo trabajo de Shannon <span class="citation" data-cites="shannon1949">(<a href="#ref-shannon1949" role="doc-biblioref">Shannon y Weaver 1949</a>)</span> y su posterior evolución en una teoría de la información amerita una pequeña disgreción por su relevancia cultural. Los desarrollos tecnológicos a partir del trabajo de Shannon, como la creación del transistor, revolucionaron como nunca la producción de conocimiento.</p>
+</div>
+<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></li>
+</ol>
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Cómo citar</h2><div><div class="quarto-appendix-secondary-label">BibTeX</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{hulskamp2023,
   author = {Hulskamp, Ian},
   title = {Datos, Información y Conocimiento},
-  date = {2023-11-11},
+  date = {2023-12-02},
   url = {https://ihulsk.github.io/posts/posts/20231111-dataInformationKnowledge/index.qmd/},
   langid = {es}
 }
 </code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Por favor, cita este trabajo como:</div><div id="ref-hulskamp2023" class="csl-entry quarto-appendix-citeas" role="listitem">
 Hulskamp, Ian. 2023. <span>“Datos, Información y Conocimiento.”</span>
-November 11, 2023. <a href="https://ihulsk.github.io/posts/posts/20231111-dataInformationKnowledge/index.qmd/">https://ihulsk.github.io/posts/posts/20231111-dataInformationKnowledge/index.qmd/</a>.
+December 2, 2023. <a href="https://ihulsk.github.io/posts/posts/20231111-dataInformationKnowledge/index.qmd/">https://ihulsk.github.io/posts/posts/20231111-dataInformationKnowledge/index.qmd/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
