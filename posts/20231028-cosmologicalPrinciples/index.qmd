@@ -5,7 +5,7 @@ author:
   - name: Ian Hulskamp
     url: https://ihulsk.github.io/
     orcid: 0000-0002-0839-4011
-date: 10-28-2023
+date: 10-27-2023
 categories: [Theory, Framework] # self-defined categories
 citation: 
   url: https://ihulsk.github.io/posts/20231028-cosmologicalPrinciples/index.qmd
@@ -15,6 +15,7 @@ draft: false # setting this to `true` will prevent your post from appearing on y
 
 <!-- Por su complejidad, el análisis de las colaboraciones academia-industria me ha llevado a la necesidad de codificar mi propia cosmovisión. La misma está marcada por todo lo que he vivido a lo largo mi propia experiencia personal, al igual que la de cada individuo. Pero -->
 
+::: justified
 En los últimos años, gracias a tener que enfrentarme con el desgastante proceso de escribir una tesis doctoral, he podido darle bastante forma a mi manera de pensar e interpretar los fenómenos.
 
 Después de tanto explorar ideas relativas a la producción del conocimiento, me siento en la necesidad de establecer de manera explícita algunos rasgos de mi siempre cambiante base cosmológica. Van entonces cinco aspectos bien generales que te acercaran un poco a mi manera de pensar:
@@ -29,4 +30,5 @@ Después de tanto explorar ideas relativas a la producción del conocimiento, me
 
 5.  Las capacidades de transformación son un elemento transcendental para la producción social de conocimiento. Mediante el aprendizaje es posible replicar, distribuir, transformar y utilizar información de manera eficiente.
 
-Estos 5 principios, que combinan diversos aspectos cosmológicos, ontológicos y epistemológicos, hacen que mi interpretación del mundo sea de cierta manera. La idea de ["conocimiento"](/posts/20231111-dataInformationKnowledge/index.qmd) ocupa un lugar central, ya que funciona como eje conceptual que atraviesa e inter-conecta mis principios. Dos aspectos relacionados mi interpretación del conocimiento quiero traer a colación: la relación entre datos, información, y conocimiento; y la representación del conocimiento como activo y flujo en un espacio de tres dimensiones.
+Estos 5 principios, que combinan diversos aspectos cosmológicos, ontológicos y epistemológicos, hacen que mi interpretación del mundo sea de cierta manera. La idea de "[conocimiento](/posts/20231111-dataInformationKnowledge/index.qmd)" ocupa un lugar central, ya que funciona como eje conceptual que atraviesa e inter-conecta mis principios. Dos aspectos relacionados mi interpretación del conocimiento quiero traer a colación: además de la relación entre [datos, información, y conocimiento](/posts/20231111-dataInformationKnowledge/index.qmd), la [representación del conocimiento como activo y flujo en un espacio de tres dimensiones](/posts/20231027-ispaceBasics/index.qmd).
+:::
