@@ -1,5 +1,5 @@
 ---
-title: "Agentes Sociales en el I-Space"
+title: "Agentes Sociales en el I-Space: eco-sistemas de aprendizaje"
 description: "Esta entrada representa agentes sociales en términos informacionales utilizado el I-Space."
 author:
   - name: Ian Hulskamp
