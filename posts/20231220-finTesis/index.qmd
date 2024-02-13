@@ -1,0 +1,38 @@
+---
+title: "Fin tesis"
+description: "Esta entrada describe reflexiona sobre nuevos horizontes personales."
+author:
+  - name: Ian Hulskamp
+    url: https://ihulsk.github.io/
+    orcid: 0000-0002-0839-4011
+date: 06-02-2024
+categories: [Personal] # self-defined categories
+# citation: 
+  # url: https://ihulsk.github.io/posts/20231204-economiaDelConocimiento/ 
+draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+# bibliography: references.bib
+---
+
+Acabo de terminar mi tesis doctoral y no tengo mejor idea que ponerme a pensar una entrada para el blog. 
+"¿Y ahora qué voy a estudiar?" fue de lo primero que pensé. Todo lo que hice, los skills que adquirí, lo que aprendí. Ejercité la producción de conocimiento mediante la combinación abstracción y codificación, ¿qué voy a hacer con eso ahora? Fue imposible no pensar en la difusión, un proceso favorecido por conocimiento estructurado (es decir, codificado y abstracto).
+
+Difundir el conocimiento es una etapa necesaria en su potencial reproducción. Si la información no es interpretada se fosiliza. No hay variación. 
+<!-- Interpretar y reproducir es lo que da "vida" a la información, solo así se mantiene el ciclo. Al conocimiento entendido como información "viva" se le puede entonces asignar un instinto por la supervivencia. Solo así podrá modificar su estado.  --> 
+
+Aquí estoy entonces, para no dejar que mis conocimientos se fosilicen. Favorezco la reproducción de dos maneras. Por un lado, posibilito el acceso a mis ideas a una cantidad enorme de potenciales lectores y, por otro, yo, internamente, modifico la estructura de los mismos pensamientos que reproduzco. 
+
+Vayamos al grano. Estudio las organizaciones sociales como sistemas de información y conocimiento y pienso estrategias sobre cómo habría que gestionarlas para que puedan producir más y mejor información y conocimiento. 
+La tesis fue un proceso dominado por la abstracción. El pensamiento científico, cimentado sobre los principios de la investigación 'básica', se maneja en estándares de abstracción elevados. 
+
+Estos estándares conllevan un precio. Por ser una escala gradual, cuanto más abstracto menos concreto. 
+
+Para poder favorecer mi propio ciclo de aprendizaje, siento que los más favorable sería llevar mis conocimientos adquiridos a entornos más concretos. 
+
+Debo entonces actuar de manera acorde. ¿Estratégias? Buscar empleos o proyectos en entornos culturales por fuera de mundo académico, re-expresar información en formatos menos abstractos, y abordar problemas concretos con las tantas herramientas adquiridas. 
+
+Tengo tres buenos objetivos para mi proceso de aprendizaje post-tesis. Sé que me faltan presentar módulos de interpretación del I-Space que son fundamentales, los ciclos sociales de aprendizaje y la representación de culturas con capacidades informaciones distintas llegarán pronto. 
+
+Una cosa que estuvo rondando bastante mi mente es lo importante que es definir correctamente la abstracción. 
+
+
+

@@ -16,7 +16,7 @@ website:
       - href: interests.qmd
         text: Interests
       - href: blog.qmd
-        text: Blog/Wiki (spanish)
+        text: Blog
       - href: "cv/CV-IH-1023.pdf"
         text: CV
       # - icon: twitter

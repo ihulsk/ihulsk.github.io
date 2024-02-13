@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Ian Hulskamp - Especulación Científica</title>
+<title>Ian Hulskamp - Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,26 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -85,20 +66,20 @@ div.csl-indent {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-posts-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-posts-listing'] = new List('listing-posts-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -164,7 +145,7 @@ div.csl-indent {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./blog.html" rel="" target="" aria-current="page">
- <span class="menu-text">Blog/Wiki</span></a>
+ <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./cv/CV-IH-1023.pdf" rel="" target="">
@@ -179,59 +160,50 @@ div.csl-indent {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Blog</h1>
+            <p class="subtitle lead">Algunas reflexiones sobre cómo percibo aquello que me acontece, explorando temas de manera lúdica y progresiva, sin pausa pero sin prisas.</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
     <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todas <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Data">Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Framework">Framework <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Information">Information <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ispace">Ispace <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Knowledge">Knowledge <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Theory">Theory <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Especulación Científica</h1>
+
+
+
+<div id="listing-posts-listing" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Theory,Data,Information,Knowledge" data-listing-date-sort="1701471600000" data-listing-file-modified-sort="1701597123420" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/20231111-dataInformationKnowledge/index.html"> <img src="./posts/20231111-dataInformationKnowledge/dataInfoK.png" class="thumbnail-image"> </a></p>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<blockquote class="blockquote">
-<p>“Examinar los asuntos de brujería es como tratar de entrar en la metafísica por la puerta de atrás. A mi juicio esta actitud es preferible a pasar de largo.”</p>
-<p><em>Alejandro Dolina <span class="citation" data-cites="dolina1996">(<a href="#ref-dolina1996" role="doc-biblioref">1996, 146</a>)</span></em></p>
-</blockquote>
-<div class="justified">
-<p>Todos buscamos respuestas, algunos en las expresión artística, otros en la experimentación científica. Este blog o wiki es un espacio donde yo expreso y explicito mi perspectiva, mi marco teórico, mi cosmología, o como uno quiera llamar aquello que nos inventamos para dar respuestas. A través de breves entradas, comparto reflexiones sobre cómo yo percibo aquello que me acontece.</p>
-<p>Más allá de ser un espacio para reflexionar y articular mis propios pensamientos, estás pensado también para intercambiar con otros. Así que si te despierta algún interés, idea, o sugerencia, compartímela.</p>
-<p>La idea es explorar temas de manera lúdica y progresiva, sin prisas. Las entradas están ordenadas por fecha más reciente pero aquí te dejo algunas bases: <a href="./posts/20231027-ispaceBasics/index.html"><strong>el I-Space</strong></a>; <a href="./posts/20231111-dataInformationKnowledge/index.html"><strong>Datos, información y conocimiento</strong></a>; y <a href="./posts/20231028-cosmologicalPrinciples/index.html"><strong>mis principios cosmológicos</strong></a>.</p>
-</div>
-<hr>
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Theory,Data,Information,Knowledge" data-listing-date-sort="1701471600000" data-listing-file-modified-sort="1701597123420" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<a href="./posts/20231111-dataInformationKnowledge/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/20231111-dataInformationKnowledge/dataInfoK.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
+<div class="body">
+<a href="./posts/20231111-dataInformationKnowledge/index.html">
+<h3 class="no-anchor listing-title">
 Datos, Información y Conocimiento
-</h5>
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Theory'); return false;">
 Theory
@@ -246,31 +218,36 @@ Information
 Knowledge
 </div>
 </div>
-<div class="card-text listing-description">
-Esta entrada diferencia conceptualmente entre datos, información y conocimiento
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Ian Hulskamp
-</div>
-<div class="listing-date">
-2 dic 2023
-</div>
-</div>
-</div>
+<a href="./posts/20231111-dataInformationKnowledge/index.html">
+<div class="listing-description">
+<p>Esta entrada diferencia conceptualmente entre datos, información y conocimiento</p>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Theory,Ispace" data-listing-date-sort="1698357600000" data-listing-file-modified-sort="1700305667266" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
-<a href="./posts/20231027-ispaceBasics/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/20231027-ispaceBasics/ispace-blog.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
+<div class="metadata">
+<a href="./posts/20231111-dataInformationKnowledge/index.html">
+<div class="listing-date">
+2 dic 2023
+</div>
+<div class="listing-author">
+Ian Hulskamp
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Theory,Ispace" data-listing-date-sort="1698444000000" data-listing-file-modified-sort="1702889295984" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./posts/20231027-ispaceBasics/index.html"> <img src="./posts/20231027-ispaceBasics/ispace-blog.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20231027-ispaceBasics/index.html">
+<h3 class="no-anchor listing-title">
 El I-Space ‘Framework’
-</h5>
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Theory'); return false;">
 Theory
@@ -279,31 +256,36 @@ Theory
 Ispace
 </div>
 </div>
-<div class="card-text listing-description">
-Esta entrada presenta mi punto de vista sobre los conceptos básicos del marco teórico del I-Space de Max Boisot.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Ian Hulskamp
-</div>
-<div class="listing-date">
-27 oct 2023
-</div>
-</div>
-</div>
+<a href="./posts/20231027-ispaceBasics/index.html">
+<div class="listing-description">
+<p>Esta entrada presenta mi punto de vista sobre los conceptos básicos del marco teórico del I-Space de Max Boisot.</p>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Theory,Framework" data-listing-date-sort="1698357600000" data-listing-file-modified-sort="1701597141156" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<a href="./posts/20231028-cosmologicalPrinciples/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/20231028-cosmologicalPrinciples/cosmology.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
+<div class="metadata">
+<a href="./posts/20231027-ispaceBasics/index.html">
+<div class="listing-date">
+28 oct 2023
+</div>
+<div class="listing-author">
+Ian Hulskamp
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="Theory,Framework" data-listing-date-sort="1698357600000" data-listing-file-modified-sort="1701597141156" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/20231028-cosmologicalPrinciples/index.html"> <img src="./posts/20231028-cosmologicalPrinciples/cosmology.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/20231028-cosmologicalPrinciples/index.html">
+<h3 class="no-anchor listing-title">
 Mis principios cosmológicos
-</h5>
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Theory'); return false;">
 Theory
@@ -312,30 +294,33 @@ Theory
 Framework
 </div>
 </div>
-<div class="card-text listing-description">
-Esta entrada presenta algunos lineamientos generales de mi manera de pensar y percibir el mundo
+<a href="./posts/20231028-cosmologicalPrinciples/index.html">
+<div class="listing-description">
+<p>Esta entrada presenta algunos lineamientos generales de mi manera de pensar y percibir el mundo</p>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Ian Hulskamp
+</a>
 </div>
+<div class="metadata">
+<a href="./posts/20231028-cosmologicalPrinciples/index.html">
 <div class="listing-date">
 27 oct 2023
 </div>
-</div>
-</div>
+<div class="listing-author">
+Ian Hulskamp
 </div>
 </a>
+</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">
 No hay resultados
 </div>
-</div><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">Referencias</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-dolina1996" class="csl-entry" role="listitem">
-Dolina, Alejandro. 1996. <em>Cronicas del Angel Gris</em>. Ediciones Colihue SRL.
 </div>
-</div></section></div></main> <!-- /main -->
+
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

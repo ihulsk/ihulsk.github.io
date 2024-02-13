@@ -3,6 +3,7 @@ toc: true
 toc-title: "Interests/intereses"
 toc-depth: 4
 bibliography: references.bib
+link-citations: false
 ---
 ::: {.content-visible when-profile="es"}
 # Intereses académicos y profesionales
@@ -104,4 +105,4 @@ In addition to my professional skills, my career has led me to explore various a
 🗣️ Connecting through language. 🌎 My passion for understanding cultural differences and communication patterns has inevitably led me to learn languages. In addition to my fluency in Spanish, English, Italian, and active study of Catalan, I can communicate in French. I would love to continue learning other languages.
 :::
 :::
-:::
+
