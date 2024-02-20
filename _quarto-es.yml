@@ -14,7 +14,7 @@ website:
       - href: skills.qmd
         text: Habilidades
       - href: interests.qmd
-        text: Intereses
+        text: Foco Profesional
       - href: blog.qmd
         text: Blog
       - href: "cv/CV-IH-1023.pdf"

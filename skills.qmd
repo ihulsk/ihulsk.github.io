@@ -6,31 +6,35 @@ bibliography: references.bib
 code-fold: true
 link-citations: false
 ---
+
 ::: {.content-visible when-profile="es"}
+
 # Mis habilidades
 
 ::: justified
-A lo largo de mi formación y mi carrera profesional desarrollé múltiples capacidades relacionadas al manejo de diversas **metodologías**, **herramientas**, y competencias blandas o ***soft skills***. Hago aquí una breve enumeración de las habilidades más relevantes que he puesto en práctica en los últimos tiempos y podrían ser de utilidad para organizaciones de distintos ámbitos.
+A lo largo de mi formación y mi carrera profesional desarrollé múltiples capacidades que abarcan diversos **métodos**, **herramientas** y **competencias blandas** esenciales para impulsar proyectos y colaboraciones impactantes. A continuación, presento una selección de mis habilidades clave y algunos proyectos destacados que demuestran su aplicación en escenarios del mundo real.
 :::
 
-## Habilidades técnicas
+## 📌 Habilidades Técnicas
+<details> 
+<summary> **Análisis cuantitativo:** competente en técnicas avanzadas para analizar datos y extraer patrones significativas (por ejemplo, estadísticas, redes sociales) </summary>
+<br>
 
-### Análisis de datos cuantitativos
+::: centered
 
-::: justified
-La capacidad de identificar y cuantificar patrones con precisión matemática en diversos contextos es esencial por su gran relevancia y poder transformador.
+**Análisis Estadístico**
+
 :::
 
-<details>
+::: {.grid}
 
-<summary>📌 Análisis estadístico.</summary>
+::: {.g-col-4 .justified}
+Mi competencia en estadística abarca más de una década, comenzando desde mis estudios de grado en la Universidad de Buenos Aires. He aplicado técnicas estadísticas extensamente, notablemente durante mi período en CEPAL, donde contribuí al desarrollo de indicadores económicos como un Índice de Precios al Consumidor (IPC) o indicadores sintéticos de activiad económica. En mi tesis doctoral, utilicé modelos estadísticos avanzados para analizar datos de encuestas en línea, empleando herramientas como Qualtrics para la recopilación y análisis de datos.
+:::
 
-::: justified
-Mi relación con la estadística se remonta a más de 10 años, desde mi primera clase en la Universidad de Buenos Aires. Más allá de mi interés conceptual y análisis en entornos de investigación, he aplicado mis conocimientos durante mi tiempo en la CEPAL, donde contribuí al desarrollo de un **índice de precios al consumidor (IPC)** **y otros indicadores económicos** en colaboración con organizaciones gubernamentales argentinas.
+::: {.g-col-8 }
 
-Más recientemente, en el marco de mi tesis doctoral, trabajé en **modelos de variables categóricas, binomiales y multinomiales**, para analizar datos de **encuesta online**, que no sólo analicé sino también **diseñé y distribuí utilizado [Qualtrics](https://www.qualtrics.com/)**. El análisis final de la tesis usé una versión compleja de proportional odds model [@mccullaghRegressionModelsOrdinal1980], que permite representar variables categóricas ordinales (tipo escala Likert) como variable dependiente. Únicamente a modo ilustrativo, el siguiente gráfico muestra como diferentes nivel de satisfacción, asociados a distintos modos de colaboración, varían según la edad de los colaboradores.
-::: 
-
+![](visualMedia/exampleModes.png){fig-align="left"}
 ```{r eval=FALSE, echo=TRUE}
 # Full model plots: appending fitted response probabilities (or logits) to the data frame and plotting these in relation to the predictors.
 #using the predict() fuction with option type = "probs" to get probabilities instead the highest probability category
@@ -48,21 +52,24 @@ gg
 
 ```
 
-![](visualMedia/exampleModes.png){fig-align="center"}
-</details>
-
-<details>
-
-<summary>📌 Análisis de redes sociales en R y Gephi.</summary>
-
-
-
-::: justified
-Aunque mi enfoque principal ha sido el análisis estadístico, descriptivo e inferencial, también he explorado la teoría de grafos y el análisis de redes sociales. Si bien no lo he investigado en profundidad debido a las necesidades de mi tesis, he utilizado el paquete [Bibliometrix](https://www.bibliometrix.org/home/) y otros para medir las colaboraciones entre organizaciones académicas y empresariales a través de publicaciones conjuntas.
-
-No fue exitoso dado que muy pocas empresas publican, pero sí sirvió para ver colaboraciones entre organizaciones académicas y practicar en el estudio de redes. Esto me permitió examinar las colaboraciones en el ámbito académico y practicar el análisis de redes. Así, por ejemplo, he podido representar la evolución de las colaboraciones en publicaciones académicas de diversas organizaciones de la ciudad de Bariloche, Argentina. A continuación dos representaciones gráficas de la colaboraciones en Bariloche, tanto en forma de red (izq.) como geográficas (der.). Si quieren ver resultados un poco más completos [aquí](visualMedia/hulskampPresentation.mp4) una grabación de mi presentación en la Networks 2021: Joint Sunbelt & NetScie Conference.
 :::
 
+:::
+
+::: centered
+
+**Análisis de Redes Sociales en R y Gephi**
+
+:::
+
+::: {.grid}
+
+::: {.g-col-4}
+![](visualMedia/bch_institutional_animation.gif){fig-align="left"} 
+:::
+
+::: {.g-col-8 .justified}
+Adentrándome en la teoría de grafos y el análisis de redes sociales, exploré colaboraciones entre organizaciones académicas y empresariales, a pesar de los desafíos planteados por la escasez de publicaciones empresariales. A través de herramientas como Bibliometrix, describí la evolución de colaboraciones en publicaciones académicas, como lo evidencia mi presentación en la Conferencia Conjunta Sunbelt & NetSci 2021.
 
 ```{r eval=FALSE, echo=TRUE, comment= F, warning = F}
 library(tidygeocoder)
@@ -74,7 +81,7 @@ library("animation")
 
 #### ILLUSTRATION CODE EXCERPTS FOR GIFS CREATION #### 
 
-## GRAPH A (left) ----
+## GRAPH ----
 
 # source: https://kateto.net/network-visualization
 library("igraph")
@@ -99,150 +106,141 @@ for (i in loop.vector) {
        )
 }
 },interval = .8, movie.name = "bch_institutional_animation.gif")
-
-
-#### GRAPH B (right) ----
-
-g <- g_list[[i]]
-
-# Join features
-g <- contract(g,
-         factor(V(g)$name),
-         vertex.attr.comb = list(name = "first", group = "mean", docs = "max", "random"))
-# attributes were merged: docs max as most of interactions are shared
-g <- simplify(g, remove.loops=T, remove.multiple = T, edge.attr.comb =  list(weight = "max"))
-
-# generate data frames of organizations and collaborations
-un_geo_data = igraph::as_data_frame(g, what = 'both')  # affiliation network from bibliometrix as data frame
-
-orgs <- un_geo_data$vertices %>% 
-  mutate(lat = as.numeric(lat),
-         long = as.numeric(long))
-
-# Keep collaborations only with egos from BCH
-un_geo_data$edges$width <- NULL
-collabs <- as_tibble(un_geo_data$edges) %>% 
-  filter(from %in% vert$name | to %in% vert$name) 
-
-# World Map (low quality, should be improved)
-map("world", col = "grey20", fill = T, bg = "black", lwd = 0.1)
-title(paste(unique(orgs$year)), col.main = "lightgrey")
-#plot(gadm, col = myColours, border = 'grey')
-
-points(x = orgs$long, y=orgs$lat, cex = .04+orgs$docs/max(orgs$docs), col = "yellow")
-
-for(j in 1:nrow(collabs)) {
-    node1 <- orgs[orgs$name == collabs[j,]$from,]
-    node2 <- orgs[orgs$name == collabs[j,]$to,]
-    if (!is.na(node1$lat) & !is.na(node2$lat) & node1$lat != node2$lat)
-      {
-    arc <- gcIntermediate(c(node1[1,]$long, node1[1,]$lat), 
-                           c(node2[1,]$long, node2[1,]$lat), 
-                           n=30, addStartEnd=TRUE, breakAtDateLine = T, sp=T)
-    edge.ind <- 1# round(60*collabs[j,]$weight / max(collabs$weight))
-    
-    lines(arc, col=edge.col[edge.ind], lwd=edge.ind/5)
-
-    }
-}
-}
-},interval = .5, movie.name = "bchDynamicInfoMap.gif")
-
- detach('package:animation')
-
 ```
 
-|                                                                      |                                                            |
-|---------------------------------------|---------------------------------|
-| ![](visualMedia/bch_institutional_animation.gif){fig-align="center"} | ![](visualMedia/bchDynamicInfoMap.gif){fig-align="center"} |
+:::
+
+:::
 
 </details>
 
-### Análisis de datos cualitativos
-
-::: justified
-A pesar de mi mayor experiencia en el enfoque cuantitativo, también he incursionado en métodos cualitativos. Aunque mi destreza en este ámbito es más restringida, he ido reconociendo su enorme potencial en la profundidad y la riqueza de información contextual que proporciona.
-:::
-
 <details>
+<summary>**Análisis cualitativo:** experimentado en métodos cualitativos que ofrecen perspectivas matizadas e información contextual (por ejemplo, entrevistas, estudio de casos, análisis temático)</summary>
+<br>
 
+::: grid
 
-<summary>📌 Entrevistas y casos de estudio.</summary>
+::: {.g-col-4 .justified}
 
-::: justified
-Había realizado entrevistas para mi tesis de maestría y, más recientemente, para mi tesis doctoral, analicé 26 **entrevistas utilizando Atlas.ti**. La preparación de entrevistas, el contacto con los entrevistados, la realización de las entrevistas y la transcripción son partes esenciales de este proceso [@rubin2011; @kvale1994]. Para el análisis utilicé un análisis temático [@braunUsingThematicAnalysis2006] basado en una lista de códigos *a priori*, que luego actualicé con temas emergentes. El análisis de entrevistas puede ser un trabajo arduo pero proporciona información valiosa de múltiples individuos con experiencia directa en el tema de estudio. A continuación una captura de pantalla del proceso de análisis temático en Atlas.ti. En el futuro me entusiasma la idea de hacer *focus groups*.
+Mi experiencia incluye la realización y análisis de entrevistas utilizando Atlas.ti. He realizado análisis temático, incluyendo tanto codificación deductiva como inductiva, para extraer ideas a partir de datos cualitativos, enriqueciendo mi investigación con perspectivas matizadas y comprensión contextual.
+
 :::
 
+::: {.g-col-8 }
 ![](visualMedia/atlasScreenshot.png){fig-align="center"}
+:::
+
+:::
 
 </details>
 
-### Análisis de métodos mixtos
-::: justified
-Tuve mi primer experiencia con métodos mixtos durante mi tesis doctoral, siguiendo a @creswell2017 y @tashakkori1998. Más allá de su complejidad en el diseño e implementación, ofrece una alternativa que permite **combinar lo mejor de lo cuantitativo y cualitativo**, e incluso **incorporar otras metodologías y marcos teóricos**.
-:::
-
 <details>
+<summary> **Análisis de métodos mixtos:** hábil en combinar e integrar las fortalezas de enfoques cuantitativos y cualitativos para obtener una comprensión completa de fenómenos complejos </summary>
+<br>
 
-<summary>📌 Integración de datos cuantitativos y cualitativos.</summary>
+::: centered 
 
-::: justified
-En mi caso, adapté e implementé un "*explanatory sequential case study design*". A partir de la selección de un caso de estudio particular, este diseño comienza por una fase cuantitativa para identificar patrones de comportamiento agregados. El análisis de estos resultados guía la subsiguiente fase de corte cualitativo, en la que se busca alcanzar una comprensión más profunda y matizada de los patrones agregados. Finalmente se integran los resultados de ambas fases, ofreciendo un producto más completo.
+**Entrevistas y Estudio de Caso**
+
 :::
 
+::: grid
+
+::: {.g-col-4 .justified}
+En mi tesis doctoral, adopté un diseño de estudio de caso secuencial explicativo, combinando de manera fluida enfoques cuantitativos y cualitativos para obtener una comprensión completa de fenómenos complejos. Esta metodología me permitió descubrir patrones multifacéticos e informar recomendaciones prácticas.
+
+:::
+
+::: {.g-col-8 }
 ![](visualMedia/metodosMixtos.jpg){fig-align="center"}
-
-</details>
-
-## Habilidades blandas o "Soft Skills"
-
-
-
-::: justified
-En complemento a esta lista de habilidades técnicas, también he desarrollado otras competencias sociales que son fundamentales para alcanzar objetivos, ya sea de manera individual o colectiva. Estas habilidades "blandas" o *soft skills* están asociadas, por ejemplo, a la comunicación y rasgos de personalidad que facilitan las relaciones interpersonales y un manejo inteligente con el entorno. A continuación una breve lista enumera las principales aptitudes en las que trabajo continuamente y considero valiosas para mi ecosistema profesional:
-
-<details>
-
-<summary>📌 **Resolución de problemas complejos**:</summary>
-
-Me apasiona abordar problemáticas complejas y pensar soluciones concretas que eviten caer en propuestas simplistas y reduccionistas. Gracias a una actitud pro-activa y abierta para pensar ideas innovadoras busco diseñar soluciones sofisticadas, "*out-of-the-box*", que no solo consideren las partes de un procesos sino también sus conexiones e interdependencias. En el diseño e implementación de mi tesis doctoral enfrenté todo tipo de problemáticas (metodológicas, de agenda, de limitación de recursos) que pude abordar y enmarcar para dar una respuesta integrada desde una perspectiva compleja.
-
-</details>
-
-<details>
-
-<summary>📌 **Comunicación flexible**:</summary>
-
-La comunicación efectiva es esencial en mi enfoque profesional. Ajusto el lenguaje técnico a términos comprensibles y adapto el formato del mensaje según el contexto y el receptor. Esto ha sido fundamental en mi rol de intermediario entre la academia y la industria.
-
-</details>
-
-<details>
-
-<summary>📌 **Trabajo colaborativo e independiente**:</summary>
-
-Elaborar y llevar adelante un proyecto de investigación de principio a fin me enseñó a trabajar de manera autónoma. Pero, al mismo tiempo, formar parte de un grupo de investigación y participar en múltiples conferencias, me han enseñado el valor de compartir y colaborar activamente para alcanzar objetivos colectivos. La colaboración es clave para potenciar competencias individuales y lograr mejores resultados colectivos.
-
-</details>
-
-<details>
-
-<summary>📌 **Resiliencia y adaptabilidad**:</summary>
-
-La continua evolución de los hechos y la tecnología me entusiasma. Considero que los retos representan oportunidades de crecimiento, para los que es necesario aceptar el cambio e incorporar rápidamente nuevas herramientas, métodos y modalidades de trabajo. Ya sea de forma autodidacta o gracias a la formación ofrecida por las organizaciones de las que he formado parte, siempre tomo la iniciativa para dominar nuevas herramientas y aprovechar al máximo su adaptación a las necesidades y el contexto.
-
-</details>
 :::
 
-## Otras capacidades y herramientas:
+:::
 
--   📌 [**Pandoc**](https://pandoc.org) / [**Markdown**](https://www.markdownguide.org)
+</details>
 
--   📌 [**Prompt Engineering**](/visualMedia/promptEngineering.pdf)
+## 📌 Competencias Blandas
 
--   📌 [**Decidim**](/visualMedia/CertificatDecidim.pdf)
+::: justified
 
--   📌 Otros programas y lenguajes que he utilizado: Microsoft Office, Zettlr, Stata, REDATAM, QGIS, Gephi, Freeplane, Zotero, $LaTeX$, Python, Java.
+<details>
+
+<summary> **Resolución de Problemas Complejos**:</summary>
+
+Me apasiona abordar problemas complejos y diseñar soluciones concretas que eviten caer en propuestas simplistas y reduccionistas. Con una actitud proactiva y abierta, busco diseñar soluciones sofisticadas, "fuera de lo común", que no solo consideren las partes de un proceso, sino también sus conexiones e interdependencias. En el diseño e implementación de mi tesis doctoral, enfrenté todo tipo de desafíos (metodológicos, de programación, limitaciones de recursos) que pude abordar y enmarcar para proporcionar una respuesta integrada desde una perspectiva compleja.
+
+</details>
+
+<details>
+
+<summary> **Comunicación Adaptada**:</summary>
+
+La comunicación efectiva es crucial en mi enfoque profesional. Ajusto el lenguaje técnico a términos comprensibles y adapto el formato del mensaje según el contexto y el destinatario. Esto ha sido esencial en mi papel como intermediario entre la academia y la industria.
+
+</details>
+
+<details>
+
+<summary> **Equilibrio entre Trabajo Colaborativo e Independiente**:</summary>
+
+Concebir y llevar a cabo un proyecto de investigación de principio a fin me ha enseñado a trabajar de manera autónoma. Sin embargo, al mismo tiempo, ser parte de un grupo de investigación y participar en múltiples conferencias me ha mostrado el valor de compartir y colaborar activamente para alcanzar objetivos colectivos. La colaboración es clave para mejorar las habilidades individuales y lograr mejores resultados colectivos.
+
+</details>
+
+<details>
+
+<summary> **Resiliencia y Adaptabilidad**:</summary>
+
+Me entusiasma la continua evolución de los eventos y la tecnología. Creo que los desafíos representan oportunidades de crecimiento, para lo cual es necesario abrazar el cambio e incorporar rápidamente nuevas herramientas, métodos y modalidades de trabajo. Ya sea a través del autoaprendizaje o gracias a la formación ofrecida por las organizaciones de las que he sido parte, siempre tomo la iniciativa de dominar nuevas herramientas y aprovechar al máximo su adaptación a las necesidades y al contexto.
+
+</details>
+
+:::
+
+## 📌 Otras Capacidades y Herramientas:
+
+-   [**Pandoc**](https://pandoc.org) / [**Markdown**](https://www.markdownguide.org)
+
+-   [**Prompt Engineering**](/visualMedia/promptEngineering.pdf)
+
+-   [**Decidim**](/visualMedia/CertificatDecidim.pdf)
+
+-   Otros programas y lenguajes que he utilizado: Microsoft Office, Zettlr, Stata, REDATAM, QGIS, Gephi, Freeplane, Zotero, $LaTeX$, Python, Java.
+
+## 📌 Proyectos Destacados
+
+<details>
+<summary>**Tesis de Doctorado Explorando las Dinámicas del Conocimiento en las Colaboraciones Academia-Industria dentro de un Ecosistema Local**<br> </summary>
+
+::: justified
+
+Examiné la producción de conocimiento dentro de las colaboraciones academia-industria (AICs) en San Carlos de Bariloche, Argentina, utilizando el marco teórico del I-Space de Boisot para caracterizar la co-creación de conocimiento y las dinámicas de aprendizaje individuales y organizacionales. Empleando un enfoque de métodos mixtos, integré datos de encuestas con percepciones recopiladas de entrevistas en profundidad para explorar diversos modos de colaboración y comparar sus propiedades de conocimiento y procesos de aprendizaje asociados. Los hallazgos proporcionaron recomendaciones estratégicas para los interesados en mejorar el aprendizaje recíproco y la co-creación de conocimiento dentro de las AICs. Además, al sentar las bases para las asociaciones de conocimiento entre instituciones, este proyecto contribuye a dar forma a las estrategias y políticas futuras en colaboraciones interinstitucionales.
+
+:::
+
+</details>
+<details>
+<summary>**Análisis de Redes de Colaboración Académica** <br></summary>
+
+::: justified
+
+Durante mi proyecto de tesis, exploré extensamente el análisis de redes sociales para medir los flujos de información dentro de las colaboraciones académicas. Si bien inicialmente tenía la intención de evaluar los flujos en colaboraciones academia-industria, descubrí que el análisis de redes sociales no era la herramienta más adecuada para este propósito. 
+
+Sin embargo, esta experiencia me permitió desarrollar habilidades valiosas en el análisis de colaboraciones entre organizaciones académicas. Aprovechando las bases de datos bibliométricas, realicé análisis originales para visualizar y analizar las redes en evolución de colaboración académica. Esto culminó en una presentación en la Conferencia Networks 2021: Joint Sunbelt & NetSci, donde compartí percepciones sobre "Colaboración Científica a través de Redes Institucionales: El Valor de los Socios Nacionales". A través de este proyecto, obtuve una comprensión más profunda de las dinámicas de colaboración académica y mejoré mi competencia en técnicas de análisis de redes sociales.
+
+:::
+
+</details>
+<details>
+<summary>**Desarrollo de Indicadores Económicos** <br></summary>
+
+::: justified
+
+Mi participación en el desarrollo de indicadores económicos con CEPAL abarcó dos proyectos principales. Por un lado, contribuí a las etapas iniciales del diseño e implementación de un Índice de Precios al Consumidor (IPC). Esto implicó analizar datos para identificar una canasta de consumo representativa y calcular pesos para garantizar un monitoreo preciso de la inflación. Por otro lado, desempeñé un papel clave en la estimación y actualización de indicadores coincidentes para rastrear la actividad económica de los estados subnacionales argentinos. Este proyecto implicó la recolección de nuevos datos sobre variables observables, desestacionalización de series temporales, ejecución de modelos estadísticos y evaluación de la calidad de los datos para informar la toma de decisiones estratégicas.
+
+:::
+
+</details>
 
 :::
 
@@ -251,8 +249,10 @@ La continua evolución de los hechos y la tecnología me entusiasma. Considero q
 # My Skills
 
 ::: justified
+
 I've cultivated a diverse skill set encompassing various **methods**, **tools**, and **soft skills** essential for driving impactful projects and collaborations. Below, I present a selection of my key skills and highlight notable projects that demonstrate their application in real-world scenarios.
 :::
+
 
 ## 📌 Technical Skills
 
@@ -267,6 +267,7 @@ I've cultivated a diverse skill set encompassing various **methods**, **tools**,
 :::
 
 ::: {.grid}
+
 ::: {.g-col-4 .justified}
 My proficiency in statistics spans over a decade, starting from my undergraduate studies at the University of Buenos Aires. I've applied statistical techniques extensively, notably during my tenure at CEPAL, where I contributed to the development of economic indicators such as the Consumer Price Index (CPI). In my doctoral thesis, I utilized advanced statistical models to analyze data from online surveys, employing tools like Qualtrics for data collection and analysis.
 :::
@@ -599,26 +600,33 @@ I'm excited by the continuous evolution of events and technology. I believe that
 
 -    [**Decidim**](/visualMedia/CertificatDecidim.pdf)
 
--    Other software and languages I've used: Microsoft Office, Zettlr, Stata, REDATAM, QGIS, Gephi, Freeplane, Zotero, $LaTeX$, Python, Java.
+-    Other software I've used: Microsoft Office, Zettlr, Stata, REDATAM, QGIS, Gephi, Freeplane, Zotero, $LaTeX$, Python, Java.
 
 ## 📌 Notable Projects
 
-**PhD Thesis Exploring Knowledge Dynamics in Academia-Industry Collaborations within a Local Ecosystem**<br>
+<details>
+<summary>**PhD Thesis Exploring Knowledge Dynamics in Academia-Industry Collaborations within a Local Ecosystem**<br> </summary>
 
 ::: justified
-Examined knowledge production within academia-industry collaborations (AICs) in San Carlos de Bariloche, Argentina, using Boisot's I-Space framework to characterize knowledge co-creation, and individual and organizational learning dynamics. Employing a mixed-methods approach, I integrated survey data with insights gathered from in-depth interviews to explore diverse modes of collaboration and their associated knowledge properties and learning processes. The findings from this study provided strategic recommendations for stakeholders to enhance reciprocal learning and knowledge co-creation within AICs. Furthermore, by laying the groundwork for cross-institutional knowledge partnerships, this project contributes to shaping future strategies and policies in inter-institutional collaborations.
+I examined knowledge production within academia-industry collaborations (AICs) in San Carlos de Bariloche, Argentina, using Boisot's I-Space framework to characterize knowledge co-creation, and individual and organizational learning dynamics. Employing a mixed-methods approach, I integrated survey data with insights gathered from in-depth interviews to explore diverse modes of collaboration and their associated knowledge properties and learning processes. The findings provided strategic recommendations for stakeholders to enhance reciprocal learning and knowledge co-creation within AICs. Furthermore, by laying the groundwork for cross-institutional knowledge partnerships, this project contributes to shaping future strategies and policies in inter-institutional collaborations.
 :::
-
-**Network Analysis of Academic Collaborations** <br>
+</details>
+<details>
+<summary>**Network Analysis of Academic Collaborations** <br></summary>
 
 ::: justified
-Investigated collaborations between academic and business organizations, utilizing social network analysis to visualize and analyze evolving networks of scholarly collaboration.
-:::
+During my thesis project, I extensively explored social network analysis to measure information flows within academic collaborations. While initially intending to evaluate flows in academic-industry collaborations, I found that social network analysis was not the most suitable tool for this purpose. However, this experience allowed me to develop valuable skills in analyzing collaborations between academic organizations. Leveraging bibliometric databases, I conducted original analyses to visualize and analyze evolving networks of scholarly collaboration. This culminated in a presentation at the Networks 2021: Joint Sunbelt & NetSci Conference, where I shared insights about "Scientific Collaboration Through Institutional Networks: The Value of National Partners." Through this project, I gained a deeper understanding of academic collaboration dynamics and enhanced my proficiency in social network analysis techniques.
 
-**Consumer Price Index (CPI) Development** <br>
+:::
+</details>
+<details>
+<summary>**Development of Economic Indicators** <br></summary>
 
 ::: justified
-Participated with CEPAL in the development of a regional CPI, a crucial economic indicator for monitoring inflation and guiding policy decisions in Argentina.
+
+My involvement in the development of economic indicators with CEPAL encompassed two primary projects. On the one hand, I contributed to the initial stages of designing and implementing a Consumer Price Index (CPI). This involved analyzing data to identify a representative consumption basket and calculating weights to ensure accurate inflation monitoring. On the other hand, I played a key role in estimating and updating coincident indicators to track the economic activity of Argentine sub-national states. This project entailed collecting new data on observable variables, deseasonalizing time series, running statistical models, and assessing data quality to inform strategic decision-making.
 :::
+
+</details>
 
 :::

@@ -4,80 +4,168 @@ toc-title: "Interests/intereses"
 toc-depth: 4
 bibliography: references.bib
 link-citations: false
+# title-block-banner: true 
+# title: "Professional and Academic Focus"
+# subtitle: "In addition to my professional skills, my career has led me to explore various areas of knowledge that have left a mark on my worldview. Here, I describe some areas that have particularly captured my attention, including some references to my own work"
 ---
-::: {.content-visible when-profile="es"}
-# Intereses académicos y profesionales
-:::
-::: {.content-visible when-profile="en"}
-# Academic and Professional Interests 
-<!-- Professional Focus -->
-:::
 
 ::: {.content-visible when-profile="es"}
-::: justified
-Además de mis habilidades profesionales, mi carrera me ha llevado a explorar diversas áreas de conocimiento que han dejado una huella en mi visión del mundo. A continuación, describo algunas áreas que han cautivado particularmente mi atención:
-:::
-
-#### Teoría de la Complejidad y Teoría de la Información
+# Enfoque Profesional y Académico
 
 ::: justified
-🧩 Explorando la complejidad de los fenómenos. 📚 [Formaciones](https://www.youtube.com/@redcompleja4990) y entusiasmo por propiedades emergentes, entropía [@ben-naim2008], la obra revolucionaria de Claude Shannon [-@shannon1949] y estudios posteriores en diversas áreas de conocimiento [e.g., @boisot2004; @gleick2011; @snowden2002; @polyanskiy2022].
+
+He explorado diversas áreas de conocimiento a lo largo de mi carrera profesional, dando forma a mi perspectiva. A continuación, describo áreas clave que han capturado mi atención, con referencias a mis contribuciones cuando corresponda.
+
 :::
 
-#### Teoría de grafos y análisis de redes
+------------------------------------------------------------------------
+
+### Colaboración Academia-Industria (AIC)
+<details>
+<summary> ⚡️ **Construyendo puentes para aumentar el impacto de las ideas** 🎓🤝 💼 </summary>
 
 ::: justified
-🌐 Desentrañando las relaciones más allá de los actores. 🔗 Representar la compejidad como sistemas interconectados e interdependientes, considerando tanto los nodos como los vínculos que los unen [@börner2007; @granovetter1973; @granovetter1983; @newman2018].
+<br>
+La transferencia de conocimientos entre organizaciones académicas y empresariales para promover la innovación es el tema principal en el que he estado trabajando durante los últimos 5 o 6 años. Hasta ahora ha sido un proceso que involucró la navegación entre múltiples perspectivas, aumentando continuamente su complejidad:
+
+* Mi interés en el tema surgió gracias al curso de Economía del Conocimiento de mi Maestría, donde un colega y yo exploramos el papel de las instituciones de investigación pública en los procesos de recuperación mediante el análisis del caso de India.
+
+* La exploración del tema continuó con mi tesis de maestría, titulada "University-Industry Relationship through Knowledge Transfer Organizations in Developing Countries: Evidence from an Argentinian Local Innovation Ecosystem".
+
+* El reciente solicitud de depósito de mi Tesis Doctoral, titulada "Understanding Knowledge Dynamics Across Modes of Academia-Industry Collaboration:
+A Comprehensive Mixed-Method Analysis within the I-Space Framework: Lessons from San Carlos de Bariloche, Argentina", representa la última y más profunda etapa de este proceso.
+
 :::
 
-#### Economía, instituciones y cultura
+</details>
+
+### Gestión del Conocimiento y Aprendizaje Organizacional
+<details>
+<summary>🏘 **Diseñando estrategias para la producción colectiva de conocimiento** 📦 </summary>
 
 ::: justified
-💼 Explorando las bases socio-culturales del comportamiento económico. 📖 Investigación interdisciplinaria sobre cómo la cultura y las instituciones influyen en la gestión de los recursos, la información y el conocimiento. En este caso la lista de referencias es demasiado extensa pero, por fuera de la economía pura y dura, vale la pena mencionar los trabajos en sistemas de innovación [@cooke2001; @etzkowitz2000; @lundvall1988; @nelson1993], innovación abierta [@chesbrough2003; @vonhippel2005], commons [@allen2016; @hess2007; @kostakis2015; @ostrom1990], economía de la información [@boisot1998].
-:::
+<br>
+Un tema crítico que estudié para mi doctorado y que me motiva a abordar la implementación del conocimiento.
 
-#### Teoría de las Organizaciones y Gestión del Conocimiento
+* Dado que no he contribuido mucho al campo hasta ahora, debería destacar el marco teórico desarrollado por Boisot [-@boisot1995] para comprender los flujos de información y conocimiento en entornos sociales: el *Information Space* o *I-Space*. En mi [**blog**](blog.qmd), estoy intentando sintetizar y usar este marco para analizar la coyuntura.
+
+* Codificación, abstracción y difusión son tres dimensiones clave utilizadas para analizar la producción continua de conocimiento [@boisot2011].
+
+* Además del Espacio I, otras perspectivas también han dado forma a mi comprensión del campo [e.g., @alavi2001; @cetina1999; @march1991; @nonaka1995; @polanyi1958; @teece1997].
+
+:::
+</details>
+
+### Economía, Instituciones y Cultura
+<details>
+
+<summary>💼 **Explorando los fundamentos socioculturales del comportamiento económico y humano** 📖 </summary>
 
 ::: justified
-🏘️ Estudiando estrategias para la producción colectiva de conocimiento 📦 Es otro campo en el que la abundancia de bibliografía es notable. Más allá de incontables referencias clásicas [e.g., @alavi2001; @cetina1999; @march1991; @nonaka1995; @polanyi1958; @teece1997], destaco el marco teórico desarrollado por Boisot [-@boisot1995] para entender flujos de información y conocimiento en entornos sociales: el *Information Space* o *I-Space*. Codificación, abstracción y difusión son tres dimensiones clave que sirven para analizar la continua producción de conocimiento [@boisot2011].
+<br>
+¿Cómo definen la gestión de recursos, información y conocimiento la cultura y los arreglos institucionales?
+
+
+* Además de explorar las Colaboraciones Academia-Industria, con otra compañera de clase de la maestría realizamos un análisis de hackerspaces y makerspaces basado en la idea de bienes comunes de Ostrom [-@ostrom1990].
+
+* Más allá de mi contribución limitada al tema, vale la pena mencionar algunos enfoques como sistemas de innovación [@cooke2001; @etzkowitz2000; @lundvall1988; @nelson1993], innovación abierta [@chesbrough2003; @vonhippel2005], bienes comunes [@allen2016; @hess2007; @kostakis2015; @ostrom1990] y economía de la información [@boisot1998].
+
 :::
 
-#### Plataformas y digitalización
+</details>
+
+### Plataformas y Digitalización
+
+<details>
+<summary>🗂 **Transitando la Era Digital** 📊 </summary>
 
 ::: justified
-🗂️ Navegando la Era Digital. 📊 Explorando el fenómeno de las plataformas y su impacto generalizado en la economía contemporánea. Me atraen particularmente las perspectivas teóricas como Gawer [-@gawer2020]. Es fundamental entender cómo estas plataformas están remodelando las interacciones económicas y sociales. Escribimos [algo sobre el tema](https://comein.uoc.edu/divulgacio/oikonomics/_recursos/documents/14/canals-hulskamp_Oikonomics14_esp.pdf).
+<br>
+La continua proliferación de tecnologías de la información y la comunicación (TIC) tiene un fuerte impacto en la producción de conocimiento e información.
+
+* Con mi supervisor de doctorado hemos explorado ampliamente los [fundamentos de las plataformas digitales y su clasificación](https://comein.uoc.edu/divulgacio/oikonomics/_recursos/documents/14/canals-hulskamp_Oikonomics14_esp.pdf).
+
+* Me siento particularmente atraído por perspectivas teóricas como la de Gawer [-@gawer2020]. Creo que entender cómo estas plataformas están remodelando las interacciones económicas y sociales es fundamental. 
+
 :::
 
-#### Filosofía: Pragmatismo, enactivismo, educación, psicología
+</details>
+
+### Teoría de Grafos y Análisis de Redes
+<details>
+<summary>🌐 **Descubriendo relaciones más allá de los actores** 🔗</summary>
+::: justified
+<br>
+Representando la complejidad como sistemas interconectados e interdependientes, considerando tanto los nodos como los vínculos que los conectan [@börner2007; @granovetter1973; @granovetter1983; @newman2018]. 
+
+* He trabajado con bases de datos bibliométricas y datos de encuestas para analizar procesos de colaboración entre investigadores y entre partes interesadas académicas y empresariales. [**Aquí**](visualMedia/hulskampPresentation.mp4) puedes ver mi presentación "Scientific Collaboration through Institutional Networks: The Value of National Partners" en la conferencia [NetSci 2021](https://networks2021.net/).
+
+:::
+</details>
+
+### Filosofía, Educación, Psicología: Pragmatismo y Enactivismo.
+<details>
+<summary>🧠 **Filosofía en acción** 📜 </summary>
+::: justified
+<br>
+He explorado enfoques pragmatistas y enactivistas [e.g., @dewey1923; @varela2017], así como su aplicación en campos como la educación y la psicología [e.g., @bereiter2014; @kress2009; @scardamalia2010].
+
+* Como parte de mi tesis de grado y como becario de investigación en CIECE, investigué cómo los modelos económicos suelen fallar al intentar representar la complejidad.  
+:::
+
+</details>
+
+### Teoría de la Complejidad y Teoría de la Información
+<details>
+<summary>🧩 **Explorando la complejidad de los fenómenos** 📚</summary>
 
 ::: justified
-🧠 Filosofía en acción. 📜 Exploración de enfoques pragmatistas [@dewey1923], enactivistas [@varela2017] y su aplicación en campos como la educación y la psicología [e.g., @bereiter2014; @kress2009; @scardamalia2010].
+<br>
+Entusiasmo por las propiedades emergentes, la entropía [@ben-naim2008], el trabajo revolucionario de Claude Shannon [-@shannon1949], y estudios posteriores en diversas áreas de conocimiento [e.g., @boisot2004; @gleick2011; @snowden2002; @polyanskiy2022]. Recientemente participé en un interesante [curso](https://www.youtube.com/@redcompleja4990) sobre redes complejas.  
+
 :::
 
-#### Zettelkasten
+</details>
 
+### Zettelkasten
+<details>
+<summary>🗂 **Organización creativa** 🤯</summary>
 ::: justified
-🗂️ Organización creativa. 🤯 La [técnica del Zettelkasten](https://docs.zettlr.com/en/advanced/zkn-method/) como motor de generación de ideas y organización de pensamientos [@ahrens2022].
+<br>
+La técnica [**Zettelkasten**](https://docs.zettlr.com/en/advanced/zkn-method/) como fuente de generación de ideas y organización del pensamiento [@ahrens2022].
 :::
+</details>
 
-#### Idiomas
-
+### Idiomas
+<details>
+<summary>🗣 **Conectando a través del lenguaje** 🌎</summary>
 ::: justified
-🗣️ Conectando a través del lenguaje. 🌎 Mi pasión por comprender diferencias culturales y patrones de comunicación me ha llevado indefectiblemente a aprender idiomas. Además de mi fluidez en español, inglés, italiano y catalán (aún lo estudio activamente), puedo comunicarme en francés. Me encantaría poder seguir aprendiendo otras lenguas.
+<br>
+Mi pasión por comprender las diferencias culturales y los patrones de comunicación inevitablemente me ha llevado a aprender varios idiomas. Además de mi fluidez en español, inglés, italiano, sigo estudiando activamente el catalán y puedo comunicarme en francés. Me encantaría seguir aprendiendo otros idiomas.
 :::
+
+</details>
+
 :::
 
 <!-- English -->
 
 ::: {.content-visible when-profile="en"}
+# Professional and Academic Focus 
+
+
 ::: justified
-In addition to my professional skills, my career has led me to explore various areas of knowledge that have left a mark on my worldview. Here, I describe some areas that have particularly captured my attention, including some references to my own work:
+I've delved into diverse knowledge areas throughout my professional career, shaping my perspective. Below, I outline key areas that have captured my attention, with references to my contributions where relevant.
 :::
 
-### Academia-Industry Collaboration (AIC)
-::: justified 
-Building bridges to increase the impact of ideas 🎓🤝 💼 
+------------------------------------------------------------------------
 
+### Academia-Industry Collaboration (AIC)
+<details>
+<summary> ⚡️ **Building bridges to increase the impact of ideas** 🎓🤝 💼 </summary>
+
+::: justified
+<br>
 The transfer of knowledge between academic and business organizations to promote innovation is the main subject I have been working on for the last 5 or 6 years. So far it has been a process which involved navigating multiple perspectives, continuously increasing in its complexity:
 
 * My interest in the subject appeared thanks to the Economics of Knowledge course of my Master's, where a collegue and I explored the role of public research institutions in catching-up processes by analyzing the the case of India.
@@ -89,10 +177,14 @@ A Comprehensive Mixed-Method Analysis within the I-Space Framework: Lessons from
 
 :::
 
-### Knowledge Management and Organizational Learning
-::: justified
-🏘️ Designing strategies for the collective production of knowledge 📦
+</details>
 
+### Knowledge Management and Organizational Learning
+<details>
+<summary>🏘 **Designing strategies for the collective production of knowledge** 📦 </summary>
+
+::: justified
+<br>
 A critical topic I studied for my doctorate and which motivates me to approach the implementation of knowledge. 
 
 * Since I have not contributed much to the field so far, I should highlight the theoretical framework developed by Boisot [-@boisot1995] for understanding information and knowledge flows in social settings: the *Information Space* or *I-Space*. In my [**blog**](blog.qmd), I am now trying to synthesize and use this framework to analyze the conjuncture.
@@ -100,12 +192,17 @@ A critical topic I studied for my doctorate and which motivates me to approach t
 * Coding, abstraction, and diffusion are three key dimensions used to analyze the ongoing production of knowledge [@boisot2011].
 
 * Besides the I-Space, other perspectives have also shaped my understanding of the field [e.g., @alavi2001; @cetina1999; @march1991; @nonaka1995; @polanyi1958; @teece1997].
+
 :::
+</details>
 
 ### Economics, Institutions, and Culture
-::: justified
-💼 Exploring the socio-cultural foundations of economic and human behavior 📖 
+<details>
 
+<summary>💼 **Exploring the socio-cultural foundations of economic and human behavior** 📖 </summary>
+
+::: justified
+<br>
 How culture and institutional arrangements define the management of resources, information, and knowledge? 
 
 * Besides exploring Academia-Industry Collaborations, with another classmate of the master we made an analysis of hackerspace and makerspaces based on Ostrom's [-@ostrom1990] idea of commons.
@@ -114,54 +211,78 @@ How culture and institutional arrangements define the management of resources, i
 
 :::
 
-### Platforms and Digitalization
-::: justified
-🗂️ Navigating the Digital Age 📊
+</details>
 
+### Platforms and Digitalization
+<details>
+<summary>🗂 **Navigating the Digital Age** 📊 </summary>
+
+::: justified
+<br>
 The continuous proliferation of information and communication technologies (ICTs) has a strong impact on the production of knowledge and information.
 
 * With my PhD supervisor we've broadly explored the [foundations of digital platforms and their classification](https://comein.uoc.edu/divulgacio/oikonomics/_recursos/documents/14/canals-hulskamp_Oikonomics14_esp.pdf).
 
 * I'm particularly drawn to theoretical perspectives like Gawer [-@gawer2020]. I believe understanding how these platforms are reshaping economic and social interactions is fundamental. 
+
 :::
 
-### Graph Theory and Network Analysis
-::: justified
-🌐 Unraveling relationships beyond the actors🔗 
+</details>
 
+### Graph Theory and Network Analysis
+<details>
+<summary>🌐 **Unraveling relationships beyond the actors** 🔗</summary>
+::: justified
+<br>
 Representing complexity as interconnected and interdependent systems, considering both nodes and the links that connect them [@börner2007; @granovetter1973; @granovetter1983; @newman2018]. 
 
 * I have worked with bibliometric databases and survey data to analyze collaboration processes among researchers and between academic and business stakeholders. [**Here**](visualMedia/hulskampPresentation.mp4) you can see my presentation "Scientific Collaboration through Institutional Networks: The Value of National Partners" at the [NetSci 2021](https://networks2021.net/) conference.
 
 :::
+</details>
 
 ### Philosophy: Pragmatism, Enactivism, Education, Psychology
+<details>
+<summary>🧠 **Philosophy in action** 📜 </summary>
 ::: justified
-🧠 Philosophy in action. 📜 
-
+<br>
 I have explored pragmatism and enactivists approaches [e.g., @dewey1923; @varela2017], as well as their application in fields like education and psychology [e.g., @bereiter2014; @kress2009; @scardamalia2010].
 
 * As part of my undergraduate thesis and as a research fellow at CIECE, I researched how economic models typically fail to successfully represent complexity.  
 :::
 
-### Complexity Theory and Information Theory
-::: justified
-🧩 Exploring the complexity of phenomena. 📚
+</details>
 
+### Complexity Theory and Information Theory
+<details>
+<summary>🧩 **Exploring the complexity of phenomena** 📚</summary>
+
+::: justified
+<br>
 Enthusiasm for emergent properties, entropy [@ben-naim2008], the groundbreaking work of Claude Shannon [-@shannon1949], and subsequent studies in various knowledge areas [e.g., @boisot2004; @gleick2011; @snowden2002; @polyanskiy2022]. I recently participated in an interesting [course](https://www.youtube.com/@redcompleja4990) on complex networks.  
+
 :::
+
+</details>
 
 ### Zettelkasten
+<details>
+<summary>🗂 **Creative organization** 🤯</summary>
 ::: justified
-🗂️ Creative organization. 🤯
-
+<br>
 The [Zettelkasten technique](https://docs.zettlr.com/en/advanced/zkn-method/) as a source of idea generation and thought organization [@ahrens2022].
 :::
-### Languages
-::: justified
-🗣️ Connecting through language. 🌎
+</details>
 
+### Languages
+<details>
+<summary>🗣 **Connecting through language** 🌎</summary>
+::: justified
+<br>
 My passion for understanding cultural differences and communication patterns has inevitably led me to learn languages. In addition to my fluency in Spanish, English, Italian, and active study of Catalan, I can communicate in French. I would love to continue learning other languages.
 :::
+
+</details>
+
 :::
 
