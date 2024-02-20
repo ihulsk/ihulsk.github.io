@@ -14,9 +14,9 @@ website:
       - href: skills.qmd
         text: Skills
       - href: interests.qmd
-        text: Interests
+        text: Professional Focus
       - href: blog.qmd
-        text: Blog/Wiki (spanish)
+        text: Blog (es)
       - href: "cv/CV-IH-1023.pdf"
         text: CV
       # - icon: twitter
@@ -28,6 +28,7 @@ website:
         text: Español
       - href: ../
         text: English
+  site-url: https://ihulsk.github.io/
       
   page-footer: 
     background: light # or dark

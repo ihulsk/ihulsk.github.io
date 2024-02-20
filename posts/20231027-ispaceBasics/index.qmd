@@ -5,7 +5,7 @@ author:
   - name: Ian Hulskamp
     url: https://ihulsk.github.io/
     orcid: 0000-0002-0839-4011
-date: 10-27-2023
+date: 10-28-2023
 categories: [Theory, Ispace] # self-defined categories
 citation: 
   url: https://ihulsk.github.io/posts/20231027-ispaceBasics/ 
@@ -25,7 +25,7 @@ Yo sólo voy a introducir algunos de sus elementos básicos. Su marco teórico s
 ::: justified
 La **codificación** representa la **división en categorías**, como conceptualizar ideas o guardar cosas en lugares específicos (ej. ordenar tu ropa en cajones según su tipo). Boisot [-@boisot1998, p.42-47] lo define como el costo de procesamiento de datos que implica distinguir y categorizar cosas o hechos. Lógicamente, codificar es más difícil cuando la cantidad de datos a procesar es mayor. Es decir, cuantas más cosas se tengan en cuenta, más difícil se hace clasificar algo. Una buena manera de entenderlo para mi es pensar en clasificaciones diferentes para una misma cosa, como los indicadores de pobreza. Es más fácil definir un hogar como pobre mediante una sola variable ([**umbral de ingresos**](https://www.oecd.org/espanol/estadisticas/indice-pobreza.htm)) que mediante varias ([**pobreza multidimensional**](https://repositorio.cepal.org/handle/11362/16433)).
 
-La **abstracción** refiere justamente al **número de categorías necesarias para clasificar algo**. Clasificaciones basadas en menos categorías son abstractas que aquellas que requieran más. Volviendo al ejemplo anterior, etiquetar un hogar como pobre en base a ingresos se puede considerar más abstracto que hacerlo mediante criterios múltiples[^1]. En términos de Boisot [@boisot1998, ibid], la abstracción permite ahorros adicionales en los costos de procesamiento de información ya que genera asociaciones entre categorías (ingreso-pobreza).
+La **abstracción** refiere justamente al **número de categorías necesarias para clasificar algo**. Clasificaciones basadas en menos categorías son más abstractas que aquellas que requieran de una cantidad mayor. Volviendo al ejemplo anterior, etiquetar un hogar como pobre en base a ingresos se puede considerar más abstracto que hacerlo mediante criterios múltiples[^1]. En términos de Boisot [@boisot1998, ibid], la abstracción permite ahorros adicionales en los costos de procesamiento de información ya que genera asociaciones entre categorías (ingreso-pobreza).
 
 Por último aparece la **difusión**, que retrata el **acceso a la información** dentro de una determinada población. La difusión entendida de esta manera depende de varios factores. En parte, está influenciada por los grados de abstracción y codificación, ya que clasificaciones más abstractas reducen el costo de transmitir de información. Continuando nuestro ejemplo de asociar pobreza con ingresos, si ambos indicadores fuesen igual de eficaces en representar la pobreza, sería más fácil difundir la clasificación de un hogar pobre según sus ingresos que ir a revisar las condiciones materiales concretas que tiene para determinar si es pobre o no ). Otros factores factores decisivos en el grado de difusión son las tecnologías de comunicación y los *codebooks* o marcos interpretativos, ya que afectan la facilidad con la cual podemos transmitir información y desarrollar la capacidad de interpretarla correctamente.
 

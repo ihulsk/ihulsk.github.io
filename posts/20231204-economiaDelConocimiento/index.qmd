@@ -1,0 +1,22 @@
+---
+title: "La economía del conocimiento"
+description: "Esta entrada describe una perspectiva de la economía en términos informaciones y del conocimiento."
+author:
+  - name: Ian Hulskamp
+    url: https://ihulsk.github.io/
+    orcid: 0000-0002-0839-4011
+date: 12-03-2023
+categories: [Ispace, Knowledge, Economics, Information] # self-defined categories
+citation: 
+  url: https://ihulsk.github.io/posts/20231204-economiaDelConocimiento/ 
+image: ispace-blog.png
+draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+# bibliography: references.bib
+---
+
+# La economía del conocimiento
+Es muy fácil y tentador divagar alrededor de la idea de conocimiento. 
+
+La producción de conocimiento es la principal fuente de transformación de la realidad. Casi todo aquello que acontece en el mundo social y ambiental es consecuencia de agentes que actúan en base a lo que conocen. En ese conocer, los agentes desarrollan además un proceso de aprendizaje, que permite ajustar o adaptar el conocimiento a contextos cambiantes y eventos futuros. 
+
+En términos económicos esta última interpretación del conocimiento suele asociarse a la innovación. Capacidad de transformación que lleva al desarrollo de dynamic capabilities, al cambio tecnológico, al "progreso". ¿Pero cómo acontense ese proceso mediante el cual los agentes producen conocimiento y transforman la realidad?

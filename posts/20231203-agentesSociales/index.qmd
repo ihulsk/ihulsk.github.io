@@ -1,0 +1,28 @@
+---
+title: "Agentes Sociales en el I-Space: eco-sistemas de aprendizaje"
+description: "Esta entrada representa agentes sociales en términos informacionales utilizado el I-Space."
+author:
+  - name: Ian Hulskamp
+    url: https://ihulsk.github.io/
+    orcid: 0000-0002-0839-4011
+date: 12-03-2023
+categories: [Agent, Ispace, Social Organizations] # self-defined categories
+citation: 
+  url: https://ihulsk.github.io/posts/20231203-agentesSociales/ 
+image: ispace-blog.png
+draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+# bibliography: references.bib
+---
+
+# Agentes sociales
+
+Las organizaciones son agentes sociales compuestos por más de un individuo. En su concepción más abstracta, podríamos pensar en organizaciones compuestas por individuos no humanos, formaadas por animales (manadas), plantas (bosques), o incluso robots con capacidad de "aprender". Pero concentrémonos en los humanos.
+
+Todos los agentes, incluso los individuos, son sistemas complejos de información y conocimiento. Ahora bien, cuando hablamos de organizaciones, solo hace falta pensar en el flujo de información que implican las organizaciones de las formamos parte. Piensa en tu trabajo, tu gimnasio o cualquier actividad en la que te hayas apuntado. Tu rol en cada organización es diferente, pero puedes pensar en su flujo de información más allá de tu rol en ella. 
+
+
+<!-- No viene al caso, pero por supuesto podríamos aplicar el mismo razonamiento para justificar el interés en los individuos y sus componentes, es decir sistemas de órganos, cada uno de los cuales está formado por una infinidad de células.  -->
+
+La producción del conocimiento a nivel socio-organizado es la cultura, las prácticas institucionales, las rutinas, los procedimientos. 
+
+tipos ideales de este tipo
