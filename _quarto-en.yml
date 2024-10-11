@@ -28,7 +28,6 @@ website:
         text: Español
       - href: ../
         text: English
-  site-url: https://ihulsk.github.io/
       
   page-footer: 
     background: light # or dark
