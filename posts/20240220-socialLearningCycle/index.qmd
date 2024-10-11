@@ -1,0 +1,15 @@
+---
+title: "Aprendizaje en el I-Space: el Social Learning Cycle o Ciclo Social de Aprendizaje"
+description: "Esta entrada representa en el I-Space las etapas de aprendizaje por las que suele pasar un agente."
+author:
+  - name: Ian Hulskamp
+    url: https://ihulsk.github.io/
+    orcid: 0000-0002-0839-4011
+date: 01-14-2023
+categories: [Agent, Ispace, Social Learning Cycle] # self-defined categories
+citation: 
+  url: https://ihulsk.github.io/posts/20240220-socialLearningCycle/ 
+image: ispace-blog.png
+draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+# bibliography: references.bib
+---
