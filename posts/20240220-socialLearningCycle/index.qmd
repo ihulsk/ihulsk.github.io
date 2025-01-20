@@ -13,3 +13,7 @@ image: ispace-blog.png
 draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 # bibliography: references.bib
 ---
+
+En nuestro esfuerzo por entender el conocimiento, hemos visto como el [**I-Space**](../20231027-ispaceBasics/index.qmd) de Boisot [-@boisot1995; -@boisot1998] es una herramienta que nos permite representar la intrincada relación entre [**datos, información y conocimiento**](../20231111-dataInformationKnowledge/index.qmd), así como 'agentes sociales' y sus espacio culturales. Pero, esta herramienta nos ofrece además representar la evolución el proceso de aprendizaje de estos 'agentes sociales' y su producción de conocimiento. ¿Qué etapas atraviesan (atravesamos) los agentes sociales en la creación de conocimiento? Veamos más en detalle las etapas que suelen involucrar los ciclos de aprendizaje en la comprensión del mundo de organizaciones e individuos.
+
+
