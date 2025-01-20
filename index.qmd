@@ -15,22 +15,25 @@ about:
       href: https://github.com/ihulsk
     - icon: envelope
       href: mailto:ihulsk@gmail.com
+format: 
+  html: 
+    include-in-header: custom-head.html
+
 ---
 
 ::: {.content-visible .justified when-profile="es"}
 # ¡Hola!
+
 ::: justified
-
-
-**Soy Ian**, un investigador apasionado a punto de completar su doctorado en la Sociedad de la Información y el Conocimiento en la Universitat Oberta de Catalunya ([**UOC**](https://www.uoc.edu/portal/es/index.html)). Aunque valoro profundamente la investigación académica, **estoy buscando nuevos rumbos** que me permitan traducir la teoría en práctica. 
+**Soy Ian**, un investigador apasionado a punto de completar su doctorado en la Sociedad de la Información y el Conocimiento en la Universitat Oberta de Catalunya ([**UOC**](https://www.uoc.edu/portal/es/index.html)). Aunque valoro profundamente la investigación académica, **estoy buscando nuevos rumbos** que me permitan traducir la teoría en práctica.
 
 Los últimos años de mi carrera profesional aprendí cómo diversos **mecanismos de interacción social pueden favorecer la producción y distribución de conocimiento**. Si estás buscando un profesional dedicado que no solo comprenda el conocimiento, sino que también quiera promoverlo de manera efectiva, ¡estás en el lugar indicado!
-
 :::
 :::
 
 ::: {.content-visible .justified when-profile="en"}
 # Hi there!
+
 ::: justified
 I'm Ian, a **passionate researcher** about to complete my PhD in the realm of **Information and Knowledge Society** at [**UOC**](https://www.uoc.edu/portal/es/index.html). While I deeply appreciate academic research, I'm on the exciting journey of **translating theory into practice**. This space is where my academic curiosity meets real-world pragmatism.
 
