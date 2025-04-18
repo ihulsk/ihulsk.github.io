@@ -74,7 +74,7 @@
     "href": "skills.html",
     "title": "Capacidades",
     "section": "",
-    "text": "::: {.content-visible when-profile=“es”}"
+    "text": ":::{.content-visible when-profile=“es”}"
   },
   {
     "objectID": "skills.html#metodologías",

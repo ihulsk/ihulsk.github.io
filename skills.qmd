@@ -7,7 +7,7 @@ code-fold: true
 link-citations: false
 ---
 
-::: {.content-visible when-profile="es"}
+:::{.content-visible when-profile="es"}
 
 # Capacidades
 
