@@ -14,7 +14,7 @@ link-citations: false
 
 ::: justified
 
-He explorado diversas áreas de conocimiento a lo largo de mi carrera profesional, dando forma a mi perspectiva. A continuación, describo áreas clave que han capturado mi atención, con referencias a mis contribuciones cuando corresponda.
+He explorado diversas áreas de conocimiento a lo largo de mi carrera profesional, dando forma a mi perspectiva. A continuación, describo áreas clave que han capturado mi atención, incluyendo referencias a mis contribuciones cuando corresponda.
 
 :::
 
@@ -28,12 +28,8 @@ He explorado diversas áreas de conocimiento a lo largo de mi carrera profesiona
 <br>
 La transferencia de conocimientos entre organizaciones académicas y empresariales para promover la innovación es el tema principal en el que he estado trabajando durante los últimos 5 o 6 años. Hasta ahora ha sido un proceso que involucró la navegación entre múltiples perspectivas, aumentando continuamente su complejidad:
 
-* Mi interés en el tema surgió gracias al curso de Economía del Conocimiento de mi Maestría, donde un colega y yo exploramos el papel de las instituciones de investigación pública en los procesos de recuperación mediante el análisis del caso de India.
-
-* La exploración del tema continuó con mi tesis de maestría, titulada "University-Industry Relationship through Knowledge Transfer Organizations in Developing Countries: Evidence from an Argentinian Local Innovation Ecosystem".
-
-* El reciente solicitud de depósito de mi Tesis Doctoral, titulada "Understanding Knowledge Dynamics Across Modes of Academia-Industry Collaboration:
-A Comprehensive Mixed-Method Analysis within the I-Space Framework: Lessons from San Carlos de Bariloche, Argentina", representa la última y más profunda etapa de este proceso.
+Mi tesis doctoral representa la última y más profunda etapa de este proceso: "Understanding Knowledge Dynamics Across Modes of Academia-Industry Collaboration:
+A Comprehensive Mixed-Method Analysis within the I-Space Framework: Lessons from San Carlos de Bariloche, Argentina". Una parte ya está publicada formato [**artículo**](https://journals.sagepub.com/doi/abs/10.1177/09504222241251584).
 
 :::
 
@@ -45,13 +41,9 @@ A Comprehensive Mixed-Method Analysis within the I-Space Framework: Lessons from
 
 ::: justified
 <br>
-Un tema crítico que estudié para mi doctorado y que me motiva a abordar la implementación del conocimiento.
+Un tema crítico que estudié para mi doctorado y abordo hoy en día desde la práctica.
 
-* Dado que no he contribuido mucho al campo hasta ahora, debería destacar el marco teórico desarrollado por Boisot [-@boisot1995] para comprender los flujos de información y conocimiento en entornos sociales: el *Information Space* o *I-Space*. En mi [**blog**](blog.qmd), estoy intentando sintetizar y usar este marco para analizar la coyuntura.
-
-* Codificación, abstracción y difusión son tres dimensiones clave utilizadas para analizar la producción continua de conocimiento [@boisot2011].
-
-* Además del Espacio I, otras perspectivas también han dado forma a mi comprensión del campo [e.g., @alavi2001; @cetina1999; @march1991; @nonaka1995; @polanyi1958; @teece1997].
+* Destacar el marco teórico de Boisot [-@boisot1995] para comprender los flujos de información y conocimiento en entornos sociales: el *Information Space* o *I-Space*. En mi [**blog**](blog.qmd), intento sintetizar y usar este marco para analizar la coyuntura.
 
 :::
 </details>
@@ -59,16 +51,16 @@ Un tema crítico que estudié para mi doctorado y que me motiva a abordar la imp
 ### Economía, Instituciones y Cultura
 <details>
 
-<summary>💼 **Explorando los fundamentos socioculturales del comportamiento económico y humano** 📖 </summary>
+<summary>💼 **Explorando los fundamentos socioculturales del comportamiento** 📖 </summary>
 
 ::: justified
 <br>
 ¿Cómo definen la gestión de recursos, información y conocimiento la cultura y los arreglos institucionales?
 
 
-* Además de explorar las Colaboraciones Academia-Industria, con otra compañera de clase de la maestría realizamos un análisis de hackerspaces y makerspaces basado en la idea de bienes comunes de Ostrom [-@ostrom1990].
+* Además de explorar las Colaboraciones Academia-Industria, en la maestría trabajé sobre hackerspaces y makerspaces, basado en Ostrom [-@ostrom1990].
 
-* Más allá de mi contribución limitada al tema, vale la pena mencionar algunos enfoques como sistemas de innovación [@cooke2001; @etzkowitz2000; @lundvall1988; @nelson1993], innovación abierta [@chesbrough2003; @vonhippel2005], bienes comunes [@allen2016; @hess2007; @kostakis2015; @ostrom1990] y economía de la información [@boisot1998].
+* Sistemas de innovación [@cooke2001; @etzkowitz2000; @lundvall1988; @nelson1993], innovación abierta [@chesbrough2003; @vonhippel2005], bienes comunes [@allen2016; @hess2007; @kostakis2015; @ostrom1990] y economía de la información [@boisot1998].
 
 :::
 
@@ -83,9 +75,7 @@ Un tema crítico que estudié para mi doctorado y que me motiva a abordar la imp
 <br>
 La continua proliferación de tecnologías de la información y la comunicación (TIC) tiene un fuerte impacto en la producción de conocimiento e información.
 
-* Con mi supervisor de doctorado hemos explorado ampliamente los [fundamentos de las plataformas digitales y su clasificación](https://comein.uoc.edu/divulgacio/oikonomics/_recursos/documents/14/canals-hulskamp_Oikonomics14_esp.pdf).
-
-* Me siento particularmente atraído por perspectivas teóricas como la de Gawer [-@gawer2020]. Creo que entender cómo estas plataformas están remodelando las interacciones económicas y sociales es fundamental. 
+* Con mi supervisor hemos explorado los [fundamentos de las plataformas digitales y su clasificación](https://comein.uoc.edu/divulgacio/oikonomics/_recursos/documents/14/canals-hulskamp_Oikonomics14_esp.pdf).
 
 :::
 
@@ -93,7 +83,7 @@ La continua proliferación de tecnologías de la información y la comunicación
 
 ### Teoría de Grafos y Análisis de Redes
 <details>
-<summary>🌐 **Descubriendo relaciones más allá de los actores** 🔗</summary>
+<summary>🌐 **Redes: relaciones más allá de los actores** 🔗</summary>
 ::: justified
 <br>
 Representando la complejidad como sistemas interconectados e interdependientes, considerando tanto los nodos como los vínculos que los conectan [@börner2007; @granovetter1973; @granovetter1983; @newman2018]. 
@@ -121,7 +111,7 @@ He explorado enfoques pragmatistas y enactivistas [e.g., @dewey1923; @varela2017
 
 ::: justified
 <br>
-Entusiasmo por las propiedades emergentes, la entropía [@ben-naim2008], el trabajo revolucionario de Claude Shannon [-@shannon1949], y estudios posteriores en diversas áreas de conocimiento [e.g., @boisot2004; @gleick2011; @snowden2002; @polyanskiy2022]. Recientemente participé en un interesante [curso](https://www.youtube.com/@redcompleja4990) sobre redes complejas.  
+Propiedades emergentes, entropía [@ben-naim2008], Claude Shannon [-@shannon1949], y teoría sobre el conocimiento [e.g., @boisot2004; @gleick2011; @snowden2002; @polyanskiy2022]. Participé en un interesante [curso](https://www.youtube.com/@redcompleja4990) sobre redes complejas.  
 
 :::
 
@@ -155,7 +145,7 @@ Mi pasión por comprender las diferencias culturales y los patrones de comunicac
 
 
 ::: justified
-I've delved into diverse knowledge areas throughout my professional career, shaping my perspective. Below, I outline key areas that have captured my attention, with references to my contributions where relevant.
+I've delved into diverse knowledge areas throughout my professional career, shaping my perspective. Below, I outline key areas that have captured my attention, with references to my own contributions where relevant.
 :::
 
 ------------------------------------------------------------------------
@@ -166,13 +156,10 @@ I've delved into diverse knowledge areas throughout my professional career, shap
 
 ::: justified
 <br>
-The transfer of knowledge between academic and business organizations to promote innovation is the main subject I have been working on for the last 5 or 6 years. So far it has been a process which involved navigating multiple perspectives, continuously increasing in its complexity:
+The transfer of knowledge between academic and business organizations to promote innovation is the main subject I have been working on for the last 5 or 6 years. So far it has been a process which involved navigating multiple perspectives, continuously increasing in its complexity.
 
-* My interest in the subject appeared thanks to the Economics of Knowledge course of my Master's, where a collegue and I explored the role of public research institutions in catching-up processes by analyzing the the case of India.
 
-* The exploration of the subject continued with my Master's thesis, titled "University-Industry Relationship through Knowledge Transfer Organizations in Developing Countries: Evidence from an Argentinian Local Innovation Ecosystem"
-
-* The recent submission of PhD Thesis, titled "Understanding Knowledge Dynamics Across Modes of Academia-Industry Collaboration:
+My PhD Thesis, titled "Understanding Knowledge Dynamics Across Modes of Academia-Industry Collaboration:
 A Comprehensive Mixed-Method Analysis within the I-Space Framework: Lessons from San Carlos de Bariloche, Argentina", represent the last and most profound stage of this process.
 
 :::
@@ -185,13 +172,9 @@ A Comprehensive Mixed-Method Analysis within the I-Space Framework: Lessons from
 
 ::: justified
 <br>
-A critical topic I studied for my doctorate and which motivates me to approach the implementation of knowledge. 
+A critical topic I studied for my doctorate and which I now implement in my day to day. 
 
-* Since I have not contributed much to the field so far, I should highlight the theoretical framework developed by Boisot [-@boisot1995] for understanding information and knowledge flows in social settings: the *Information Space* or *I-Space*. In my [**blog**](blog.qmd), I am now trying to synthesize and use this framework to analyze the conjuncture.
-
-* Coding, abstraction, and diffusion are three key dimensions used to analyze the ongoing production of knowledge [@boisot2011].
-
-* Besides the I-Space, other perspectives have also shaped my understanding of the field [e.g., @alavi2001; @cetina1999; @march1991; @nonaka1995; @polanyi1958; @teece1997].
+* It is worth mentioning the theoretical framework developed by Boisot [-@boisot1995] for understanding information and knowledge flows in social settings: the *Information Space* or *I-Space*. In my [**blog**](blog.qmd), I am now trying to synthesize and use this framework to analyze the conjuncture.
 
 :::
 </details>

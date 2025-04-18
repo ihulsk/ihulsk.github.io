@@ -9,15 +9,15 @@ link-citations: false
 
 ::: {.content-visible when-profile="es"}
 
-# Mis habilidades
+# Capacidades
 
 ::: justified
-A lo largo de mi formación y mi carrera profesional desarrollé múltiples capacidades que abarcan diversos **métodos**, **herramientas** y **competencias blandas** esenciales para impulsar proyectos y colaboraciones impactantes. A continuación, presento una selección de mis habilidades clave y algunos proyectos destacados que demuestran su aplicación en escenarios del mundo real.
+A lo largo de mi formación y mi carrera profesional desarrollé múltiples capacidades que abarcan diversas **metodologías**, **competencias de gestión y estrategia** y **herramientas digitales** esenciales para impulsar proyectos y colaboraciones impactantes. 
 :::
 
-## 📌 Habilidades Técnicas
+## 📌 Metodologías
 <details> 
-<summary> **Análisis cuantitativo:** competente en técnicas avanzadas para analizar datos y extraer patrones significativas (por ejemplo, estadísticas, redes sociales) </summary>
+<summary> **Análisis cuantitativo:** estadística descriptiva e inferencial, redes sociales </summary>
 <br>
 
 ::: centered
@@ -29,7 +29,7 @@ A lo largo de mi formación y mi carrera profesional desarrollé múltiples capa
 ::: {.grid}
 
 ::: {.g-col-4 .justified}
-Mi competencia en estadística abarca más de una década, comenzando desde mis estudios de grado en la Universidad de Buenos Aires. He aplicado técnicas estadísticas extensamente, notablemente durante mi período en CEPAL, donde contribuí al desarrollo de indicadores económicos como un Índice de Precios al Consumidor (IPC) o indicadores sintéticos de activiad económica. En mi tesis doctoral, utilicé modelos estadísticos avanzados para analizar datos de encuestas en línea, empleando herramientas como Qualtrics para la recopilación y análisis de datos.
+Más de una década utilizando técnicas estadísticas extensamente. Durante mi período en CEPAL, contribuí al desarrollo de indicadores económicos: un Índice de Precios al Consumidor (IPC) y varios indicadores sintéticos de actividad  económica. En mi tesis doctoral, utilicé modelos de regresión logística y _proportional odds_, para analizar datos recopilados a través de una encuesta original distribuida en Qualtrics.
 :::
 
 ::: {.g-col-8 }
@@ -69,7 +69,7 @@ gg
 :::
 
 ::: {.g-col-8 .justified}
-Adentrándome en la teoría de grafos y el análisis de redes sociales, exploré colaboraciones entre organizaciones académicas y empresariales, a pesar de los desafíos planteados por la escasez de publicaciones empresariales. A través de herramientas como Bibliometrix, describí la evolución de colaboraciones en publicaciones académicas, como lo evidencia mi presentación en la Conferencia Conjunta Sunbelt & NetSci 2021.
+Teoría de grafos y el análisis de redes sociales: he explorado colaboraciones entre organizaciones académicas y empresariales. A través de herramientas como Bibliometrix, describí la evolución de colaboraciones en publicaciones académicas, como lo evidencia mi presentación en la Conferencia Conjunta Sunbelt & NetSci 2021.
 
 ```{r eval=FALSE, echo=TRUE, comment= F, warning = F}
 library(tidygeocoder)
@@ -115,14 +115,14 @@ for (i in loop.vector) {
 </details>
 
 <details>
-<summary>**Análisis cualitativo:** experimentado en métodos cualitativos que ofrecen perspectivas matizadas e información contextual (por ejemplo, entrevistas, estudio de casos, análisis temático)</summary>
+<summary>**Análisis cualitativo:** Análisis temático de entrevistas, codificación de deductiva e inductiva, estudio de casos</summary>
 <br>
 
 ::: grid
 
 ::: {.g-col-4 .justified}
 
-Mi experiencia incluye la realización y análisis de entrevistas utilizando Atlas.ti. He realizado análisis temático, incluyendo tanto codificación deductiva como inductiva, para extraer ideas a partir de datos cualitativos, enriqueciendo mi investigación con perspectivas matizadas y comprensión contextual.
+Realización y análisis de entrevistas utilizando Atlas.ti. He realizado análisis temático, incluyendo tanto codificación deductiva como inductiva, para extraer ideas a partir de datos cualitativos, enriqueciendo mi investigación con perspectivas matizadas y comprensión contextual.
 
 :::
 
@@ -147,7 +147,7 @@ Mi experiencia incluye la realización y análisis de entrevistas utilizando Atl
 ::: grid
 
 ::: {.g-col-4 .justified}
-En mi tesis doctoral, adopté un diseño de estudio de caso secuencial explicativo, combinando de manera fluida enfoques cuantitativos y cualitativos para obtener una comprensión completa de fenómenos complejos. Esta metodología me permitió descubrir patrones multifacéticos e informar recomendaciones prácticas.
+Diseñé e implementé un estudio de caso secuencial explicativo, combinando de manera fluida enfoques cuantitativos y cualitativos para el conocimiento en diversos modos de colaboración entre organizaciones académicas y empresariales. Esta metodología me permitió descubrir patrones multifacéticos e informar recomendaciones prácticas.
 
 :::
 
@@ -159,15 +159,23 @@ En mi tesis doctoral, adopté un diseño de estudio de caso secuencial explicati
 
 </details>
 
-## 📌 Competencias Blandas
+## 📌 Competencias de Gestión y Estrategia
 
 ::: justified
 
 <details>
 
-<summary> **Resolución de Problemas Complejos**:</summary>
+<summary> **Gestión de Proyectos y Ejecución Operativa***:</summary>
 
-Me apasiona abordar problemas complejos y diseñar soluciones concretas que eviten caer en propuestas simplistas y reduccionistas. Con una actitud proactiva y abierta, busco diseñar soluciones sofisticadas, "fuera de lo común", que no solo consideren las partes de un proceso, sino también sus conexiones e interdependencias. En el diseño e implementación de mi tesis doctoral, enfrenté todo tipo de desafíos (metodológicos, de programación, limitaciones de recursos) que pude abordar y enmarcar para proporcionar una respuesta integrada desde una perspectiva compleja.
+Acostumbrado a trabajar con múltiples deadlines y con actores de perfiles muy diversos. Coordino tareas, equipo y entregas en contextos exigentes, especialmente en proyectos financiados con fondos europeos, nacionales y regionales.
+
+</details>
+
+<details>
+
+<summary> **Resolución ágil de Problemas Complejos**:</summary>
+
+Tengo facilidad para entender escenarios con múltiples capas y variables, y formular soluciones que reconozcan la complejidad sin caer en simplificaciones. Esto ha sido clave tanto en la investigación como en la gestión de proyectos, donde los desafíos rara vez tienen una sola dimensión.
 
 </details>
 
@@ -175,29 +183,29 @@ Me apasiona abordar problemas complejos y diseñar soluciones concretas que evit
 
 <summary> **Comunicación Adaptada**:</summary>
 
-La comunicación efectiva es crucial en mi enfoque profesional. Ajusto el lenguaje técnico a términos comprensibles y adapto el formato del mensaje según el contexto y el destinatario. Esto ha sido esencial en mi papel como intermediario entre la academia y la industria.
+Adapto el lenguaje y el canal según la audiencia: desde informes técnicos y plataformas de reporting hasta correos que hacen avanzar la colaboración. Sé cuándo hay que ser técnico y cuándo hay que ser claro.
 
 </details>
 
 <details>
 
-<summary> **Equilibrio entre Trabajo Colaborativo e Independiente**:</summary>
+<summary> **Autonomía y Colaboración**:</summary>
 
-Concebir y llevar a cabo un proyecto de investigación de principio a fin me ha enseñado a trabajar de manera autónoma. Sin embargo, al mismo tiempo, ser parte de un grupo de investigación y participar en múltiples conferencias me ha mostrado el valor de compartir y colaborar activamente para alcanzar objetivos colectivos. La colaboración es clave para mejorar las habilidades individuales y lograr mejores resultados colectivos.
+Sé desenvolverme en autonomía total, como lo muestra mi trayectoria investigadora, pero también me gusta construir en equipo, compartir lo que sé y aprender de otros. Valoro mucho los espacios donde la colaboración potencia las ideas.
+
 
 </details>
 
 <details>
 
-<summary> **Resiliencia y Adaptabilidad**:</summary>
-
-Me entusiasma la continua evolución de los eventos y la tecnología. Creo que los desafíos representan oportunidades de crecimiento, para lo cual es necesario abrazar el cambio e incorporar rápidamente nuevas herramientas, métodos y modalidades de trabajo. Ya sea a través del autoaprendizaje o gracias a la formación ofrecida por las organizaciones de las que he sido parte, siempre tomo la iniciativa de dominar nuevas herramientas y aprovechar al máximo su adaptación a las necesidades y al contexto.
-
-</details>
 
 :::
 
-## 📌 Otras Capacidades y Herramientas:
+## 📌 Herramientas y Técnicas Digitales:
+
+- Capacitado en planificación, seguimiento presupuestario y justificación financiera de proyectos científicos nacionales e internacionales.
+
+-   Programas y lenguajes que he utilizado: Microsoft Office, R, Zettlr, Stata, REDATAM, QGIS, Gephi, Freeplane, Zotero, $LaTeX$, Python, Java, Ilustrator, .
 
 -   [**Pandoc**](https://pandoc.org) / [**Markdown**](https://www.markdownguide.org)
 
@@ -205,7 +213,6 @@ Me entusiasma la continua evolución de los eventos y la tecnología. Creo que l
 
 -   [**Decidim**](/visualMedia/CertificatDecidim.pdf)
 
--   Otros programas y lenguajes que he utilizado: Microsoft Office, Zettlr, Stata, REDATAM, QGIS, Gephi, Freeplane, Zotero, $LaTeX$, Python, Java.
 
 ## 📌 Proyectos Destacados
 
@@ -250,14 +257,15 @@ Mi participación en el desarrollo de indicadores económicos con CEPAL abarcó 
 
 ::: justified
 
-I've cultivated a diverse skill set encompassing various **methods**, **tools**, and **soft skills** essential for driving impactful projects and collaborations. Below, I present a selection of my key skills and highlight notable projects that demonstrate their application in real-world scenarios.
+Throughout my academic and professional journey, I’ve developed a diverse set of skills spanning **methodologies**, **project and strategy management**, and **digital tools**—all essential to driving impactful projects and collaborations.
 :::
 
 
 ## 📌 Technical Skills
 
 <details> 
-<summary> **Quantitative analysis:** proficient in advanced techniques for analyzing data and deriving meaningful insights (e.g., statistics, social networks) </summary>
+<summary> **Quantitative analysis:** descriptive and inferential statistics, social network analysis
+</summary>
 <br>
 
 ::: centered 
@@ -488,7 +496,7 @@ for (i in loop.vector) {
 </details>
 
 <details>
-<summary>**Qualitative analysis:** experienced in qualitative methods that offer nuanced insights and contextual information (e.g., interviews, case study, thematic analysis)</summary>
+<summary>**Qualitative analysis:** thematic interview analysis, inductive and deductive coding, case studies</summary>
 <br>
 
 ::: centered 
@@ -523,7 +531,7 @@ My experience includes conducting and analyzing interviews using Atlas.ti. I've 
 </details>
 
 <details>
-<summary> **Mixed-methods analysis:** skilled in combining and integrating the strengths of quantitative and qualitative approaches to gain comprehensive insights into complex phenomena </summary>
+<summary> **Mixed methods:** skilled at combining the strengths of both quantitative and qualitative approaches to gain a deeper, more integrated understanding of complex phenomena </summary>
 <br>
 
 ::: centered 
@@ -556,43 +564,48 @@ In my doctoral thesis, I adopted an explanatory sequential case study design, se
 :::
 </details>
 
-## 📌 Soft Skills
+## 📌Project and Strategic Management
 
 ::: justified
 <details>
 
-<summary> **Complex Problem Solving**:</summary>
+<summary> **Project Management and Operational Delivery**:</summary>
 
-I'm passionate about tackling complex issues and devising concrete solutions that avoid falling into simplistic and reductionist proposals. With a proactive and open-minded attitude, I seek to design sophisticated, "out-of-the-box" solutions that not only consider the parts of a process but also their connections and interdependencies. In the design and implementation of my doctoral thesis, I faced all sorts of challenges (methodological, scheduling, resource limitations) that I could address and frame to provide an integrated response from a complex perspective.
-
-</details>
-
-<details>
-
-<summary> **Target Communication**:</summary>
-
-Effective communication is crucial in my professional approach. I adjust technical language to understandable terms and adapt the message format according to the context and the recipient. This has been essential in my role as an intermediary between academia and industry.
+Used to juggling multiple deadlines and working with a wide range of stakeholders. I coordinate tasks, teams, and deliverables under pressure, particularly in research projects funded by European, national, and regional programs.
 
 </details>
 
 <details>
 
-<summary> **Collaborative and Independent Work Balance**:</summary>
+<summary> **Agile Problem-Solving in Complex Environments**:</summary>
 
-Conceiving and carrying out a research project from start to finish has taught me to work autonomously. However, at the same time, being part of a research group and participating in multiple conferences have shown me the value of sharing and actively collaborating to achieve collective goals. Collaboration is key to enhancing individual skills and achieving better collective results.
+I’m quick at grasping multi-layered challenges and coming up with solutions that respect complexity without oversimplifying. This mindset has proven useful both in research and in project management, where problems rarely have one straightforward answer.
 
 </details>
 
 <details>
 
-<summary> **Resilience and Adaptability**:</summary>
+<summary> **Audience-Aware Communication**:</summary>
 
-I'm excited by the continuous evolution of events and technology. I believe that challenges represent growth opportunities, for which it is necessary to embrace change and quickly incorporate new tools, methods, and work modalities. Whether through self-learning or thanks to the training offered by the organizations I've been a part of, I always take the initiative to master new tools and make the most of their adaptation to the needs and context.
+I tailor both language and channel to the audience—whether it's technical reports, funding platform updates, or just getting things done over email. I know when to be precise and when to be clear.
+
+</details>
+
+<details>
+
+<summary> **Independent Thinking, Collaborative Spirit**:</summary>
+
+I’m fully comfortable working independently, as my research background shows, but I’m just as committed to team dynamics, knowledge sharing, and co-creating better outcomes. I genuinely enjoy spaces where collaboration amplifies good ideas.
+
 
 </details>
 :::
 
-## 📌 Other Skills and Tools
+## 📌 Digital Tools and Techniques
+
+-    Skilled in planning, budget monitoring, and financial reporting for national and international science projects.
+
+-    Programs and languages I’ve worked with: Microsoft Office, R, Zettlr, Stata, REDATAM, QGIS, Gephi, Freeplane, Zotero, $LaTeX$, Python, Java, Illustrator.
 
 -    [**Pandoc**](https://pandoc.org) / [**Markdown**](https://www.markdownguide.org)
 
@@ -600,7 +613,6 @@ I'm excited by the continuous evolution of events and technology. I believe that
 
 -    [**Decidim**](/visualMedia/CertificatDecidim.pdf)
 
--    Other software I've used: Microsoft Office, Zettlr, Stata, REDATAM, QGIS, Gephi, Freeplane, Zotero, $LaTeX$, Python, Java.
 
 ## 📌 Notable Projects
 

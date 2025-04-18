@@ -12,7 +12,7 @@ website:
         icon: house
       - about.qmd
       - href: skills.qmd
-        text: Habilidades
+        text: Capacidades
       - href: interests.qmd
         text: Foco Profesional
       - href: blog.qmd

@@ -11,18 +11,26 @@ page-layout: full
 
 ::: {.content-visible when-profile="es"}
 ::: {.g-col-12 .g-col-md-6 .justified }
-Si estás buscando un resumen conciso de mi trayectoria académica y profesional, te invito a consultar mi [**CV**](cv/CV-IH-1023.pdf).
+Si estás buscando un resumen más conciso de mi trayectoria académica y profesional, es por aquí [**CV**](cv/CV-IH-1023.pdf).
 
-Como **economista** convertido en **entusiasta de la innovación y el conocimiento**, he emprendido un viaje gratificante impulsado por la curiosidad y la pasión por aprender. Ahora, al acercarme a la finalización de mi tesis de doctorado, estoy ansioso por explorar nuevos rumbos y hacer la transición de la teoría a la acción. Aspiro no solo a analizar, sino también a implementar soluciones, presenciando su impacto transformador de primera mano. Aunque mi pasión por el pensamiento abstracto permanece intacta, estoy motivado para desempeñar un papel más práctico en ayudar a las organizaciones a conectar con su entorno y fortalecer su base de conocimientos.
+Actualmente trabajo como **gestor de proyectos** en el [**CTTC**](https://www.cttc.cat/), un centro de investigación en tecnología en telecomunicaciones. Personalmente, la verdad es que de telecomunicaciones sé poco y nada, pero **me apasiona la producción del conocimiento**. 
+
+**Economista** de formación, pienso en términos de producir y optimizar pero en términos más generales creo que el conocimiento más bien evoluciona. El **entusiasmo en la innovación, la ciencia, la colaboración y el aprendizaje** para incentivar el conocimiento, me han llevado a especializarme en estos temas. 
+
+Aspiro no solo a continuar analizándolos, sin dejar nunca de lado la teoría, pero buscando implementar soluciones. Cualquier agente social esta sujeto a potenciales mejoras en su producción de conocimiento. Aquí encontraréis un breve relato de mi propia evolución. 
 
 :::
 :::
 
 :::{.content-visible when-profile="en"}
 :::{.g-col-12 .g-col-md-6 .justified }
-If you're looking **for a concise overview** of my academic and professional journey, feel free to **explore my** [**CV**](cv/CV-IH-1023.pdf). 
+If you're looking for a more concise overview of my academic and professional path, you’ll find it here: [**CV**](cv/CV-IH-1023.pdf).
 
-As an **economist** turned **innovation and knowledge enthusiast**, I've embarked on a fulfilling journey fueled by curiosity and a thirst for learning. Now, as I near completion of my PhD thesis, I'm eager to transition from theory to action. I aspire to not only analyze but also implement solutions, witnessing their transformative impact firsthand. While my passion for abstract thinking remains intact, I'm driven to play a more practical role in **helping organizations connect with their environment and fortify their knowledge base**.
+Right now I’m working as a **Project Manager** at the [**CTTC**](https://www.cttc.cat/), a research center in telecommunications technology. Personally? I don’t know much about telecoms — but I’m genuinely passionate about how knowledge gets produced.
+
+Trained as an **economist**, I was taught to think in terms of production and optimization. But over time, I’ve come to see knowledge as something that evolves. My drive to understand how **innovation, science, collaboration, and learning** contribute to this process has led me to specialize in these fields.
+
+I aim not only to keep analyzing these dynamics — theory matters to me — but also to put ideas into motion. Any social actor has room to grow in how it generates and shares knowledge. Here you’ll find a short story about my own evolution.
 
 :::
 :::
@@ -80,21 +88,26 @@ zoomBchMarkers
 ::: {.content-visible when-profile="es"}
 ::: {.g-col-12 .g-col-md-6 .justified}
 
-Antes de embarcarme en mis estudios de **doctorado en la Sociedad de la Información y el Conocimiento** en la UOC, cursé una **doble maestría en "Economía del Conocimiento e Innovación" y "Política Económica"**. Mis estudios académicos me llevaron por toda Europa, desde Turín hasta París, con una parada en Burdeos para trabajar en mi tesis final de maestría.
+Antes de involucrarme en la gestión de más de 100 proyectos  (haciendo seguimiento, control, presupuestos, comunicación y justificación financiera), me embarqué en el **doctorado en la Sociedad de la Información y el Conocimiento** en la UOC. Hice mi tesis acerca de las características del conocimiento asociadas a distintas formas de colaboración entre organizaciones académicas y empresariales (defensa inminente). Encontré que la combinación estratégica de distintas formas de colaborar puede devenir en grandes ventajas de aprendizaje para los involucrados y sus entornos.   
 
-Antes de mi aventura europea, desarrollé mis habilidades en **economía** a través de una licenciatura en la Universidad de Buenos Aires. En Buenos Aires, tuve el privilegio de contribuir como **Consultor Económico** en proyectos de la Comisión Económica para América Latina y el Caribe de las Naciones Unidas (CEPAL) y compartir mis conocimientos como **profesor asistente y adjunto**.
+Previamente cursé una **doble maestría en "Economía del Conocimiento e Innovación" y "Política Económica"**. Gracias al, ya extinto, programa Erasmus Mundus pasé por excelentes universidades en Turín, París, y Bordeaux. Allí senté me orienté al conocimiento. 
 
-Durante mi licenciatura, tuve el privilegio de ser **becario de investigación** en el Centro de Investigación en Epistemología de las Ciencias Económicas (CIECE) de la Universidad de Buenos Aires, gracias a una beca nacional. Antes de mudarme a Buenos Aires, crecí en la pintoresca ciudad de San Carlos de Bariloche en la Patagonia.
+Pero aún antes, había desarrollado ya mis habilidades en **economía** gracias una licenciatura en la Universidad de Buenos Aires. Allí tuve también el privilegio de contribuir como **Consultor Económico** en diversos proyectos de la Comisión Económica para América Latina y el Caribe de las Naciones Unidas (CEPAL) y ejercer como **profesor asistente y adjunto** en diversas materias.
+
+Mis orígenes son Patagónicos. Y si quieres saber más, ya sabes donde encontrarme. 
 
 :::
 :::
 ::: {.content-visible when-profile="en"}
 ::: {.g-col-12 .g-col-md-6 .justified }
-Before embarking on my doctoral studies in the **Information and Knowledge Society** at UOC, I pursued a **dual Master's degree in "Economics of Knowledge and Innovation" and "Economic Policy**." My academic pursuits took me across Europe, from Turin to Paris, with a stop in Bordeaux to work on my final master's thesis.
+Before getting involved in managing over a hundred projects — tracking progress, keeping budgets in check, handling communication, and justifying expenses — I dove into a **PhD in the Information and Knowledge Society** at UOC. My thesis (defense coming soon) looks at how different types of collaboration between academic and business organizations shape the nature of knowledge they produce. I found that strategically combining various ways of working together can lead to major learning gains — both for the people involved and for their broader environments.
 
-Prior to my European adventure, I developed my skills in **economics through a Bachelor's degree** at the University of Buenos Aires. In Buenos Aires, I had the privilege of contributing as an **Economic Consultant** to projects at the United Nations Economic Commission for Latin America and the Caribbean (ECLAC - CEPAL) and sharing my knowledge as both an assistant and adjunct professor.
+Earlier on, I completed a **dual Master’s degree in “Economics of Knowledge and Innovation” and “Economic Policy.”** Thanks to the now-defunct Erasmus Mundus program, I had the chance to study at some great universities in Turin, Paris, and Bordeaux — and that’s where I really started focusing on knowledge as a field of study.
 
-During my bachelor's, I had the privilege of being a research fellow at the Center for Research in Epistemology of Economic Sciences (CIECE) at the University of Buenos Aires, thanks to a national scholarship. Before moving to Buenos Aires, I grew up in the picturesque city of San Carlos de Bariloche in Patagonia.
+But even before that, I’d already honed my skills in **economics** during my undergraduate years at the University of Buenos Aires. There, I also had the privilege of working as an **Economic Consultant** on several projects with the UN’s Economic Commission for Latin America and the Caribbean (ECLAC - CEPAL), and of teaching as both an **assistant and adjunct professor** in various courses.
+
+I’m originally from Patagonia.  
+And if you’d like to know more, well — you know where to find me.
 :::
 :::
 :::
@@ -109,7 +122,7 @@ During my bachelor's, I had the privilege of being a research fellow at the Cent
 ::: grid
 ::: {.content-visible when-profile="es"}
 ::: {.g-col-12 .g-col-md-6 .justified .align-middle }
-Además de mi trabajo académico, me mantengo activo a través de deportes como la escalada y el running. el deporte y la actividad física en general. También disfruto de la improvisación teatral y sueño con publicar algún día un libro de humor gráfico.
+Además de mi trabajo, me mantengo activo a través la escalada y el running. También suelo hacer cursos variados, ahora tocan guión y estiramientos. Sueño con publicar un libro de humor gráfico.
 
 Más allá de estas actividades lúdicas y recreativas, intento compartir mi visión sobre el mundo y su situación actual en [**mi blog personal**](blog.qmd).
 :::
@@ -117,9 +130,9 @@ Más allá de estas actividades lúdicas y recreativas, intento compartir mi vis
 
 ::: {.content-visible when-profile="en"}
 ::: {.g-col-12 .g-col-md-6 .justified .align-middle}
-Beyond academia, I find joy in staying active through sports like climbing and running. I also indulge in the creative outlet of theatrical improv and dream of publishing a graphic humor book someday.
+Outside of work, I stay active with **climbing and running**. I also tend to sign up for all kinds of random courses — right now it’s **screenwriting and stretching**. One day, I’d love to publish a **graphic humor book**.
 
-In addition to these recreational pursuits, I'm passionate about sharing my vision about the world and its current situation in [**my personal blog**](blog.qmd).
+Beyond those more playful things, I try to share my take on the world and what’s going on in it through [**my personal blog**](blog.qmd).
 :::
 :::
 
