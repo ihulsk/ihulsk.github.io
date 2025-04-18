@@ -7,12 +7,14 @@ code-fold: true
 link-citations: false
 ---
 
-:::{.content-visible when-profile="es"}
+::: {.content-visible when-profile="es"}
 
 # Capacidades
 
 ::: justified
+
 A lo largo de mi formación y mi carrera profesional desarrollé múltiples capacidades que abarcan diversas **metodologías**, **competencias de gestión y estrategia** y **herramientas digitales** esenciales para impulsar proyectos y colaboraciones impactantes. 
+
 :::
 
 ## 📌 Metodologías
@@ -29,7 +31,9 @@ A lo largo de mi formación y mi carrera profesional desarrollé múltiples capa
 ::: {.grid}
 
 ::: {.g-col-4 .justified}
+
 Más de una década utilizando técnicas estadísticas extensamente. Durante mi período en CEPAL, contribuí al desarrollo de indicadores económicos: un Índice de Precios al Consumidor (IPC) y varios indicadores sintéticos de actividad  económica. En mi tesis doctoral, utilicé modelos de regresión logística y _proportional odds_, para analizar datos recopilados a través de una encuesta original distribuida en Qualtrics.
+
 :::
 
 ::: {.g-col-8 }
@@ -69,6 +73,7 @@ gg
 :::
 
 ::: {.g-col-8 .justified}
+
 Teoría de grafos y el análisis de redes sociales: he explorado colaboraciones entre organizaciones académicas y empresariales. A través de herramientas como Bibliometrix, describí la evolución de colaboraciones en publicaciones académicas, como lo evidencia mi presentación en la Conferencia Conjunta Sunbelt & NetSci 2021.
 
 ```{r eval=FALSE, echo=TRUE, comment= F, warning = F}
@@ -127,7 +132,9 @@ Realización y análisis de entrevistas utilizando Atlas.ti. He realizado análi
 :::
 
 ::: {.g-col-8 }
+
 ![](visualMedia/atlasScreenshot.png){fig-align="center"}
+
 :::
 
 :::
@@ -152,7 +159,9 @@ Diseñé e implementé un estudio de caso secuencial explicativo, combinando de 
 :::
 
 ::: {.g-col-8 }
+
 ![](visualMedia/metodosMixtos.jpg){fig-align="center"}
+
 :::
 
 :::
@@ -164,7 +173,6 @@ Diseñé e implementé un estudio de caso secuencial explicativo, combinando de 
 ::: justified
 
 <details>
-
 <summary> **Gestión de Proyectos y Ejecución Operativa***:</summary>
 
 Acostumbrado a trabajar con múltiples deadlines y con actores de perfiles muy diversos. Coordino tareas, equipo y entregas en contextos exigentes, especialmente en proyectos financiados con fondos europeos, nacionales y regionales.
@@ -195,9 +203,6 @@ Sé desenvolverme en autonomía total, como lo muestra mi trayectoria investigad
 
 
 </details>
-
-<details>
-
 
 :::
 
@@ -238,6 +243,7 @@ Sin embargo, esta experiencia me permitió desarrollar habilidades valiosas en e
 :::
 
 </details>
+
 <details>
 <summary>**Desarrollo de Indicadores Económicos** <br></summary>
 
@@ -251,6 +257,9 @@ Mi participación en el desarrollo de indicadores económicos con CEPAL abarcó 
 
 :::
 
+
+<!-- English -->
+
 ::: {.content-visible when-profile="en"}
 
 # My Skills
@@ -258,10 +267,11 @@ Mi participación en el desarrollo de indicadores económicos con CEPAL abarcó 
 ::: justified
 
 Throughout my academic and professional journey, I’ve developed a diverse set of skills spanning **methodologies**, **project and strategy management**, and **digital tools**—all essential to driving impactful projects and collaborations.
+
 :::
 
 
-## 📌 Technical Skills
+## 📌 Methodologies
 
 <details> 
 <summary> **Quantitative analysis:** descriptive and inferential statistics, social network analysis
@@ -281,6 +291,7 @@ My proficiency in statistics spans over a decade, starting from my undergraduate
 :::
 
 ::: {.g-col-8 }
+
 ![](visualMedia/exampleModes.png){fig-align="left"}
 ```{r eval=FALSE, echo=TRUE}
 # Full model plots: appending fitted response probabilities (or logits) to the data frame and plotting these in relation to the predictors.
@@ -298,6 +309,7 @@ gg <- ggplot(plot_dat, aes(x = edad, y = prob, colour = level)) + geom_line(size
 gg
 
 ```
+
 :::
 
 :::
@@ -311,10 +323,12 @@ gg
 ::: {.grid}
 
 ::: {.g-col-4}
+
 ![](visualMedia/bch_institutional_animation.gif){fig-align="left"} 
 :::
 
 ::: {.g-col-8 .justified}
+
 Delving into graph theory and social network analysis, I explored collaborations between academic and business organizations, despite the challenges posed by limited business publications. Through tools like Bibliometrix, I depicted the evolution of collaborations in academic publications, as evidenced by my presentation at the Networks 2021: Joint Sunbelt & NetSci Conference.
 
 ```{r eval=FALSE, echo=TRUE, comment= F, warning = F}
@@ -353,6 +367,7 @@ for (i in loop.vector) {
 }
 },interval = .8, movie.name = "bch_institutional_animation.gif")
 ```
+
 :::
 
 :::
@@ -509,9 +524,11 @@ for (i in loop.vector) {
 
 ::: {.g-col-4 .justified}
 My experience includes conducting and analyzing interviews using Atlas.ti. I've employed thematic analysis, including both deductive and inductive coding, to derive insights from qualitative data, enriching my research with nuanced perspectives and contextual understanding.
+
 :::
 
 ::: {.g-col-8 }
+
 ![](visualMedia/atlasScreenshot.png){fig-align="center"}
 :::
 
@@ -543,11 +560,15 @@ My experience includes conducting and analyzing interviews using Atlas.ti. I've 
 ::: grid
 
 ::: {.g-col-4 .justified}
+
 In my doctoral thesis, I adopted an explanatory sequential case study design, seamlessly blending quantitative and qualitative approaches to gain comprehensive insights into complex phenomena. This methodology allowed me to uncover multifaceted patterns and inform practical recommendations.
+
 :::
 
 ::: {.g-col-8 }
+
 ![](visualMedia/metodosMixtos.jpg){fig-align="center"}
+
 :::
 
 <!-- <details> -->
@@ -561,12 +582,15 @@ In my doctoral thesis, I adopted an explanatory sequential case study design, se
 <!-- ![](visualMedia/metodosMixtos.jpg){fig-align="center"} -->
 
 <!-- </details> -->
+
 :::
+
 </details>
 
 ## 📌Project and Strategic Management
 
 ::: justified
+
 <details>
 
 <summary> **Project Management and Operational Delivery**:</summary>
@@ -599,6 +623,7 @@ I’m fully comfortable working independently, as my research background shows, 
 
 
 </details>
+
 :::
 
 ## 📌 Digital Tools and Techniques
@@ -620,16 +645,21 @@ I’m fully comfortable working independently, as my research background shows, 
 <summary>**PhD Thesis Exploring Knowledge Dynamics in Academia-Industry Collaborations within a Local Ecosystem**<br> </summary>
 
 ::: justified
+
 I examined knowledge production within academia-industry collaborations (AICs) in San Carlos de Bariloche, Argentina, using Boisot's I-Space framework to characterize knowledge co-creation, and individual and organizational learning dynamics. Employing a mixed-methods approach, I integrated survey data with insights gathered from in-depth interviews to explore diverse modes of collaboration and their associated knowledge properties and learning processes. The findings provided strategic recommendations for stakeholders to enhance reciprocal learning and knowledge co-creation within AICs. Furthermore, by laying the groundwork for cross-institutional knowledge partnerships, this project contributes to shaping future strategies and policies in inter-institutional collaborations.
+
 :::
+
 </details>
 <details>
 <summary>**Network Analysis of Academic Collaborations** <br></summary>
 
 ::: justified
+
 During my thesis project, I extensively explored social network analysis to measure information flows within academic collaborations. While initially intending to evaluate flows in academic-industry collaborations, I found that social network analysis was not the most suitable tool for this purpose. However, this experience allowed me to develop valuable skills in analyzing collaborations between academic organizations. Leveraging bibliometric databases, I conducted original analyses to visualize and analyze evolving networks of scholarly collaboration. This culminated in a presentation at the Networks 2021: Joint Sunbelt & NetSci Conference, where I shared insights about "Scientific Collaboration Through Institutional Networks: The Value of National Partners." Through this project, I gained a deeper understanding of academic collaboration dynamics and enhanced my proficiency in social network analysis techniques.
 
 :::
+
 </details>
 <details>
 <summary>**Development of Economic Indicators** <br></summary>
@@ -637,6 +667,7 @@ During my thesis project, I extensively explored social network analysis to meas
 ::: justified
 
 My involvement in the development of economic indicators with CEPAL encompassed two primary projects. On the one hand, I contributed to the initial stages of designing and implementing a Consumer Price Index (CPI). This involved analyzing data to identify a representative consumption basket and calculating weights to ensure accurate inflation monitoring. On the other hand, I played a key role in estimating and updating coincident indicators to track the economic activity of Argentine sub-national states. This project entailed collecting new data on observable variables, deseasonalizing time series, running statistical models, and assessing data quality to inform strategic decision-making.
+
 :::
 
 </details>
