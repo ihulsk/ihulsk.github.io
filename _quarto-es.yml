@@ -10,14 +10,14 @@ website:
       - href: index.qmd
         text: Inicio
         icon: house
-      - about.qmd
-      - href: skills.qmd
-        text: Capacidades
-      - href: interests.qmd
-        text: Foco Profesional
+      # - about.qmd
+      # - href: skills.qmd
+      #   text: Capacidades
       - href: blog.qmd
         text: Blog
-      - href: "cv/CV-IH-1023.pdf"
+      - href: interests.qmd
+        text: Intereses
+      - href: "cv/CV-IH-0625.pdf"
         text: CV
       # - icon: twitter
       #   href: https://twitter.com/ihulsk

@@ -1,0 +1,33 @@
+---
+title: "Estrategias para mejorar el aprendizaje organizacional en consorcios de I+D"
+description: "¿Qué tipo de conocimiento se genera cuando colaboran universidades y empresas? ¿Cómo pueden esas interacciones diseñarse mejor? En esta entrada presento de forma simple los principales hallazgos de mi tesis doctoral: un análisis sobre cómo distintos modos de colaboración afectan el aprendizaje organizacional, usando el marco teórico I-Space."
+author:
+  - name: Ian Hulskamp
+    url: https://ihulsk.github.io/
+    orcid: 0000-0002-0839-4011
+date: 06-22-2025
+categories: [Defense, Ispace, Academia-Industry, Organizational Learning] # self-defined categories
+citation: 
+  url: https://ihulsk.github.io/posts/20250622-defense/ 
+image: defense.png
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+bibliography: references.bib
+---
+::: justified
+Hace poco defendí mi tesis doctoral, un trabajo que me acompañó durante años y que, en el fondo, busca responder una pregunta simple pero no sencilla: ¿cómo se transforma el conocimiento cuando circula entre universidades y empresas? Más específicamente: ¿qué pasa con ese conocimiento cuando agentes, organizaciones e instituciones culturalmente distintas intentan colaborar?
+
+Mi caso de estudio fue San Carlos de Bariloche, Argentina. Allí, un ecosistema científico-tecnológico muy activo convive con un entramado industrial diverso, desde empresas tecnológicas como INVAP hasta cervecerías artesanales con fuerte componente de innovación local. Me interesaba entender cómo interactúan estos mundos, qué tipo de conocimiento emerge de esas interacciones y cómo potenciarlas.
+
+Para analizarlo, usé el [**I-Space Framework**](../20231027-ispaceBasics/index.qmd) [-@boisot1995; -@boisot1998]. [**Aquí**](../20231027-ispaceBasics/index.qmd) hago una presentación general de este marco teórico, que básicamente permite visualizar cómo el conocimiento evoluciona en tres dimensiones clave: cuán codificado está (¿es formal o tácito?), cuán abstracto es (¿se aplica o es más bien conceptual?), y qué tan difundido está (¿quiénes lo conocen?). Estas dimensiones ayudan a mapear el “estado” del conocimiento en distintos momentos del proceso colaborativo, principalmente según el modo de colaboración implementado.
+
+Gracias a un diseño metodológico mixto y secuencial (una encuesta online para detectar patrones generales, seguida de entrevistas en profundidad para entender los matices) identifiqué siete modos frecuentes de colaboración entre academia e industria: desde asistencia técnica y consultoría, hasta investigación conjunta, formación, pasantías y spin-offs. Cada modo tiene sus obstáculos y beneficios, y cada uno genera tipos distintos de conocimiento, útiles para diferentes estadios de aprendizaje.
+
+Entre los hallazgos más interesantes, descubrí que la combinación de modos es más potente que cada modo por separado. Por ejemplo, un proyecto conjunto puede beneficiarse si es precedido por asistencia técnica y seguido por formación. Esas secuencias permiten acumular aprendizajes, reforzar la confianza mutua y navegar mejor las diferencias culturales e institucionales entre sectores.
+
+También vi que el conocimiento que se produce en estas colaboraciones tiende a ser bastante concreto o aplicado, suele estar poco difundido a nivel local y resulta más efectivo cuando se apoya en interacciones cara a cara. A pesar de la existencia de varios obstáculos, suele predominar un alto grado de satisfacción y en algunos casos tienen un impacto significativo en las condiciones socio económicas de la ciudad.  
+
+En resumen: no se trata solo de colaborar más, sino de colaborar mejor. Pensar estratégicamente en cómo se articulan distintos modos de interacción puede mejorar sustancialmente la calidad del conocimiento producido y su utilidad colectiva.
+
+Estos resultados son solo una puerta de entrada a una serie de reflexiones más amplias. Distintos modos de colaborar existen en todas las organizaciones e intercambios entre organizaciones, que también están sujetos al diseño estratégico combinado que potencie ciclos de aprendizaje y producción de conocimiento. Seguiré compartiendo ideas sobre cómo se produce, transforma y gestiona el conocimiento en organizaciones. Si algo de esto resuena contigo, escribime y pensemos juntos. Si no, ojalá al menos haya picado tu curiosidad.
+
+:::

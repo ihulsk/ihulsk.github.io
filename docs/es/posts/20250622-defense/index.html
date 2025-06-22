@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.3.340">
@@ -7,10 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ian Hulskamp">
-<meta name="dcterms.date" content="2024-06-02">
-<meta name="description" content="Esta entrada describe reflexiona sobre nuevos horizontes personales.">
+<meta name="description" content="¿Qué tipo de conocimiento se genera cuando colaboran universidades y empresas? ¿Cómo pueden esas interacciones diseñarse mejor? En esta entrada presento de forma simple los principales hallazgos de mi tesis doctoral: un análisis sobre cómo distintos modos de colaboración afectan el aprendizaje organizacional, usando el marco teórico I-Space.">
 
-<title>Ian Hulskamp - Fin tesis</title>
+<title>Ian Hulskamp - Estrategias para mejorar el aprendizaje organizacional en consorcios de I+D</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,7 +22,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -53,15 +71,15 @@ ul.task-list li input[type="checkbox"] {
   "type": "overlay",
   "limit": 20,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar"
   }
 }</script>
 
@@ -80,8 +98,8 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Ian Hulskamp</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -99,15 +117,15 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="../../index.html" rel="" target=""><i class="bi bi-house" role="img">
 </i> 
- <span class="menu-text">Home</span></a>
+ <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../blog.html" rel="" target="">
- <span class="menu-text">Blog (es)</span></a>
+ <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../interests.html" rel="" target="">
- <span class="menu-text">Interests</span></a>
+ <span class="menu-text">Intereses</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../cv/CV-IH-0625.pdf" rel="" target="">
@@ -115,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -125,14 +143,17 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page">
-      <h1 class="title">Fin tesis</h1>
+      <h1 class="title">Estrategias para mejorar el aprendizaje organizacional en consorcios de I+D</h1>
                   <div>
         <div class="description">
-          Esta entrada describe reflexiona sobre nuevos horizontes personales.
+          ¿Qué tipo de conocimiento se genera cuando colaboran universidades y empresas? ¿Cómo pueden esas interacciones diseñarse mejor? En esta entrada presento de forma simple los principales hallazgos de mi tesis doctoral: un análisis sobre cómo distintos modos de colaboración afectan el aprendizaje organizacional, usando el marco teórico I-Space.
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">Personal</div>
+                <div class="quarto-category">Defense</div>
+                <div class="quarto-category">Ispace</div>
+                <div class="quarto-category">Academia-Industry</div>
+                <div class="quarto-category">Organizational Learning</div>
               </div>
                   </div>
   </div>
@@ -141,16 +162,16 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-meta">
 
       <div>
-      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-heading">Autor/a</div>
       <div class="quarto-title-meta-contents">
                <p><a href="https://ihulsk.github.io/">Ian Hulskamp</a> <a href="https://orcid.org/0000-0002-0839-4011" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
             </div>
     </div>
       
       <div>
-      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-heading">Fecha de publicación</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">June 2, 2024</p>
+        <p class="date">22 de junio de 2025</p>
       </div>
     </div>
     
@@ -170,19 +191,39 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Acabo de terminar mi tesis doctoral y no tengo mejor idea que ponerme a pensar una entrada para el blog. “¿Y ahora qué voy a estudiar?” fue de lo primero que pensé. Todo lo que hice, los skills que adquirí, lo que aprendí. Ejercité la producción de conocimiento mediante la combinación abstracción y codificación, ¿qué voy a hacer con eso ahora? Fue imposible no pensar en la difusión, un proceso favorecido por conocimiento estructurado (es decir, codificado y abstracto).</p>
-<p>Difundir el conocimiento es una etapa necesaria en su potencial reproducción. Si la información no es interpretada se fosiliza. No hay variación. <!-- Interpretar y reproducir es lo que da "vida" a la información, solo así se mantiene el ciclo. Al conocimiento entendido como información "viva" se le puede entonces asignar un instinto por la supervivencia. Solo así podrá modificar su estado.  --></p>
-<p>Aquí estoy entonces, para no dejar que mis conocimientos se fosilicen. Favorezco la reproducción de dos maneras. Por un lado, posibilito el acceso a mis ideas a una cantidad enorme de potenciales lectores y, por otro, yo, internamente, modifico la estructura de los mismos pensamientos que reproduzco.</p>
-<p>Vayamos al grano. Estudio las organizaciones sociales como sistemas de información y conocimiento y pienso estrategias sobre cómo habría que gestionarlas para que puedan producir más y mejor información y conocimiento. La tesis fue un proceso dominado por la abstracción. El pensamiento científico, cimentado sobre los principios de la investigación ‘básica’, se maneja en estándares de abstracción elevados.</p>
-<p>Estos estándares conllevan un precio. Por ser una escala gradual, cuanto más abstracto menos concreto.</p>
-<p>Para poder favorecer mi propio ciclo de aprendizaje, siento que los más favorable sería llevar mis conocimientos adquiridos a entornos más concretos.</p>
-<p>Debo entonces actuar de manera acorde. ¿Estratégias? Buscar empleos o proyectos en entornos culturales por fuera de mundo académico, re-expresar información en formatos menos abstractos, y abordar problemas concretos con las tantas herramientas adquiridas.</p>
-<p>Tengo tres buenos objetivos para mi proceso de aprendizaje post-tesis. Sé que me faltan presentar módulos de interpretación del I-Space que son fundamentales, los ciclos sociales de aprendizaje y la representación de culturas con capacidades informaciones distintas llegarán pronto.</p>
-<p>Una cosa que estuvo rondando bastante mi mente es lo importante que es definir correctamente la abstracción.</p>
+<div class="justified">
+<p>Hace poco defendí mi tesis doctoral, un trabajo que me acompañó durante años y que, en el fondo, busca responder una pregunta simple pero no sencilla: ¿cómo se transforma el conocimiento cuando circula entre universidades y empresas? Más específicamente: ¿qué pasa con ese conocimiento cuando agentes, organizaciones e instituciones culturalmente distintas intentan colaborar?</p>
+<p>Mi caso de estudio fue San Carlos de Bariloche, Argentina. Allí, un ecosistema científico-tecnológico muy activo convive con un entramado industrial diverso, desde empresas tecnológicas como INVAP hasta cervecerías artesanales con fuerte componente de innovación local. Me interesaba entender cómo interactúan estos mundos, qué tipo de conocimiento emerge de esas interacciones y cómo potenciarlas.</p>
+<p>Para analizarlo, usé el <a href="../../posts/20231027-ispaceBasics/index.html"><strong>I-Space Framework</strong></a> <span class="citation" data-cites="boisot1995 boisot1998">(<a href="#ref-boisot1995" role="doc-biblioref">1995</a>, <a href="#ref-boisot1998" role="doc-biblioref">1998</a>)</span>. <a href="../../posts/20231027-ispaceBasics/index.html"><strong>Aquí</strong></a> hago una presentación general de este marco teórico, que básicamente permite visualizar cómo el conocimiento evoluciona en tres dimensiones clave: cuán codificado está (¿es formal o tácito?), cuán abstracto es (¿se aplica o es más bien conceptual?), y qué tan difundido está (¿quiénes lo conocen?). Estas dimensiones ayudan a mapear el “estado” del conocimiento en distintos momentos del proceso colaborativo, principalmente según el modo de colaboración implementado.</p>
+<p>Gracias a un diseño metodológico mixto y secuencial (una encuesta online para detectar patrones generales, seguida de entrevistas en profundidad para entender los matices) identifiqué siete modos frecuentes de colaboración entre academia e industria: desde asistencia técnica y consultoría, hasta investigación conjunta, formación, pasantías y spin-offs. Cada modo tiene sus obstáculos y beneficios, y cada uno genera tipos distintos de conocimiento, útiles para diferentes estadios de aprendizaje.</p>
+<p>Entre los hallazgos más interesantes, descubrí que la combinación de modos es más potente que cada modo por separado. Por ejemplo, un proyecto conjunto puede beneficiarse si es precedido por asistencia técnica y seguido por formación. Esas secuencias permiten acumular aprendizajes, reforzar la confianza mutua y navegar mejor las diferencias culturales e institucionales entre sectores.</p>
+<p>También vi que el conocimiento que se produce en estas colaboraciones tiende a ser bastante concreto o aplicado, suele estar poco difundido a nivel local y resulta más efectivo cuando se apoya en interacciones cara a cara. A pesar de la existencia de varios obstáculos, suele predominar un alto grado de satisfacción y en algunos casos tienen un impacto significativo en las condiciones socio económicas de la ciudad.</p>
+<p>En resumen: no se trata solo de colaborar más, sino de colaborar mejor. Pensar estratégicamente en cómo se articulan distintos modos de interacción puede mejorar sustancialmente la calidad del conocimiento producido y su utilidad colectiva.</p>
+<p>Estos resultados son solo una puerta de entrada a una serie de reflexiones más amplias. Distintos modos de colaborar existen en todas las organizaciones e intercambios entre organizaciones, que también están sujetos al diseño estratégico combinado que potencie ciclos de aprendizaje y producción de conocimiento. Seguiré compartiendo ideas sobre cómo se produce, transforma y gestiona el conocimiento en organizaciones. Si algo de esto resuena contigo, escribime y pensemos juntos. Si no, ojalá al menos haya picado tu curiosidad.</p>
+</div>
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">Referencias</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-boisot1995" class="csl-entry" role="listitem">
+Boisot, Max. 1995. <em>Information Space: A Framework for Learning in Organizations, Institutions and Culture</em>. Routledge.
+</div>
+<div id="ref-boisot1998" class="csl-entry" role="listitem">
+———. 1998. <em>Knowledge assets: Securing competitive advantage in the information economy</em>. OUP Oxford.
+</div>
+</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Cómo citar</h2><div><div class="quarto-appendix-secondary-label">BibTeX</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{hulskamp2025,
+  author = {Hulskamp, Ian},
+  title = {Estrategias para mejorar el aprendizaje organizacional en
+    consorcios de I+D},
+  date = {2025-06-22},
+  url = {https://ihulsk.github.io/posts/20250622-defense/},
+  langid = {es}
+}
+</code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Por favor, cita este trabajo como:</div><div id="ref-hulskamp2025" class="csl-entry quarto-appendix-citeas" role="listitem">
+Hulskamp, Ian. 2025. <span>“Estrategias para mejorar el aprendizaje
+organizacional en consorcios de I+D.”</span> June 22, 2025. <a href="https://ihulsk.github.io/posts/20250622-defense/">https://ihulsk.github.io/posts/20250622-defense/</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -352,12 +393,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Copiado");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Copiado");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",

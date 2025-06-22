@@ -1,6 +1,6 @@
 ---
 title: "Ian Hulskamp" # this title appear under you photo if using built-in template
-image: visualMedia/hulskamp.jpg 
+image: visualMedia/profile.png 
 toc: false # Remove TOC on this page
 about: 
   template: trestles
@@ -22,28 +22,38 @@ format:
 ---
 
 ::: {.content-visible .justified when-profile="es"}
+
 # ¡Hola!
 
 ::: justified
-**Soy Ian**, un investigador apasionado devenido en gestor de proyectos (y a punto de completar su doctorado en la Sociedad de la Información y el Conocimiento en la Universitat Oberta de Catalunya ([**UOC**](https://www.uoc.edu/portal/es/index.html))). En mi intención de traducir la teoría en práctica, voy convirtiendome en un gestor de la ciencia. 
 
-A lo largo de mi formación académica, he estudiado **mecanismos de interacción social favorecer la producción y distribución de conocimiento**. Mi búsqueda personal se trata de implementar estas prácticas, principalmente a través de la colaboración, y seguir aprendiendo en el camino. 
+Interesado en la **producción del conocimiento**, el **aprendizaje** y el **impacto social**. Creyente en la idea del _as open as possible, as close as necessary_. 
 
-Si te interesan estos temas, escribirme. Me interesa lo que piensas. 
+Mi carrera académico-profesional (**doctor en la Sociedad de la Información y el Conocimiento, magíster en economía del conocimiento, licenciado en economía y gestor de la ciencia**) me ha convertido en un optimizador serial, fascinado por las organizaciones y la cultura. Una de mis herramientas clave para ello es el I-Space, un marco teórico mi útil para el análisis y **diseño de flujos de conocimiento** entre agentes sociales.
+
+Nuestras organizaciones sociales sufren una alta subutilización de capacidades pero existen **estrategias para potenciar ciclos de aprendizaje, tanto a nivel organizacional como individual**. Vivo para aplicarlas. 
+
+Descargá mi [**CV**](cv/CV-IH-0625.pdf)
+
 :::
 :::
 
 ::: {.content-visible .justified when-profile="en"}
+
 # Hi there!
 
 ::: justified
-I'm Ian — a researcher at heart, now turning into a project manager (and soon to finish my PhD in the Information and Knowledge Society at the [**UOC**](https://www.uoc.edu/portal/es/index.html)).As I try to bring theory into practice, I find myself becoming a science manager.
 
-Over the years, I’ve explored how social interactions shape the way knowledge is produced and shared. What drives me is finding ways to put those ideas into practice — mainly through collaboration — and learning as I go.
+Interested in **knowledge production, learning, and social impact**. A believer in the principle of _as open as possible, as close as necessary_.
 
-If any of this resonates with you, write me. I’m genuinely interested in what others think.
+My academic and professional journey —**PhD in the Information and Knowledge Society, Master’s in the Economics of Knowledge, BA in Economics, and experience in research management**— has made me a serial optimizer with a deep interest in organizational dynamics and culture.
 
+One of my go-to tools is the I-Space framework, a powerful lens for analyzing and improving knowledge flows between social agents.
 
+Our social organizations chronically underuse their capabilities, but there are always ways to **spark learning cycles—both at the individual and organizational level**.
+That’s what I live for.
+
+Download my [**CV**](cv/CV-IH-0625.pdf)
 
 <!-- The purpose of this website is to build bridges towards more concrete environments, connected to the territory. In this space, I not only [**introduce myself**](about.qmd) but also share insights about [**my skills**](skills.qmd), [**my interests**](interests.qmd), and [**my way of thinking**](blog.qmd). -->
 

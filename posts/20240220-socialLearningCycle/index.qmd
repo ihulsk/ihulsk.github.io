@@ -1,5 +1,5 @@
 ---
-title: "Aprendizaje en el I-Space: el Social Learning Cycle o Ciclo Social de Aprendizaje"
+title: "El Social Learning Cycle o Ciclo Social de Aprendizaje: aprender en el I-Space"
 description: "Esta entrada representa en el I-Space las etapas de aprendizaje por las que suele pasar un agente."
 author:
   - name: Ian Hulskamp
@@ -14,6 +14,24 @@ draft: true # setting this to `true` will prevent your post from appearing on yo
 # bibliography: references.bib
 ---
 
-En nuestro esfuerzo por entender el conocimiento, hemos visto como el [**I-Space**](../20231027-ispaceBasics/index.qmd) de Boisot [-@boisot1995; -@boisot1998] es una herramienta que nos permite representar la intrincada relación entre [**datos, información y conocimiento**](../20231111-dataInformationKnowledge/index.qmd), así como 'agentes sociales' y sus espacio culturales. Pero, esta herramienta nos ofrece además representar la evolución el proceso de aprendizaje de estos 'agentes sociales' y su producción de conocimiento. ¿Qué etapas atraviesan (atravesamos) los agentes sociales en la creación de conocimiento? Veamos más en detalle las etapas que suelen involucrar los ciclos de aprendizaje en la comprensión del mundo de organizaciones e individuos.
+Hemos visto cómo el [**I-Space**](../20231027-ispaceBasics/index.qmd) de Boisot [-@boisot1995; -@boisot1998] permite mapear el conocimiento según tres dimensiones: su grado de codificación (¿está formalizado o es tácito?), de abstracción (¿aplica a casos generales o concretos?) y de difusión (¿quién tiene acceso?). Pero además de ofrecer una imagen estática del conocimiento, este marco también nos permite pensar su evolución: **cómo se produce, se transforma y se asimila el conocimiento a lo largo del tiempo**.
+
+Aquí aparece el Ciclo Social de Aprendizaje (**Social Learning Cycle o SLC**), propuesto por Boisot. Este ciclo describe una secuencia típica de aprendizaje que atraviesan los agentes sociales —individuos, grupos, organizaciones— cuando generan nuevo conocimiento y lo hacen circular. Aunque cada proceso es único, suelen repetirse ciertos patrones. El SLC los resume en seis etapas:
+
+1. Exploración (Scanning): un individuo o grupo pequeño identifica algo nuevo en los datos, algo que antes pasaba desapercibido o era considerado “conocimiento común”. Es un proceso idiosincrático, creativo, que ocurre en regiones poco difundidas del I-Space.
+
+2. Codificación (Codifying / Problem-solving): se empieza a ordenar esa intuición: se crean categorías, se establecen distinciones. Como aún no hay un código compartido con otros, esta etapa ocurre en ámbitos de baja difusión.
+
+3. Abstracción (Abstracting): se busca generalizar lo aprendido, conectando esas nuevas categorías entre sí para generar esquemas más compactos y aplicables a múltiples situaciones.
+
+4. Difusión (Diffusing): el conocimiento comienza a circular. Al compartir contexto y lenguaje, otras personas pueden apropiarse del contenido. A mayor codificación y abstracción compartida, mayor velocidad de difusión.
+
+5. Absorción (Absorbing): a medida que se pone en práctica lo aprendido, se internaliza. Se vuelve tácito, parte del hacer. Y como todo lo que se naturaliza, se vuelve menos visible… pero también más potente.
+
+6. Impacto (Impacting): se traduce lo aprendido a lo concreto: se aplica, se incrusta en tecnologías, procesos o habilidades. Es la validación final: ¿esto funciona en el mundo real?
+
+
+
+
 
 
