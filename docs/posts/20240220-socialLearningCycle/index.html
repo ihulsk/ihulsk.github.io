@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ian Hulskamp">
-<meta name="dcterms.date" content="2023-01-14">
+<meta name="dcterms.date" content="2024-03-17">
 <meta name="description" content="Esta entrada representa en el I-Space las etapas de aprendizaje por las que suele pasar un agente.">
 
 <title>Ian Hulskamp - El Social Learning Cycle o Ciclo Social de Aprendizaje: aprender en el I-Space</title>
@@ -23,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -152,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">January 14, 2023</p>
+        <p class="date">March 17, 2024</p>
       </div>
     </div>
     
@@ -172,30 +191,57 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Hemos visto cómo el <a href="../../posts/20231027-ispaceBasics/index.html"><strong>I-Space</strong></a> de Boisot <span class="citation" data-cites="boisot1995 boisot1998">[-@boisot1995; -@boisot1998]</span> permite mapear el conocimiento según tres dimensiones: su grado de codificación (¿está formalizado o es tácito?), de abstracción (¿aplica a casos generales o concretos?) y de difusión (¿quién tiene acceso?). Pero además de ofrecer una imagen estática del conocimiento, este marco también nos permite pensar su evolución: <strong>cómo se produce, se transforma y se asimila el conocimiento a lo largo del tiempo</strong>.</p>
-<p>Aquí aparece el Ciclo Social de Aprendizaje (<strong>Social Learning Cycle o SLC</strong>), propuesto por Boisot. Este ciclo describe una secuencia típica de aprendizaje que atraviesan los agentes sociales —individuos, grupos, organizaciones— cuando generan nuevo conocimiento y lo hacen circular. Aunque cada proceso es único, suelen repetirse ciertos patrones. El SLC los resume en seis etapas:</p>
+<div class="justified">
+<p>Hemos visto cómo el <a href="../../posts/20231027-ispaceBasics/index.html"><strong>I-Space</strong></a> de Boisot <span class="citation" data-cites="boisot1995 boisot1998">(<a href="#ref-boisot1995" role="doc-biblioref">1995</a>, <a href="#ref-boisot1998" role="doc-biblioref">1998</a>)</span> permite mapear el conocimiento según tres dimensiones: su grado de codificación (¿está formalizado o es tácito?), de abstracción (¿aplica a casos generales o concretos?) y de difusión (¿quién tiene acceso?). Pero además de ofrecer una imagen estática del conocimiento, este marco también nos permite pensar su evolución: <strong>cómo se produce, se transforma y se asimila el conocimiento a lo largo del tiempo</strong>.</p>
+<p>Aquí aparece el Ciclo Social de Aprendizaje (<strong>Social Learning Cycle o SLC</strong>), propuesto por Boisot <span class="citation" data-cites="boisot1998">(<a href="#ref-boisot1998" role="doc-biblioref">1998</a>)</span>. Este ciclo describe una secuencia típica de aprendizaje que atraviesan los agentes sociales —individuos, grupos, organizaciones— cuando generan nuevo conocimiento y lo hacen circular. Si bien cada proceso es único, se repiten ciertos patrones. El SLC los resume en seis etapas:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="slc.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Representación del Ciclo Social de Aprendizaje (SLC) en <em>I-Space</em> (adaptado de Boisot <span class="citation" data-cites="boisot1998">(<a href="#ref-boisot1998" role="doc-biblioref">1998</a>)</span> y Boisot et al., <span class="citation" data-cites="boisot2011">(<a href="#ref-boisot2011" role="doc-biblioref">2011</a>)</span>).</figcaption>
+</figure>
+</div>
 <ol type="1">
-<li><p>Exploración (Scanning): un individuo o grupo pequeño identifica algo nuevo en los datos, algo que antes pasaba desapercibido o era considerado “conocimiento común”. Es un proceso idiosincrático, creativo, que ocurre en regiones poco difundidas del I-Space.</p></li>
-<li><p>Codificación (Codifying / Problem-solving): se empieza a ordenar esa intuición: se crean categorías, se establecen distinciones. Como aún no hay un código compartido con otros, esta etapa ocurre en ámbitos de baja difusión.</p></li>
-<li><p>Abstracción (Abstracting): se busca generalizar lo aprendido, conectando esas nuevas categorías entre sí para generar esquemas más compactos y aplicables a múltiples situaciones.</p></li>
-<li><p>Difusión (Diffusing): el conocimiento comienza a circular. Al compartir contexto y lenguaje, otras personas pueden apropiarse del contenido. A mayor codificación y abstracción compartida, mayor velocidad de difusión.</p></li>
-<li><p>Absorción (Absorbing): a medida que se pone en práctica lo aprendido, se internaliza. Se vuelve tácito, parte del hacer. Y como todo lo que se naturaliza, se vuelve menos visible… pero también más potente.</p></li>
-<li><p>Impacto (Impacting): se traduce lo aprendido a lo concreto: se aplica, se incrusta en tecnologías, procesos o habilidades. Es la validación final: ¿esto funciona en el mundo real?</p></li>
+<li><p><strong>Escaneo</strong> (<em>Scanning</em>): un individuo o grupo pequeño identifica algo nuevo en los datos, algo que antes pasaba desapercibido o era considerado “conocimiento común”. De ese proceso resulta una nueva expresión, idiosincrática y menos difundida que la original.</p></li>
+<li><p><strong>Codificación</strong> (<em>Codifying / Problem-solving</em>): se empieza a ordenar esa nueva intuición: se crean categorías, se establecen distinciones. Como aún no hay un código compartido con otros, esta etapa se mantiene en ámbitos de baja difusión.</p></li>
+<li><p><strong>Abstracción</strong> (<em>Abstracting</em>): se generaliza lo aprendido, refinando y conectando las nuevas categorías para generar esquemas más compactos y aplicables a múltiples situaciones.</p></li>
+<li><p><strong>Difusión</strong> (<em>Diffusing</em>): el conocimiento codificado y abstracto facilita la difusión y acelera la circulación. Al integrar contexto y lenguaje, también otros agentes pueden apropiarse del contenido.</p></li>
+<li><p><strong>Absorción</strong> (<em>Absorbing</em>): en la puesta en práctica de lo aprendido, el conocimiento se internaliza. En el hacer, los procesos se naturalizan y el conocimiento se vuelve menos visible, más tácito, digamos.</p></li>
+<li><p><strong>Impacto</strong> (<em>Impacting</em>): lo aprendido se aplica o implementa, ya sea en tecnologías, procesos o habilidades concretas. Funciona como un especie de validación final en entornos “reales”.</p></li>
 </ol>
+<p>Ahora bien, estos ciclos no ocurren en el vacío ni de forma lineal. Boisot y colegas <span class="citation" data-cites="boisot2011">(<a href="#ref-boisot2011" role="doc-biblioref">2011</a>)</span> mostraron que en organizaciones grandes (como el proyecto ATLAS en el CERN), <strong>distintos grupos pueden estar en diferentes etapas del ciclo</strong>, y esos ciclos <strong>pueden entrelazarse</strong>, fragmentarse o reforzarse mutuamente. De ahí que hablen de <strong>ecologías de aprendizaje</strong>, donde el desafío es conectar los distintos SLCs y gestionar los “interfaces” entre ellos.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ciclos.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Representación de tres Ciclos Sociales de Aprendizaje (SLC) distintos en <em>I-Space</em> (adaptado de Boisot et al., <span class="citation" data-cites="boisot2011">(<a href="#ref-boisot2011" role="doc-biblioref">2011</a>)</span>)</figcaption>
+</figure>
+</div>
+<p>Esta lógica es particularmente útil para <a href="../../posts/20250622-defense/index.html">pensar las colaboraciones entre distintos agentes, como organizaciones académicas e industriales</a>. Allí conviven agentes con trayectorias, lenguajes y lógicas muy diferentes. Cada uno tiene su propio ciclo, pero una colaboración bien diseñada puede actuar como puente: por ejemplo, un proyecto conjunto puede abrir una etapa de exploración para una empresa, o un spin-off puede ayudar a absorber y aplicar lo aprendido en un laboratorio. No siempre se recorre el ciclo completo, pero sí se puede <strong>intervenir en partes clave del proceso para potenciar el aprendizaje y la producción de conocimiento</strong>.</p>
+</div>
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{hulskamp2023,
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-boisot1995" class="csl-entry" role="listitem">
+Boisot, Max. 1995. <em>Information Space: A Framework for Learning in Organizations, Institutions and Culture</em>. Routledge.
+</div>
+<div id="ref-boisot1998" class="csl-entry" role="listitem">
+———. 1998. <em>Knowledge Assets: Securing Competitive Advantage in the Information Economy</em>. OUP Oxford.
+</div>
+<div id="ref-boisot2011" class="csl-entry" role="listitem">
+Boisot, Max, Markus Nordberg, Saïd Yami, and Bertrand Nicquevert. 2011. <em>Collisions and Collaboration: The Organization of Learning in the ATLAS Experiment at the LHC</em>. OUP Oxford.
+</div>
+</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{hulskamp2024,
   author = {Hulskamp, Ian},
   title = {El {Social} {Learning} {Cycle} o {Ciclo} {Social} de
     {Aprendizaje:} Aprender En El {I-Space}},
-  date = {2023-01-14},
+  date = {2024-03-17},
   url = {https://ihulsk.github.io/posts/20240220-socialLearningCycle/},
   langid = {en}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-hulskamp2023" class="csl-entry quarto-appendix-citeas" role="listitem">
-Hulskamp, Ian. 2023. <span>“El Social Learning Cycle o Ciclo Social de
-Aprendizaje: Aprender En El I-Space.”</span> January 14, 2023. <a href="https://ihulsk.github.io/posts/20240220-socialLearningCycle/">https://ihulsk.github.io/posts/20240220-socialLearningCycle/</a>.
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-hulskamp2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Hulskamp, Ian. 2024. <span>“El Social Learning Cycle o Ciclo Social de
+Aprendizaje: Aprender En El I-Space.”</span> March 17, 2024. <a href="https://ihulsk.github.io/posts/20240220-socialLearningCycle/">https://ihulsk.github.io/posts/20240220-socialLearningCycle/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

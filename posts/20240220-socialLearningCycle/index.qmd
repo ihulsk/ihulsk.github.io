@@ -5,31 +5,42 @@ author:
   - name: Ian Hulskamp
     url: https://ihulsk.github.io/
     orcid: 0000-0002-0839-4011
-date: 01-14-2023
+date: 03-17-2024
 categories: [Agent, Ispace, Social Learning Cycle] # self-defined categories
 citation: 
   url: https://ihulsk.github.io/posts/20240220-socialLearningCycle/ 
-image: ispace-blog.png
-draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
-# bibliography: references.bib
+image: abstractIspace.png
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+bibliography: references.bib
 ---
+::: justified 
 
 Hemos visto cómo el [**I-Space**](../20231027-ispaceBasics/index.qmd) de Boisot [-@boisot1995; -@boisot1998] permite mapear el conocimiento según tres dimensiones: su grado de codificación (¿está formalizado o es tácito?), de abstracción (¿aplica a casos generales o concretos?) y de difusión (¿quién tiene acceso?). Pero además de ofrecer una imagen estática del conocimiento, este marco también nos permite pensar su evolución: **cómo se produce, se transforma y se asimila el conocimiento a lo largo del tiempo**.
 
-Aquí aparece el Ciclo Social de Aprendizaje (**Social Learning Cycle o SLC**), propuesto por Boisot. Este ciclo describe una secuencia típica de aprendizaje que atraviesan los agentes sociales —individuos, grupos, organizaciones— cuando generan nuevo conocimiento y lo hacen circular. Aunque cada proceso es único, suelen repetirse ciertos patrones. El SLC los resume en seis etapas:
+Aquí aparece el Ciclo Social de Aprendizaje (**Social Learning Cycle o SLC**), propuesto por Boisot [-@boisot1998]. Este ciclo describe una secuencia típica de aprendizaje que atraviesan los agentes sociales —individuos, grupos, organizaciones— cuando generan nuevo conocimiento y lo hacen circular. Si bien cada proceso es único, se repiten ciertos patrones. El SLC los resume en seis etapas:
 
-1. Exploración (Scanning): un individuo o grupo pequeño identifica algo nuevo en los datos, algo que antes pasaba desapercibido o era considerado “conocimiento común”. Es un proceso idiosincrático, creativo, que ocurre en regiones poco difundidas del I-Space.
+![Representación del Ciclo Social de Aprendizaje (SLC) en *I-Space* (adaptado de Boisot [-@boisot1998] y Boisot et al., [-@boisot2011]).](slc.png){fig-align="center"}
 
-2. Codificación (Codifying / Problem-solving): se empieza a ordenar esa intuición: se crean categorías, se establecen distinciones. Como aún no hay un código compartido con otros, esta etapa ocurre en ámbitos de baja difusión.
+1. **Escaneo** (_Scanning_): un individuo o grupo pequeño identifica algo nuevo en los datos, algo que antes pasaba desapercibido o era considerado “conocimiento común”. De ese proceso resulta una nueva expresión, idiosincrática y menos difundida que la original. 
 
-3. Abstracción (Abstracting): se busca generalizar lo aprendido, conectando esas nuevas categorías entre sí para generar esquemas más compactos y aplicables a múltiples situaciones.
+2. **Codificación** (_Codifying / Problem-solving_): se empieza a ordenar esa nueva intuición: se crean categorías, se establecen distinciones. Como aún no hay un código compartido con otros, esta etapa se mantiene en ámbitos de baja difusión.
 
-4. Difusión (Diffusing): el conocimiento comienza a circular. Al compartir contexto y lenguaje, otras personas pueden apropiarse del contenido. A mayor codificación y abstracción compartida, mayor velocidad de difusión.
+3. **Abstracción** (_Abstracting_): se generaliza lo aprendido, refinando y conectando las nuevas categorías para generar esquemas más compactos y aplicables a múltiples situaciones.
 
-5. Absorción (Absorbing): a medida que se pone en práctica lo aprendido, se internaliza. Se vuelve tácito, parte del hacer. Y como todo lo que se naturaliza, se vuelve menos visible… pero también más potente.
+4. **Difusión** (_Diffusing_): el conocimiento codificado y abstracto facilita la difusión y acelera la circulación. Al integrar contexto y lenguaje, también otros agentes pueden apropiarse del contenido.
 
-6. Impacto (Impacting): se traduce lo aprendido a lo concreto: se aplica, se incrusta en tecnologías, procesos o habilidades. Es la validación final: ¿esto funciona en el mundo real?
+5. **Absorción** (_Absorbing_): en la puesta en práctica de lo aprendido, el conocimiento se internaliza. En el hacer, los procesos se naturalizan y el conocimiento se vuelve menos visible, más tácito, digamos.
 
+6. **Impacto** (_Impacting_): lo aprendido se aplica o implementa, ya sea en tecnologías, procesos o habilidades concretas. Funciona como un especie de validación final en entornos "reales". 
+
+Ahora bien, estos ciclos no ocurren en el vacío ni de forma lineal. Boisot y colegas [-@boisot2011] mostraron que en organizaciones grandes (como el proyecto ATLAS en el CERN), **distintos grupos pueden estar en diferentes etapas del ciclo**, y esos ciclos **pueden entrelazarse**, fragmentarse o reforzarse mutuamente. De ahí que hablen de **ecologías de aprendizaje**, donde el desafío es conectar los distintos SLCs y gestionar los “interfaces” entre ellos.
+
+![Representación de tres Ciclos Sociales de Aprendizaje (SLC) distintos en *I-Space* (adaptado de Boisot et al., [-@boisot2011])](ciclos.png){fig-align="center"}
+
+Esta lógica es particularmente útil para [pensar las colaboraciones entre distintos agentes, como organizaciones académicas e industriales](/posts/20250622-defense/index.qmd). Allí conviven agentes con trayectorias, lenguajes y lógicas muy diferentes. Cada uno tiene su propio ciclo, pero una colaboración bien diseñada puede actuar como puente: por ejemplo, un proyecto conjunto puede abrir una etapa de exploración para una empresa, o un spin-off puede ayudar a absorber y aplicar lo aprendido en un laboratorio. No siempre se recorre el ciclo completo, pero sí se puede **intervenir en partes clave del proceso para potenciar el aprendizaje y la producción de conocimiento**.
+
+
+:::
 
 
 
