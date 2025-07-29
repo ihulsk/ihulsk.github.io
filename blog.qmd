@@ -1,6 +1,6 @@
 ---
-title: "Blog"
-subtitle: "Algunas reflexiones sobre cómo percibo aquello que me acontece, explorando temas de manera lúdica y progresiva, sin pausa pero sin prisas."
+title: "(re)Produciendo conocimiento"
+subtitle: "(re)Produciendo conocimiento, o Knowledge (re)Production, es un \"blog\" donde comparto agunas reflexiones sobre cómo percibo aquello que me acontece, explorando temas de manera lúdica y progresiva. Sin pausa pero sin prisas."
 title-block-banner: true # sets the background of banner. Either 'true', an image, or a color. 
 #title-block-banner-color: black # sets color of the text
 listing:

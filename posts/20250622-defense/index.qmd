@@ -1,6 +1,6 @@
 ---
 title: "Estrategias para mejorar el aprendizaje organizacional en consorcios de I+D"
-description: "¿Qué tipo de conocimiento se genera cuando colaboran universidades y empresas? ¿Cómo pueden esas interacciones diseñarse mejor? En esta entrada presento de forma simple los principales hallazgos de mi tesis doctoral: un análisis sobre cómo distintos modos de colaboración afectan el aprendizaje organizacional, usando el marco teórico I-Space."
+description: "¿Qué conocimiento producen las colaboaciones academia-industria? Algunas ideas de mi tesis doctoral."
 author:
   - name: Ian Hulskamp
     url: https://ihulsk.github.io/
